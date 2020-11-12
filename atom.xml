@@ -3,7 +3,7 @@
 	<title>(import this)</title>
 	<subtitle>From ideas to tech and the life in-between</subtitle>
 	<link href="https://bryan-lott.github.io/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://bryan-lott.github.io"/>
+  <link href="https://bryan-lott.github.io/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2020-11-10T00:00:00+00:00</updated>
 	<id>https://bryan-lott.github.io/atom.xml</id>
