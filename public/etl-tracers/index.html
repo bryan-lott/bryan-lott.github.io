@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ETL Tracers &middot; (import this)</title>
+    <meta name="description" content="From ideas to tech and the life in-between" />
+    <link rel="shortcut icon"  href="https://bryan-lott.github.io/favicon.ico" />
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://bryan-lott.github.io/atom.xml">
+
+    <style>html,body{background:#ececec;color:#031026;font:16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"}a,a:visited{color:#7f0c0c;text-decoration:none}a:hover{text-decoration:underline}main{margin:auto;max-width:50rem;padding:0.8rem}pre{background:white;overflow:scroll;padding:1rem}td{border:1px solid #16e599;padding:10px}img{height:auto;max-width:100%}.homepage-list{list-style:none;padding:1rem 0}.homepage-list li{align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px}@media (max-width: 38rem){.homepage-list li a{width:100%}}
+</style>
+
+    <meta property="og:site_name" content="(import this)">
+      <meta name="author" content="Bryan Lott" />
+      <meta property="og:title" content="ETL Tracers">
+      <meta property="og:description" content="">
+      <meta property="og:url" content="https://bryan-lott.github.io/etl-tracers/">
+      <meta property="og:image" content="">
+
+      <meta property="og:type" content="article" />
+        <meta property="article:published_time" content="2020-01-02T00:00:00+00:00" />
+
+      <link rel="prev" href="https://bryan-lott.github.io/year-in-review/" />
+      <link rel="next" href="https://bryan-lott.github.io/csv-primer/" />
+    
+
+  </head>
+  
+
+  <body>
+    <main id="main" role="main">
+
+      
+      <header role="banner">
+        <h3 style="margin-top:0;">
+          <a href="https://bryan-lott.github.io" title="Home">(import this)</a>
+          <br /><small>From ideas to tech and the life in-between</small>
+        </h3>
+      </header>
+      <hr />
+      
+
+      
+<article>
+  <h1>ETL Tracers</h1>
+
+  
+    <p style="font-size:90%;">Posted on <time datetime="2020-01-02T00:00:00+00:00">January 02, 2020</time></p>
+  
+
+  <p>Firing visible data at a target to see if you hit</p>
+<p>ETL (Extract-Transform-Load) pipelines are notoriously complex and opaque.  I've always wanted something to pierce the opaqueness I've experienced on many ETL projects.  I'll take a wild guess I'm not the only one.  What follows is an idea I had around five years ago to pierce that opaqueness along with the experience I've had implementing it.</p>
+<p>If you've watched any war or action movies, you've seen tracer rounds.  These are rounds designed to light up so that the person firing knows where their rounds are going downrange.  Typical rounds are invisible to the eye.  For more info, see <a href="https://en.wikipedia.org/wiki/Tracer_ammunition">wikipedia</a>.  This is an idea that we can apply to ETL pipelines to give a sense of whether the invisible data is &quot;on target.&quot;</p>
+<p>We can apply the same concept to give us visibility into the inter pipeline.  Using traditional monitoring solutions it's easy to see if services are up and running or the underlying box is struggling.  It's much harder to see whether the data flowing through is correct.</p>
+<h2 id="why-not-make-all-records-visible">Why not make all records visible?</h2>
+<p>Not all rounds in a given magazine are tracer rounds for a few reasons.  Tracer rounds are less lethal because they contain less mass than a standard round.  They're more complex (more expensive) to manufacture.  It's also not necessary.  From what little reading I've done, around every 5th round is a tracer round.  That's enough to give the gunner a sense of where they're shooting without the downsides of every round being a tracer.</p>
+<p>A similar effect happens with data packets (record, a batch of records, row, etc) in an ETL pipeline.  Logs/metrics have extra overhead, especially if you're emitting an entire data packet.  That overhead comes in the forms of network, processing, storage, and cognitive load when trying to interpret the results.  It's also not necessary as long as you have a representative sample of the data flowing through.  All we need to do is tag every n-th packet of data with a &quot;tracer&quot; flag and make sure all our code emits those tracers when they're seen.  Otherwise, process them as normal.</p>
+<h2 id="zoom-and-enhance">Zoom and Enhance!</h2>
+<p>What if we could take the idea one step further?  If we emit data as it's already flowing through the pipeline, we have to do extra analysis when we examine those packets to determine if there are any errors in the pipeline, etc.</p>
+<p>Instead, if we hand-craft tracer packets it gives us absolute control over the content of the packet.  We can cover edge and corner cases and we know what the result should be at every step.  Think of this with the same mindset you craft unit tests.</p>
+<p>Also, we can encode this information for every step in the pipeline.  The results of each of the extract, transform, and load steps should look very different from one another.  If we do this, then each step in the pipeline can emit a diff of what the output should be versus what it actually is.</p>
+<h2 id="wait-this-is-just-tests">Wait, this is just tests?!</h2>
+<p>Yep.  But it's testing you have the option of running in any environment (including production).  It's tests you can use in development if you want to throw a new data source into the pipeline.  It's regression tests that automatically tell you if you're now casting something to an int where it was a string before.  If you're running it in production, it can be a monitoring system for your ETL pipeline.  I.e., if you haven't seen tracers in n-minutes at the loader, either the transformer is having problems or the transport mechanism between the transformer and loader has failed.  It narrows down the number of places you need to check to look for failures.</p>
+<h2 id="benefits-of-tracers">Benefits of Tracers</h2>
+<p>In my own implementation of the idea, we found that local development of new data sources was orders of magnitude faster.  In addition, we had regression tests we could run at a moment's notice to confirm that the 40+ data sources we were using hadn't broken because we fixed a bug with the 41st source.</p>
+<p>We had several data sources change their format without telling us.  Using the tracer concept we were able to create a new tracer based on the new format and restore the source within a few hours.</p>
+<h2 id="so-how-do-i-create-a-tracer">So... how do I create a tracer?</h2>
+<p>My process is pretty simple.  I take a representative record from the source data and then hand-craft what I expect it to look like at the extract, transform, and load steps.  Like any good test I then take that representative record and change the input to explore the testing space.  Any good set of tests should hit happy paths, edge cases, corner cases, and known failure cases.  Tracers are no different.</p>
+<h2 id="what-are-the-components-of-a-tracer">What are the components of a tracer?</h2>
+<h3 id="source-data">Source Data</h3>
+<p>This is as close as you can get to what the source data looks like.  Remember, this record is going to be flowing through your system like a regular record would.</p>
+<h3 id="extract-transform-load-expected-data">Extract/Transform/Load Expected Data</h3>
+<p>This is the expected output of each of these three stages.  Include only the ones you feel are necessary.  In my case, the transformer is the most critical step and as such, we crafted tracers around identifying transformer problems.</p>
+<h3 id="example-tracer">Example Tracer</h3>
+<pre style="background-color:#002b36;">
+<code><span style="color:#268bd2;">tracer_happy_path</span><span style="color:#839496;">:
+  </span><span style="color:#268bd2;">input_record</span><span style="color:#839496;">:  &quot;</span><span style="color:#2aa198;">id,name,cost</span><span style="color:#dc322f;">\n</span><span style="color:#2aa198;">1234,test name with single&#39; quotes,1234.5</span><span style="color:#839496;">&quot;
+  </span><span style="color:#268bd2;">transform_output_record</span><span style="color:#839496;">:
+    </span><span style="color:#268bd2;">id</span><span style="color:#839496;">: </span><span style="color:#6c71c4;">1234
+    </span><span style="color:#268bd2;">title_case_name</span><span style="color:#839496;">: </span><span style="color:#268bd2;">Test Name With Single&#39; Quotes
+    float_price</span><span style="color:#839496;">: </span><span style="color:#6c71c4;">1234.50
+</span></code></pre><h2 id="awesomesauce-where-can-i-get-this-code">Awesomesauce, where can I get this code?</h2>
+<p>The idea isn't well-formed enough to turn into a library yet.  It requires the ETL pipeline know too much about the tracer implementation for the two concepts to decouple them at the moment.  I was, however, able to implement the idea in less than 200 lines of Python code for my particular case.</p>
+<h2 id="lessons-learned-in-implementation">Lessons Learned in Implementation</h2>
+<ul>
+<li>Hand-crafting these data packets can be tedious and annoying.  They're hard to get right.</li>
+<li>You need to drop tracer packets need to <em>just</em> before they'd end up in permanent storage.  I.e., if you're inserting into a relational database, run all the inserts/updates/etc, and then roll back the transaction.</li>
+<li>Depending on the language and implementation of this idea, the code needed to handle the tracers can add a lot of visual noise to the code.  Obviously, this is something that can be refactored and fixed, but it is a hazard.  In my case I used Python context managers and function decorators.</li>
+</ul>
+<h2 id="key-ideas">Key Ideas</h2>
+<ul>
+<li>Tracers are intentionally crafted data packets that the ETL pipeline knows to emit a <em>diff</em> between expected and actual.</li>
+<li>Tracers should flow through as much of the ETL pipeline machinery as possible including storage.</li>
+<li>Tracers should either be ignored by downstream processes or they should be deleted/rolled back from storage.</li>
+<li>Think of tracers as constant end-to-end tests.  They should cover as many edge and corner cases as possible.</li>
+<li>Tracers act as an early-warning system of deviated behavior, code regressions, data integrity issues.</li>
+<li>Tracers act, as a side effect, as a monitoring system for the ETL pipeline (if you're not seeing tracers every n-minutes, something's wrong).</li>
+</ul>
+
+</article>
+
+
+      
+      <footer role="contentinfo">
+        <hr />
+        
+        <nav style="margin-bottom:1rem;" role="navigation">
+          
+            <a href="https://bryan-lott.github.io">Home</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://bryan-lott.github.io/about">About</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://bryan-lott.github.io/atom.xml">RSS</a>
+            
+          
+        </nav>
+        
+        
+        <small>Built with <a href="https://www.getzola.org/">Zola</a>.<br />
+          
+          Copyright 2020 Bryan Lott
+        </small>
+        
+      </footer>
+      
+
+    </main>
+    
+    
+  </body>
+</html>
+

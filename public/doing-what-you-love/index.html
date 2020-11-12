@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Doing what you Love &middot; (import this)</title>
+    <meta name="description" content="From ideas to tech and the life in-between" />
+    <link rel="shortcut icon"  href="https://bryan-lott.github.io/favicon.ico" />
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://bryan-lott.github.io/atom.xml">
+
+    <style>html,body{background:#ececec;color:#031026;font:16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"}a,a:visited{color:#7f0c0c;text-decoration:none}a:hover{text-decoration:underline}main{margin:auto;max-width:50rem;padding:0.8rem}pre{background:white;overflow:scroll;padding:1rem}td{border:1px solid #16e599;padding:10px}img{height:auto;max-width:100%}.homepage-list{list-style:none;padding:1rem 0}.homepage-list li{align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px}@media (max-width: 38rem){.homepage-list li a{width:100%}}
+</style>
+
+    <meta property="og:site_name" content="(import this)">
+      <meta name="author" content="Bryan Lott" />
+      <meta property="og:title" content="Doing what you Love">
+      <meta property="og:description" content="">
+      <meta property="og:url" content="https://bryan-lott.github.io/doing-what-you-love/">
+      <meta property="og:image" content="">
+
+      <meta property="og:type" content="article" />
+        <meta property="article:published_time" content="2016-12-31T00:00:00+00:00" />
+
+      <link rel="prev" href="https://bryan-lott.github.io/when-it-s-time-to-move-on/" />
+      <link rel="next" href="https://bryan-lott.github.io/refactoring-python-if-statements/" />
+    
+
+  </head>
+  
+
+  <body>
+    <main id="main" role="main">
+
+      
+      <header role="banner">
+        <h3 style="margin-top:0;">
+          <a href="https://bryan-lott.github.io" title="Home">(import this)</a>
+          <br /><small>From ideas to tech and the life in-between</small>
+        </h3>
+      </header>
+      <hr />
+      
+
+      
+<article>
+  <h1>Doing what you Love</h1>
+
+  
+    <p style="font-size:90%;">Posted on <time datetime="2016-12-31T00:00:00+00:00">December 31, 2016</time></p>
+  
+
+  <p>Those that know me, know that I <em>love</em> Clojure as a language.  The simplicity of syntax and concept draws me like a moth to a flame.  It wouldn't be too far to say it's my favorite language and I never have the option of developing anything in it.</p>
+<p>I started with Clojure several years ago when I got fed up with the Python threading/multiprocessing pain.  While it wasn't exactly the easiest language to learn, the community and the resources available online made the transition reasonably painless.  I also probably have an advantage that I was never formally trained in object oriented principals or design and most of my training was either self driven or on the job so switching from object oriented to functional was much easier.</p>
+<p>However, I've wanted to use Clojure on a daily basis in my role as a programmer almost since I started learning it.  My team, management, and other developers, however, constantly push back on it because &quot;it looks weird.&quot;  Not kidding, that's a direct quote.</p>
+<hr />
+<p>My frustration with this was building on a daily basis.  It was triggered moreso because of the simplicity of the issue.  99% of the pushback against Clojure was due to the parentheses being on the left side of the function:</p>
+<pre style="background-color:#002b36;">
+<code><span style="color:#586e75;"># this was deemed to be simpler/easier to read
+</span><span style="color:#839496;">&quot;</span><span style="color:#dc322f;">\t</span><span style="color:#839496;">&quot;.</span><span style="color:#b58900;">join</span><span style="color:#657b83;">([</span><span style="color:#859900;">str</span><span style="color:#657b83;">(</span><span style="color:#839496;">i</span><span style="color:#657b83;">) </span><span style="color:#859900;">for </span><span style="color:#839496;">i </span><span style="color:#859900;">in range</span><span style="color:#657b83;">(</span><span style="color:#6c71c4;">100</span><span style="color:#657b83;">) </span><span style="color:#859900;">if </span><span style="color:#839496;">i </span><span style="color:#657b83;">% </span><span style="color:#6c71c4;">2 </span><span style="color:#657b83;">== </span><span style="color:#6c71c4;">0</span><span style="color:#657b83;">])
+
+</span><span style="color:#839496;">&#39;</span><span style="color:#2aa198;">0</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">2</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">4</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">6</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">8</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">10</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">12</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">14</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">16</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">18</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">20</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">22</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">24</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">26</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">28</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">30</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">32</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">34</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">36</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">38</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">40</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">42</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">44</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">46</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">48</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">50</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">52</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">54</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">56</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">58</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">60</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">62</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">64</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">66</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">68</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">70</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">72</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">74</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">76</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">78</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">80</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">82</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">84</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">86</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">88</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">90</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">92</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">94</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">96</span><span style="color:#dc322f;">\t</span><span style="color:#2aa198;">98</span><span style="color:#839496;">&#39;
+</span></code></pre><pre style="background-color:#002b36;">
+<code><span style="color:#586e75;">;; than this
+(clojure.string/join
+  &quot;\tab&quot;
+  (filter even? (range 100)))
+
+&quot;0\t2\t4\t6\t8\t10\t12\t14\t16\t18\t20\t22\t24\t26\t28\t30\t32\t34\t36\t38\t40\t42\t44\t46\t48\t50\t52\t54\t56\t58\t60\t62\t64\t66\t68\t70\t72\t74\t76\t78\t80\t82\t84\t86\t88\t90\t92\t94\t96\t98&quot;
+</span></code></pre>
+<p>Note than in the Python version there are 4 groupings (parens and/or brackets) whereas in the Clojure version there are <em>three</em> groupings.  Tell me again about how many more parentheses there are in Clojure?</p>
+<p>In addition, if you can't move the opening paren to the left side of the function and still read it, you've got bigger problems than what I can fix:</p>
+<pre style="background-color:#002b36;">
+<code><span style="color:#859900;">str</span><span style="color:#657b83;">(</span><span style="color:#6c71c4;">1</span><span style="color:#657b83;">)
+</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">1</span><span style="color:#839496;">&quot;
+</span></code></pre><pre style="background-color:#002b36;">
+<code><span style="color:#657b83;">(</span><span style="color:#b58900;">str </span><span style="color:#6c71c4;">1</span><span style="color:#657b83;">)
+</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">1</span><span style="color:#839496;">&quot;
+</span></code></pre>
+<p>Yes, I realize that these are both contrived examples, but they illustrate the core point of my frustration.  Clojure is <em>not</em> harder to read, it's <em>different</em>.  And if you can't or don't want to learn something new then you're in the wrong profession.</p>
+<hr />
+<p>So, because no one else was interested in learning it or supporting it in production, to ease the discomfort I was feeling with being stuck, I forged ahead anyway.  But, I did so with caution and pragmatism.  We had a very small issue that was plaguing us for some time.  A Python process would every once in a while log a traceback.  We had no out of the box way of getting at the full text of those tracebacks in any of our metrics, logging, or reporting tools as Python tracebacks span multiple lines.  In addition, the process would retry a given number of times so not all tracebacks should be pushed to the visibility of the engineering team, necessitating some custom logic.  The existing alerting pushed notifications to Slack, but without the full text of the traceback and it pushed all tracebacks, not just the critical failures and left out some important debugging details.</p>
+<p>As an isolated, non-mission critial (the other alerts would continue as-is for some time) task, this seemed like a perfect location to introduce Clojure as a solution.</p>
+<p><a href="https://github.com/bryan-lott/TracebackFilter">Github: Tracebackfilter</a></p>
+<p>It's now been in production for close to 2 months now and has been working like a charm.  In addition, no one has derided the fact that it's written in Clojure.  Not only did I really enjoy writing it, it's become a gateway for showing other people what Clojure looks like that's actually in production!</p>
+<hr />
+<p>Build what you love, even if it goes against the grain, but do it pragmatically.  It's the only way to push us forward.</p>
+
+</article>
+
+
+      
+      <footer role="contentinfo">
+        <hr />
+        
+        <nav style="margin-bottom:1rem;" role="navigation">
+          
+            <a href="https://bryan-lott.github.io">Home</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://bryan-lott.github.io/about">About</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://bryan-lott.github.io/atom.xml">RSS</a>
+            
+          
+        </nav>
+        
+        
+        <small>Built with <a href="https://www.getzola.org/">Zola</a>.<br />
+          
+          Copyright 2020 Bryan Lott
+        </small>
+        
+      </footer>
+      
+
+    </main>
+    
+    
+  </body>
+</html>
+

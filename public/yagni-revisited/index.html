@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>YAGNI Revisited &middot; (import this)</title>
+    <meta name="description" content="From ideas to tech and the life in-between" />
+    <link rel="shortcut icon"  href="https://bryan-lott.github.io/favicon.ico" />
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://bryan-lott.github.io/atom.xml">
+
+    <style>html,body{background:#ececec;color:#031026;font:16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"}a,a:visited{color:#7f0c0c;text-decoration:none}a:hover{text-decoration:underline}main{margin:auto;max-width:50rem;padding:0.8rem}pre{background:white;overflow:scroll;padding:1rem}td{border:1px solid #16e599;padding:10px}img{height:auto;max-width:100%}.homepage-list{list-style:none;padding:1rem 0}.homepage-list li{align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px}@media (max-width: 38rem){.homepage-list li a{width:100%}}
+</style>
+
+    <meta property="og:site_name" content="(import this)">
+      <meta name="author" content="Bryan Lott" />
+      <meta property="og:title" content="YAGNI Revisited">
+      <meta property="og:description" content="">
+      <meta property="og:url" content="https://bryan-lott.github.io/yagni-revisited/">
+      <meta property="og:image" content="">
+
+      <meta property="og:type" content="article" />
+        <meta property="article:published_time" content="2018-08-29T00:00:00+00:00" />
+
+      <link rel="prev" href="https://bryan-lott.github.io/2017-recap/" />
+      <link rel="next" href="https://bryan-lott.github.io/predict-the-future-of-your-industry/" />
+    
+
+  </head>
+  
+
+  <body>
+    <main id="main" role="main">
+
+      
+      <header role="banner">
+        <h3 style="margin-top:0;">
+          <a href="https://bryan-lott.github.io" title="Home">(import this)</a>
+          <br /><small>From ideas to tech and the life in-between</small>
+        </h3>
+      </header>
+      <hr />
+      
+
+      
+<article>
+  <h1>YAGNI Revisited</h1>
+
+  
+    <p style="font-size:90%;">Posted on <time datetime="2018-08-29T00:00:00+00:00">August 29, 2018</time></p>
+  
+
+  <p>&quot;You aren't gonna need it&quot; (YAGNI) is a phrase used in software development to help combat complexity and prevent building unnecessary components.  It's a great idea but one rarely implemented.  What I see most often are cron schedulers with api endpoints that put data onto an AWS queue and use an RPC framework internally for no good reason.  I.e., the complete opposite of following the YAGNI principle.</p>
+<p>(fair warning, when I say &quot;prove&quot; below I'm not talking about a formal proof, instead research or build enough to convince yourself)</p>
+<h2 id="assumption-of-none">Assumption of None</h2>
+<p>I had an insight the other day that led me down an interesting path.</p>
+<p>Once you have a problem to work on, but before making any technology choices or writing any code, assume that the problem is already solved.  Assume that you, personally, need to do nothing. </p>
+<p>No, seriously, assume that you need to do literally nothing to solve that problem.  You sit on your hands and the problem is magically solved in front of your eyes.  Silly right?  Stick with me...</p>
+<p>What does this actually mean?  Well, if your problem hasn't been solved in the time it takes you to open a new browser tab, it means that you need to do a quick google search to figure out if someone else has written the thing you think you need.  Even more so, it means thinking about your actual need (hammock driven development for the win!).</p>
+<p>Once you've done that, prove yourself wrong.  Prove to yourself that no one else has written an app or bit of code that does the thing you need.</p>
+<p>At this point, you've proven to yourself that no one else has something that fills the need.  Great!  Don't start writing code yet.</p>
+<p>Is there a group of technologies that can integrate with one another to provide the functionality?  Again, assume that there is and see if you can prove yourself wrong.  Nothing exists?  Great!  Now you can start thinking about writing code.</p>
+<p>But, as you do, continue to make assumptions that you don't need (insert thing here) and prove yourself wrong.  Assume you don't need to persist data until it becomes bleedingly obvious that you do.  Assume you don't need a database to persist that data and a flat file will do, until you can prove that assumption wrong.</p>
+<p>Proving assumptions wrong all the way up and down the stack is a great way to prevent yourself from building in something you don't need or using a technology that's too complex for your current use cast.  It's a way to ruthlessly force yourself to build something that's tailored to your situation.</p>
+<h2 id="other-benefits">Other Benefits</h2>
+<p>You know the great thing about building something like that?  It's extensible.  You can always add more on later, after your assumptions prove false.  It improves developer speed, both from a bug-squashing perspective (it should be obvious when there's a bug because your code doesn't do the specific thing you need it to) and from an onboarding perspective.</p>
+<p>I don't necessarily mean a new developer to the company by &quot;onboarding&quot; by the way.  I mean getting a developer that's unfamiliar with the codebase up to speed and productive in the codebase.  This includes you if you haven't looked at the codebase in a couple days, by the way!</p>
+<p>This increases developer productivity which in turn means business velocity.  If you're building the thing you need and only that, you can move at lightning speed.  That's the goal, isn't it?  Move faster than your competition and maintain that velocity for as long as possible.</p>
+<p>You're also building in a lack of code ownership.  This, contrary to popular belief, is also a good thing.  It means when your code no longer fits your need, because your needs diverged, you can toss the code out and use the lessons learned to move even faster on the new need.  Even in this case, go back to the basic assumption that you don't need to build anything, and prove yourself wrong every step of the way.</p>
+
+</article>
+
+
+      
+      <footer role="contentinfo">
+        <hr />
+        
+        <nav style="margin-bottom:1rem;" role="navigation">
+          
+            <a href="https://bryan-lott.github.io">Home</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://bryan-lott.github.io/about">About</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://bryan-lott.github.io/atom.xml">RSS</a>
+            
+          
+        </nav>
+        
+        
+        <small>Built with <a href="https://www.getzola.org/">Zola</a>.<br />
+          
+          Copyright 2020 Bryan Lott
+        </small>
+        
+      </footer>
+      
+
+    </main>
+    
+    
+  </body>
+</html>
+

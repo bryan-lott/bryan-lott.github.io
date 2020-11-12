@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Refactoring Python if Statements &middot; (import this)</title>
+    <meta name="description" content="From ideas to tech and the life in-between" />
+    <link rel="shortcut icon"  href="https://bryan-lott.github.io/favicon.ico" />
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://bryan-lott.github.io/atom.xml">
+
+    <style>html,body{background:#ececec;color:#031026;font:16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"}a,a:visited{color:#7f0c0c;text-decoration:none}a:hover{text-decoration:underline}main{margin:auto;max-width:50rem;padding:0.8rem}pre{background:white;overflow:scroll;padding:1rem}td{border:1px solid #16e599;padding:10px}img{height:auto;max-width:100%}.homepage-list{list-style:none;padding:1rem 0}.homepage-list li{align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px}@media (max-width: 38rem){.homepage-list li a{width:100%}}
+</style>
+
+    <meta property="og:site_name" content="(import this)">
+      <meta name="author" content="Bryan Lott" />
+      <meta property="og:title" content="Refactoring Python if Statements">
+      <meta property="og:description" content="">
+      <meta property="og:url" content="https://bryan-lott.github.io/refactoring-python-if-statements/">
+      <meta property="og:image" content="">
+
+      <meta property="og:type" content="article" />
+        <meta property="article:published_time" content="2017-12-23T00:00:00+00:00" />
+
+      <link rel="prev" href="https://bryan-lott.github.io/doing-what-you-love/" />
+      <link rel="next" href="https://bryan-lott.github.io/2017-recap/" />
+    
+
+  </head>
+  
+
+  <body>
+    <main id="main" role="main">
+
+      
+      <header role="banner">
+        <h3 style="margin-top:0;">
+          <a href="https://bryan-lott.github.io" title="Home">(import this)</a>
+          <br /><small>From ideas to tech and the life in-between</small>
+        </h3>
+      </header>
+      <hr />
+      
+
+      
+<article>
+  <h1>Refactoring Python if Statements</h1>
+
+  
+    <p style="font-size:90%;">Posted on <time datetime="2017-12-23T00:00:00+00:00">December 23, 2017</time></p>
+  
+
+  <p>Note: I'm not recommending the following refactoring to everyone, nor am I saying it was even a good idea.  It did, however, work out quite well for myself and my team.</p>
+<pre style="background-color:#002b36;">
+<code><span style="color:#859900;">if </span><span style="color:#839496;">pred_1 </span><span style="color:#657b83;">== </span><span style="color:#839496;">&#39;</span><span style="color:#2aa198;">first</span><span style="color:#839496;">&#39;</span><span style="color:#657b83;">:
+    </span><span style="color:#839496;">output_data </span><span style="color:#657b83;">= </span><span style="color:#839496;">output_data.</span><span style="color:#b58900;">_replace</span><span style="color:#657b83;">(</span><span style="color:#268bd2;">output_data_1</span><span style="color:#657b83;">=</span><span style="color:#839496;">pred_3, </span><span style="color:#268bd2;">output_data_2</span><span style="color:#657b83;">=</span><span style="color:#839496;">pred_4</span><span style="color:#657b83;">)
+    </span><span style="color:#859900;">if </span><span style="color:#839496;">pred_2 </span><span style="color:#859900;">and </span><span style="color:#d33682;">self</span><span style="color:#839496;">.state_management_3 </span><span style="color:#859900;">in </span><span style="color:#839496;">pred_2</span><span style="color:#657b83;">:
+        </span><span style="color:#839496;">output_data </span><span style="color:#657b83;">= </span><span style="color:#b58900;">merge_namedtuple</span><span style="color:#657b83;">(</span><span style="color:#839496;">output_data, </span><span style="color:#d33682;">self</span><span style="color:#839496;">.</span><span style="color:#b58900;">process_data_1</span><span style="color:#657b83;">())
+    </span><span style="color:#859900;">elif </span><span style="color:#839496;">pred_3 </span><span style="color:#657b83;">== </span><span style="color:#839496;">state_management_2.state1</span><span style="color:#657b83;">:
+        </span><span style="color:#859900;">if </span><span style="color:#839496;">pred_4</span><span style="color:#657b83;">:
+            </span><span style="color:#839496;">output_data </span><span style="color:#657b83;">= </span><span style="color:#b58900;">merge_namedtuple</span><span style="color:#657b83;">(</span><span style="color:#839496;">output_data, </span><span style="color:#d33682;">self</span><span style="color:#839496;">.</span><span style="color:#b58900;">process_data_2</span><span style="color:#657b83;">())
+        </span><span style="color:#859900;">else</span><span style="color:#657b83;">:
+            </span><span style="color:#839496;">output_data </span><span style="color:#657b83;">= </span><span style="color:#b58900;">merge_namedtuple</span><span style="color:#657b83;">(</span><span style="color:#839496;">output_data, </span><span style="color:#d33682;">self</span><span style="color:#839496;">.</span><span style="color:#b58900;">process_data_3</span><span style="color:#657b83;">())
+            </span><span style="color:#859900;">if </span><span style="color:#839496;">orig_data_2 </span><span style="color:#859900;">in </span><span style="color:#657b83;">[</span><span style="color:#839496;">state_management_1.</span><span style="color:#268bd2;">STATE1</span><span style="color:#839496;">, state_management_1.</span><span style="color:#268bd2;">STATE2</span><span style="color:#657b83;">]:
+                </span><span style="color:#839496;">output_data </span><span style="color:#657b83;">= </span><span style="color:#839496;">output_data.</span><span style="color:#b58900;">_replace</span><span style="color:#657b83;">(</span><span style="color:#268bd2;">output_data_1</span><span style="color:#657b83;">=</span><span style="color:#839496;">orig_data_1, </span><span style="color:#268bd2;">output_data_2</span><span style="color:#657b83;">=</span><span style="color:#839496;">orig_data_2</span><span style="color:#657b83;">)
+    </span><span style="color:#859900;">elif </span><span style="color:#839496;">pred_3 </span><span style="color:#859900;">in </span><span style="color:#657b83;">[</span><span style="color:#839496;">state_management_2.state2, state_management_2.state3</span><span style="color:#657b83;">]:
+        </span><span style="color:#859900;">if </span><span style="color:#839496;">pred_4</span><span style="color:#657b83;">:
+            </span><span style="color:#839496;">output_data </span><span style="color:#657b83;">= </span><span style="color:#b58900;">merge_namedtuple</span><span style="color:#657b83;">(</span><span style="color:#839496;">output_data, </span><span style="color:#d33682;">self</span><span style="color:#839496;">.</span><span style="color:#b58900;">process_data_2</span><span style="color:#657b83;">())
+        </span><span style="color:#859900;">else</span><span style="color:#657b83;">:
+            </span><span style="color:#839496;">output_data </span><span style="color:#657b83;">= </span><span style="color:#b58900;">merge_namedtuple</span><span style="color:#657b83;">(</span><span style="color:#839496;">output_data, </span><span style="color:#d33682;">self</span><span style="color:#839496;">.</span><span style="color:#b58900;">process_data_3</span><span style="color:#657b83;">())
+            </span><span style="color:#839496;">output_data </span><span style="color:#657b83;">= </span><span style="color:#839496;">output_data.</span><span style="color:#b58900;">_replace</span><span style="color:#657b83;">(</span><span style="color:#268bd2;">output_data_1</span><span style="color:#657b83;">=</span><span style="color:#839496;">state_management_2.state1, </span><span style="color:#268bd2;">output_data_2</span><span style="color:#657b83;">=</span><span style="color:#839496;">state_management_1.</span><span style="color:#268bd2;">STATE1</span><span style="color:#657b83;">)
+</span><span style="color:#859900;">elif </span><span style="color:#839496;">pred_1 </span><span style="color:#657b83;">== </span><span style="color:#839496;">&#39;</span><span style="color:#2aa198;">second</span><span style="color:#839496;">&#39;</span><span style="color:#657b83;">:
+    </span><span style="color:#859900;">if </span><span style="color:#839496;">pred_2 </span><span style="color:#859900;">and </span><span style="color:#d33682;">self</span><span style="color:#839496;">.state_management_3 </span><span style="color:#859900;">in </span><span style="color:#839496;">pred_2</span><span style="color:#657b83;">:
+        </span><span style="color:#839496;">output_data </span><span style="color:#657b83;">= </span><span style="color:#b58900;">merge_namedtuple</span><span style="color:#657b83;">(</span><span style="color:#839496;">output_data, </span><span style="color:#d33682;">self</span><span style="color:#839496;">.</span><span style="color:#b58900;">process_data_1</span><span style="color:#657b83;">())
+    </span><span style="color:#859900;">elif </span><span style="color:#839496;">pred_3 </span><span style="color:#657b83;">== </span><span style="color:#839496;">state_management_2.state2</span><span style="color:#657b83;">:
+        </span><span style="color:#859900;">if </span><span style="color:#839496;">pred_4 </span><span style="color:#859900;">in </span><span style="color:#657b83;">[</span><span style="color:#839496;">state_management_1.</span><span style="color:#268bd2;">STATE3</span><span style="color:#839496;">, state_management_1.</span><span style="color:#268bd2;">STATE4</span><span style="color:#839496;">, state_management_1.</span><span style="color:#268bd2;">STATE5</span><span style="color:#657b83;">]:
+            </span><span style="color:#859900;">if </span><span style="color:#839496;">pred5</span><span style="color:#657b83;">:
+                </span><span style="color:#839496;">output_data </span><span style="color:#657b83;">= </span><span style="color:#b58900;">merge_namedtuple</span><span style="color:#657b83;">(</span><span style="color:#839496;">output_data, </span><span style="color:#d33682;">self</span><span style="color:#839496;">.</span><span style="color:#b58900;">process_data_4</span><span style="color:#657b83;">())
+        </span><span style="color:#859900;">elif </span><span style="color:#839496;">pred_4 </span><span style="color:#859900;">in </span><span style="color:#657b83;">[</span><span style="color:#839496;">state_management_1.</span><span style="color:#268bd2;">STATE7</span><span style="color:#839496;">, state_management_1.</span><span style="color:#268bd2;">STATE8</span><span style="color:#839496;">, state_management_1.</span><span style="color:#268bd2;">STATE6</span><span style="color:#839496;">, state_management_1.</span><span style="color:#268bd2;">STATE9</span><span style="color:#657b83;">]:
+            </span><span style="color:#839496;">output_data </span><span style="color:#657b83;">= </span><span style="color:#b58900;">merge_namedtuple</span><span style="color:#657b83;">(</span><span style="color:#839496;">output_data, </span><span style="color:#d33682;">self</span><span style="color:#839496;">.</span><span style="color:#b58900;">process_data_2</span><span style="color:#657b83;">())
+            </span><span style="color:#859900;">if </span><span style="color:#839496;">pred_4 </span><span style="color:#657b83;">== </span><span style="color:#839496;">output_data.state_2</span><span style="color:#657b83;">:
+                </span><span style="color:#839496;">output_data </span><span style="color:#657b83;">= </span><span style="color:#839496;">output_data.</span><span style="color:#b58900;">_replace</span><span style="color:#657b83;">(</span><span style="color:#268bd2;">state_1</span><span style="color:#657b83;">=</span><span style="color:#b58900;">None</span><span style="color:#839496;">, </span><span style="color:#268bd2;">state_2</span><span style="color:#657b83;">=</span><span style="color:#b58900;">None</span><span style="color:#657b83;">)
+    </span><span style="color:#859900;">elif </span><span style="color:#839496;">pred_3 </span><span style="color:#657b83;">== </span><span style="color:#839496;">state_management_2.state1 </span><span style="color:#859900;">and not </span><span style="color:#839496;">pred_4 </span><span style="color:#859900;">and </span><span style="color:#839496;">pred5</span><span style="color:#657b83;">:
+        </span><span style="color:#839496;">output_data </span><span style="color:#657b83;">= </span><span style="color:#b58900;">merge_namedtuple</span><span style="color:#657b83;">(</span><span style="color:#839496;">output_data, </span><span style="color:#d33682;">self</span><span style="color:#839496;">.</span><span style="color:#b58900;">process_data_4</span><span style="color:#657b83;">())
+        </span><span style="color:#839496;">output_data </span><span style="color:#657b83;">= </span><span style="color:#839496;">output_data.</span><span style="color:#b58900;">_replace</span><span style="color:#657b83;">(</span><span style="color:#268bd2;">state_1</span><span style="color:#657b83;">=</span><span style="color:#839496;">output_data.sub_data.state_1, </span><span style="color:#268bd2;">state_2</span><span style="color:#657b83;">=</span><span style="color:#839496;">output_data.sub_data.state_2</span><span style="color:#657b83;">)
+    </span><span style="color:#859900;">elif </span><span style="color:#839496;">pred_3 </span><span style="color:#657b83;">== </span><span style="color:#839496;">state_management_2.state1 </span><span style="color:#859900;">and </span><span style="color:#839496;">pred_4 </span><span style="color:#859900;">and </span><span style="color:#839496;">pred6</span><span style="color:#657b83;">:
+        </span><span style="color:#839496;">output_data </span><span style="color:#657b83;">= </span><span style="color:#b58900;">merge_namedtuple</span><span style="color:#657b83;">(</span><span style="color:#839496;">output_data, </span><span style="color:#d33682;">self</span><span style="color:#839496;">.</span><span style="color:#b58900;">process_data_2</span><span style="color:#657b83;">())
+</span></code></pre>
+<p>Still with me?</p>
+<p>...</p>
+<p>Yeah, pretty sure I lost about 90% of you with that if-block.</p>
+<p>This isn't the actual code that I ended up refactoring, but it's convoluted enough to give the same gut-wrenching feeling from it.  I've also done my best to anonymize it so to protect the guilty.</p>
+<h2 id="the-white-whale">The White Whale</h2>
+<p>Story time!</p>
+<p>I ran into this block of code my 3rd or 4th day on the job and recoiled in horror at it.  At the same time, it fascinated me that this was the encoding of some admittedly convoluted but mission-critical business logic into Python.  The &quot;standard&quot; refactor for an if-elif-elif-elif block in Python is to reach for a dictionary (hashmap for those not familiar with Python), encode the predicates into the keys and the functions to be called in the values.</p>
+<p>Great... but... does that mean we need a nested dictionary here and, more importantly, would that actually make the code more readable?</p>
+<pre style="background-color:#002b36;">
+<code><span style="color:#586e75;"># we start with the first &quot;layer&quot;:
+</span><span style="color:#657b83;">{</span><span style="color:#839496;">&#39;</span><span style="color:#2aa198;">first</span><span style="color:#839496;">&#39;: </span><span style="color:#657b83;">{}
+ </span><span style="color:#839496;">&#39;</span><span style="color:#2aa198;">second</span><span style="color:#839496;">&#39;: </span><span style="color:#657b83;">{}}
+
+</span><span style="color:#586e75;"># cool, that was easy... now the second &quot;layer&quot;:
+</span><span style="color:#657b83;">{</span><span style="color:#839496;">&#39;</span><span style="color:#2aa198;">first</span><span style="color:#839496;">&#39;: </span><span style="color:#657b83;">{</span><span style="color:#839496;">pred_2: </span><span style="color:#657b83;">{}
+           </span><span style="color:#839496;">pred_3: </span><span style="color:#657b83;">{}
+           }}
+
+</span><span style="color:#586e75;">#uhhhh... we&#39;re going off the rails here...
+</span></code></pre>
+<p>The problem here comes down to the different layers not being symmetrical.  They all have various conditions and an amalgamation of predicates, states, and even types (some are lists, others are enums, others are booleans).</p>
+<p>So... un-refactorable?</p>
+<p>I'll be honest, at this point I was wondering if it really was un-refactorable.</p>
+<h2 id="the-one-that-got-away">The One That Got Away</h2>
+<p>I left the code as-is for quite some time.  Months actually.  It was always sitting in the back of my head though, like an itch you can't quite scratch.  Refactoring this bit of code was always on my to-do list, but I could never seem to find the time to really think about it.  Add on to this, it was mission-critical business logic encoding.  That always carries an inherent risk when you're refactoring.  There were tests around the code, but they ended up having major holes.</p>
+<h2 id="a-light-on-the-horizon">A Light on the Horizon</h2>
+<p>Tests...</p>
+<p>The golden rule of refactoring is that you never do it without a good set of tests to verify old and new logic.</p>
+<p>Hah!  Of course!  Write unit tests around the entire if-statement-of-crazy.  If nothing else, I figured this would give me a deeper understanding of the business logic and the all-crucial &quot;why&quot; to some of the crazy logic.  While I was doing this, I sat down with a number of my coworkers to fill in the gaps in my knowledge.  As always, ask the people that were there first!</p>
+<h2 id="darkness">Darkness</h2>
+<p>While I was chatting and interviewing my coworkers about this bit of code, there was an ominous phrase that kept popping up...</p>
+<blockquote>
+<p>This isn't the first time someone's tried to refactor that if statement.</p>
+</blockquote>
+<p>...great...</p>
+<p>After some introspection and some poking and prodding at my ego, I finally decided that it'd make a fun side project to <em>try</em>.  If I didn't succeed, no worries, at least I had added a ton of tests around it so the next time it needed to change, we could be safe about changing it!</p>
+<h2 id="the-hunt">The Hunt</h2>
+<p>After a number of false starts, thrown out code, and late nights I hit upon an interesting idea.</p>
+<p>To look up a key in a Python dictionary, the <code>get</code> method does two things.  First, it hashes the key you're looking up and compares it with all the hashed keys in the dictionary.  The second thing it does an equality comparison of the unhashed lookup key and unhashed dictionary key.  I assume the second round is to prevent hash collisions, but I honestly don't know.</p>
+<p>At the same time, I was looking into using <code>namedtuples</code> as a way to encode multiple values into the key.  They have the advantage of being immutable and have easy methods to get and set values (important for readability of the final code).</p>
+<h2 id="shot-and-a-miss">Shot and a Miss</h2>
+<p>That was my next thought, encode all the logic into a <code>namedtuple</code> &quot;template&quot; and compare the actual data against the keys in the dictionary.</p>
+<p>Well, there's a problem with that.  At runtime, we don't always have all the data necessary for a given branch of the codebase and, in fact, some of the data may be set, but it may not matter.</p>
+<p>The upshot of this is that some branches of the if statement have an importance priority of the data looked up that's different than other branches.</p>
+<h2 id="a-new-drawing-board">A New Drawing Board</h2>
+<p>So, again, I was stumped.  If you compare two <code>namedtuples</code> with one another, all the data has to match or they aren't considered equal.  Even if I could solve that problem, there was still the problem of the hash lookup in the dictionary.  If two <code>namedtuples</code> don't have the exact same data in them, their hashes won't match and thus looking it up in a dictionary will always fail.</p>
+<p>Digging into Python's hash magic methods, I hit upon a simple idea.  Make all the hashes the same.  That way Python is <em>forced</em> to use the equality function on the <code>namedtuples</code> when it compares them against the dictionary keys.</p>
+<h2 id="a-new-hope">A New Hope</h2>
+<p>Thankfully everything in Python has public visibility.  The upshot of this is it means that I can create my own custom <code>namedtuple</code> that provides all the benefits of immutability as well as the readability of the fields, along with a custom equality function.</p>
+<p>What this all boils down to is this bit of code for creating the Template for the dictionary.  These are meant to be filled with data and used as the keys in the lookup dictionary.  In addition, this <code>namedtuple</code> is used to fill out the data to be compared against the keys in the dictionary.</p>
+<pre style="background-color:#002b36;">
+<code><span style="color:#586e75;"># Decision matrix used in determining which data process to kick off
+</span><span style="color:#839496;">Template </span><span style="color:#657b83;">= </span><span style="color:#b58900;">namedtuple</span><span style="color:#657b83;">(</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">Template</span><span style="color:#839496;">&quot;, </span><span style="color:#657b83;">[</span><span style="color:#839496;">&#39;</span><span style="color:#2aa198;">pred1</span><span style="color:#839496;">&#39;, &#39;</span><span style="color:#2aa198;">pred2</span><span style="color:#839496;">&#39;, &#39;</span><span style="color:#2aa198;">pred3</span><span style="color:#839496;">&#39;, &#39;</span><span style="color:#2aa198;">pred4</span><span style="color:#839496;">&#39;, &#39;</span><span style="color:#2aa198;">pred5</span><span style="color:#839496;">&#39;, &#39;</span><span style="color:#2aa198;">pred6</span><span style="color:#839496;">&#39;, &#39;</span><span style="color:#2aa198;">pred7</span><span style="color:#839496;">&#39;</span><span style="color:#657b83;">])
+</span><span style="color:#586e75;"># Default any non-filled out fields to None
+</span><span style="color:#839496;">Template.</span><span style="color:#859900;">__new__</span><span style="color:#839496;">.</span><span style="color:#859900;">__defaults__ </span><span style="color:#657b83;">= (</span><span style="color:#b58900;">None</span><span style="color:#839496;">,</span><span style="color:#657b83;">) * </span><span style="color:#859900;">len</span><span style="color:#657b83;">(</span><span style="color:#839496;">Template._fields</span><span style="color:#657b83;">)
+</span><span style="color:#586e75;"># Disable the hash function
+</span><span style="color:#839496;">Template.</span><span style="color:#859900;">__hash__ </span><span style="color:#657b83;">= </span><span style="color:#859900;">lambda </span><span style="color:#268bd2;">self</span><span style="color:#657b83;">: </span><span style="color:#6c71c4;">1
+</span><span style="color:#586e75;"># Set our custom equality function
+</span><span style="color:#839496;">Template.</span><span style="color:#859900;">__eq__ </span><span style="color:#657b83;">= </span><span style="color:#839496;">rd_eq
+</span></code></pre><h2 id="custom-equality">Custom Equality</h2>
+<p>&quot;Custom Equality&quot; is such a great term, and it really threw the more science-minded folks for a loop!</p>
+<p>To ease their trepidation, I told them that I wasn't <em>really</em> setting up a custom equality, I was making sure that it works as a template rather than an exact match.  If data shows up in the template, it's important, if it doesn't, then it's not and can be anything.</p>
+<p>Note that the bottom code is more complex than just a simple template.  If you notice in the original code, there's a lot of <code>if x in ['a', 'b', 'c', 'd']</code> thrown around along with at least one <code>if ['a', 'b'] == ['a', 'b', 'c']</code> style.  That makes comparing against a template messy.</p>
+<pre style="background-color:#002b36;">
+<code><span style="color:#859900;">def </span><span style="color:#b58900;">rd_eq</span><span style="color:#657b83;">(</span><span style="color:#268bd2;">template</span><span style="color:#839496;">, </span><span style="color:#268bd2;">other</span><span style="color:#657b83;">):
+    </span><span style="color:#586e75;">&quot;&quot;&quot;Compare fields in template to fields in other if template.field is not None
+    template and other are expected to be namedtuples, tuples, or lists.
+    Order of the elements in each *does* matter.
+    If an element is a list, make sure that all the subelements of that list appear in the template.
+    :param template: namedtuple, non-null values are used for comparison
+    :param other: namedtuple, all/some/none values can be filled out and will be compared with non-null values from template
+    :return: true if the non-null values in template &quot;match&quot; in other, false otherwise
+    &quot;&quot;&quot;
+    # compare template type to other type
+    </span><span style="color:#859900;">if </span><span style="color:#839496;">template.</span><span style="color:#859900;">__class__ </span><span style="color:#657b83;">!= </span><span style="color:#839496;">other.</span><span style="color:#859900;">__class__ or len</span><span style="color:#657b83;">(</span><span style="color:#839496;">template</span><span style="color:#657b83;">) != </span><span style="color:#859900;">len</span><span style="color:#657b83;">(</span><span style="color:#839496;">other</span><span style="color:#657b83;">):
+        </span><span style="color:#859900;">return </span><span style="color:#b58900;">False
+    </span><span style="color:#859900;">for </span><span style="color:#839496;">template_val, other_val </span><span style="color:#859900;">in zip</span><span style="color:#657b83;">(</span><span style="color:#839496;">template, other</span><span style="color:#657b83;">):
+        </span><span style="color:#859900;">if </span><span style="color:#839496;">template_val </span><span style="color:#859900;">is not </span><span style="color:#b58900;">None</span><span style="color:#657b83;">:  </span><span style="color:#586e75;"># only &quot;filled out&quot; template values matter
+            # compare element types
+            </span><span style="color:#859900;">if isinstance</span><span style="color:#657b83;">(</span><span style="color:#839496;">template_val, </span><span style="color:#859900;">list</span><span style="color:#657b83;">):
+                </span><span style="color:#859900;">if isinstance</span><span style="color:#657b83;">(</span><span style="color:#839496;">other_val, </span><span style="color:#859900;">list</span><span style="color:#657b83;">):
+                    </span><span style="color:#586e75;"># if all the values in the &quot;template&quot; don&#39;t exist in the &quot;other&quot;, return false
+                    </span><span style="color:#859900;">if len</span><span style="color:#657b83;">(</span><span style="color:#859900;">set</span><span style="color:#657b83;">(</span><span style="color:#839496;">template_val</span><span style="color:#657b83;">)</span><span style="color:#839496;">.</span><span style="color:#b58900;">intersection</span><span style="color:#657b83;">(</span><span style="color:#859900;">set</span><span style="color:#657b83;">(</span><span style="color:#839496;">other_val</span><span style="color:#657b83;">))) != </span><span style="color:#859900;">len</span><span style="color:#657b83;">(</span><span style="color:#859900;">set</span><span style="color:#657b83;">(</span><span style="color:#839496;">template_val</span><span style="color:#657b83;">)):
+                        </span><span style="color:#859900;">return </span><span style="color:#b58900;">False
+                </span><span style="color:#859900;">else</span><span style="color:#657b83;">:
+                    </span><span style="color:#859900;">if </span><span style="color:#839496;">other_val </span><span style="color:#859900;">not in </span><span style="color:#839496;">template_val</span><span style="color:#657b83;">:
+                        </span><span style="color:#859900;">return </span><span style="color:#b58900;">False
+            </span><span style="color:#859900;">elif </span><span style="color:#839496;">template_val </span><span style="color:#657b83;">!= </span><span style="color:#839496;">other_val</span><span style="color:#657b83;">:
+                </span><span style="color:#859900;">return </span><span style="color:#b58900;">False
+    </span><span style="color:#859900;">return </span><span style="color:#b58900;">True
+</span></code></pre>
+<p>It's worth reading through a few times, but in a nutshell:</p>
+<ul>
+<li>If the value of a field in the template is filled in, try to compare it</li>
+<li>If the value of the field is a list and the value being compared against isn't, make sure the value being compared against is in the list.</li>
+<li>If the value of the field is a list and the value being compared against is also a list, make sure the values in the template exist in the value being compared against.</li>
+</ul>
+<h2 id="the-final-frontier">The Final Frontier</h2>
+<p>The last step in the crazy mess is to get our custom dictionary up and running.</p>
+<p>First, we set up the list of templates in order from most-restrictive to least.</p>
+<pre style="background-color:#002b36;">
+<code><span style="color:#586e75;"># Just a coupling of data function and basic log message to send
+</span><span style="color:#839496;">FnRunner </span><span style="color:#657b83;">= </span><span style="color:#b58900;">namedtuple</span><span style="color:#657b83;">(</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">FnData</span><span style="color:#839496;">&quot;, </span><span style="color:#657b83;">[</span><span style="color:#839496;">&#39;</span><span style="color:#2aa198;">fn</span><span style="color:#839496;">&#39;, &#39;</span><span style="color:#2aa198;">log_message</span><span style="color:#839496;">&#39;</span><span style="color:#657b83;">])
+
+</span><span style="color:#839496;">decisions </span><span style="color:#657b83;">= [
+    (</span><span style="color:#b58900;">Template</span><span style="color:#657b83;">(</span><span style="color:#268bd2;">pred2</span><span style="color:#657b83;">=[</span><span style="color:#839496;">&#39;</span><span style="color:#2aa198;">val1</span><span style="color:#839496;">&#39;</span><span style="color:#657b83;">])</span><span style="color:#839496;">,
+     </span><span style="color:#b58900;">FnRunner</span><span style="color:#657b83;">(</span><span style="color:#268bd2;">fn</span><span style="color:#657b83;">=</span><span style="color:#d33682;">self</span><span style="color:#839496;">.process_data_2, </span><span style="color:#268bd2;">log_message</span><span style="color:#657b83;">=</span><span style="color:#839496;">&#39;</span><span style="color:#2aa198;">Running data process 2</span><span style="color:#839496;">&#39;</span><span style="color:#657b83;">))</span><span style="color:#839496;">,
+    </span><span style="color:#657b83;">(</span><span style="color:#b58900;">Template</span><span style="color:#657b83;">(</span><span style="color:#268bd2;">pred1</span><span style="color:#657b83;">=</span><span style="color:#839496;">&#39;</span><span style="color:#2aa198;">first</span><span style="color:#839496;">&#39;,
+              </span><span style="color:#268bd2;">pred3</span><span style="color:#657b83;">=[</span><span style="color:#839496;">state_management_2.state1, state_management_2.state3, state_management_2.state4</span><span style="color:#657b83;">]</span><span style="color:#839496;">,
+                    </span><span style="color:#268bd2;">pred4</span><span style="color:#657b83;">=</span><span style="color:#b58900;">True</span><span style="color:#657b83;">)</span><span style="color:#839496;">,
+     </span><span style="color:#b58900;">FnRunner</span><span style="color:#657b83;">(</span><span style="color:#268bd2;">fn</span><span style="color:#657b83;">=</span><span style="color:#d33682;">self</span><span style="color:#839496;">.process_data_1, </span><span style="color:#268bd2;">log_message</span><span style="color:#657b83;">=</span><span style="color:#839496;">&#39;</span><span style="color:#2aa198;">Running data process 1</span><span style="color:#839496;">&#39;</span><span style="color:#657b83;">))
+</span><span style="color:#586e75;"># &lt;snip&gt;
+</span><span style="color:#657b83;">]
+</span></code></pre>
+<p>Then we shove it in an ordered dictionary to preserve the restrictiveness (fun fact, ordered dictionaries are compared in-order)</p>
+<pre style="background-color:#002b36;">
+<code><span style="color:#d33682;">self</span><span style="color:#839496;">.decision_tree </span><span style="color:#657b83;">= </span><span style="color:#b58900;">OrderedDict</span><span style="color:#657b83;">(</span><span style="color:#839496;">decisions</span><span style="color:#657b83;">)
+</span></code></pre>
+<p>From there, we get the data to compare against and shove it into a Template <code>namedtuple</code> and fire off the comparison:</p>
+<pre style="background-color:#002b36;">
+<code><span style="color:#586e75;"># get the realtime data to compare against the templates
+</span><span style="color:#839496;">runner_data </span><span style="color:#657b83;">= </span><span style="color:#b58900;">Template</span><span style="color:#657b83;">(</span><span style="color:#b58900;">get_decision_data</span><span style="color:#657b83;">())
+
+</span><span style="color:#586e75;"># create a noop function if we don&#39;t find a lookup in self.decision_tree
+</span><span style="color:#839496;">runner_noop </span><span style="color:#657b83;">= </span><span style="color:#b58900;">FnRunner</span><span style="color:#657b83;">(</span><span style="color:#268bd2;">fn</span><span style="color:#657b83;">=</span><span style="color:#859900;">lambda *</span><span style="color:#268bd2;">args</span><span style="color:#839496;">, </span><span style="color:#859900;">**</span><span style="color:#268bd2;">kwargs</span><span style="color:#657b83;">: </span><span style="color:#b58900;">RunnerResults</span><span style="color:#657b83;">()</span><span style="color:#839496;">,
+                       </span><span style="color:#268bd2;">log_message</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">Nothing to do, ignoring</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">)
+
+</span><span style="color:#586e75;"># lookup the correct data runner function to run
+# this is where the equality is called and everything is bashed against one another
+</span><span style="color:#839496;">data_runner_fn </span><span style="color:#657b83;">= </span><span style="color:#d33682;">self</span><span style="color:#839496;">.decision_tree.</span><span style="color:#b58900;">get</span><span style="color:#657b83;">(</span><span style="color:#839496;">runner_data, runner_noop</span><span style="color:#657b83;">)
+
+</span><span style="color:#586e75;"># finally, run the function we found
+</span><span style="color:#839496;">output_data, log_message </span><span style="color:#657b83;">= </span><span style="color:#b58900;">data_runner_fn</span><span style="color:#657b83;">()
+</span></code></pre><h2 id="conclusion">Conclusion</h2>
+<p>Once I was done with all of this crazyness and had a working prototype that passed at least some of the tests I bounced it off of the team.  Their reactions were a pretty mixed bag, everything from disbelief that I had actually refactored the if-statement-of-crazy to curiosity at <em>how</em> I had done it.</p>
+<p>To be honest, I'm still not 100% satisfied with the result, but the feedback in the following weeks was nothing but positive.  This is telling because around the same time, the business logic now encoded in the dictionary changed drastically.  This change was estimated to take around 2-4 weeks in the old if statement.  In the new one, it was done in 2 days.</p>
+<p>I think the increase in productivity speaks for itself.</p>
+
+</article>
+
+
+      
+      <footer role="contentinfo">
+        <hr />
+        
+        <nav style="margin-bottom:1rem;" role="navigation">
+          
+            <a href="https://bryan-lott.github.io">Home</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://bryan-lott.github.io/about">About</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://bryan-lott.github.io/atom.xml">RSS</a>
+            
+          
+        </nav>
+        
+        
+        <small>Built with <a href="https://www.getzola.org/">Zola</a>.<br />
+          
+          Copyright 2020 Bryan Lott
+        </small>
+        
+      </footer>
+      
+
+    </main>
+    
+    
+  </body>
+</html>
+

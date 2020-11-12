@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://bryan-lott.github.io/sitemap.xml
