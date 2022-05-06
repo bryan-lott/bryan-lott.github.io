@@ -1,149 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
   
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  
+  
 
-    <title>How-to: Read from STDIN or a File in Clojure &middot; (import this)</title>
-    <meta name="description" content="From ideas to tech and the life in-between" />
-    <link rel="shortcut icon"  href="https://bryan-lott.github.io/favicon.ico" />
-    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://bryan-lott.github.io/atom.xml">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
+  
 
-    <style>html,body{background:#ececec;color:#031026;font:16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"}a,a:visited{color:#7f0c0c;text-decoration:none}a:hover{text-decoration:underline}main{margin:auto;max-width:50rem;padding:0.8rem}pre{background:white;overflow:scroll;padding:1rem}td{border:1px solid #16e599;padding:10px}img{height:auto;max-width:100%}.homepage-list{list-style:none;padding:1rem 0}.homepage-list li{align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px}@media (max-width: 38rem){.homepage-list li a{width:100%}}
-</style>
+  
 
-    <meta property="og:site_name" content="(import this)">
-      <meta name="author" content="Bryan Lott" />
-      <meta property="og:title" content="How-to: Read from STDIN or a File in Clojure">
-      <meta property="og:description" content="">
-      <meta property="og:url" content="https://bryan-lott.github.io/how-to-read-from-stdin-or-a-file-in-clojure/">
-      <meta property="og:image" content="">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" integrity="sha384-IJLmUY0f1ePPX6uSCJ9Bxik64/meJmjSYD7dHaJqTXXEBE4y+Oe9P2KBZa/z7p0Q" crossorigin="anonymous">
+  <link href="https://bryan-lott.github.io/deep-thought.css" rel="stylesheet" />
+  
+  
 
-      <meta property="og:type" content="article" />
-        <meta property="article:published_time" content="2016-06-20T00:00:00+00:00" />
-
-      <link rel="prev" href="https://bryan-lott.github.io/reading-update/" />
-      <link rel="next" href="https://bryan-lott.github.io/concurrency-part-2/" />
+  <title>
     
+(import this) | How-to: Read from STDIN or a File in Clojure
 
-  </head>
-  
-
-  <body>
-    <main id="main" role="main">
-
-      
-      <header role="banner">
-        <h3 style="margin-top:0;">
-          <a href="https://bryan-lott.github.io/" title="Home">(import this)</a>
-          <br /><small>From ideas to tech and the life in-between</small>
-        </h3>
-      </header>
-      <hr />
-      
-
-      
-<article>
-  <h1>How-to: Read from STDIN or a File in Clojure</h1>
+  </title>
 
   
-    <p style="font-size:90%;">Posted on <time datetime="2016-06-20T00:00:00+00:00">June 20, 2016</time></p>
+  
   
 
-  <p>or... how to avoid wasting 2 days!</p>
+  
+</head>
+
+<body class="has-background-white">
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;bryan-lott.github.io&#x2F;">(import this)</a>
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-centered">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;bryan-lott.github.io&#x2F;">
+            Home
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;bryan-lott.github.io&#x2F;&#x2F;now">
+            Now
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;bryan-lott.github.io&#x2F;&#x2F;uses">
+            Uses
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;bryan-lott.github.io&#x2F;&#x2F;about">
+            About
+          </a>
+          
+          
+          
+          <a class="navbar-item" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>
+          <a class="navbar-item" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            How-to: Read from STDIN or a File in Clojure
+          </h1>
+          <p class="subtitle"></p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>Bryan Lott published on</span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span><time datetime="2016-06-20">June 20, 2016</time></span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>3 min,</span>
+  <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>447 words</span>
+</span>
+
+            </div>
+            <div class="column">
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <p>or... how to avoid wasting 2 days!</p>
 <p>First, the completed code:</p>
-<pre style="background-color:#002b36;">
-<code><span style="color:#657b83;">(</span><span style="color:#b58900;">ns</span><span style="color:#839496;"> char-check.core
-  </span><span style="color:#657b83;">(</span><span style="color:#cb4b16;">:require
-    </span><span style="color:#268bd2;">[</span><span style="color:#839496;">clojure.tools.cli </span><span style="color:#cb4b16;">:refer </span><span style="color:#268bd2;">[</span><span style="color:#839496;">parse-opts</span><span style="color:#268bd2;">]]</span><span style="color:#657b83;">)
-  (</span><span style="color:#cb4b16;">:gen-class</span><span style="color:#657b83;">))
+<pre data-lang="clojure" class="language-clojure "><code class="language-clojure" data-lang="clojure">(ns char-check.core
+  (:require
+    [clojure.tools.cli :refer [parse-opts]])
+  (:gen-class))
 
-(</span><span style="color:#93a1a1;">defn </span><span style="color:#b58900;">exit
-  </span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">Exits the program with a status code and message.</span><span style="color:#839496;">&quot;
-  </span><span style="color:#268bd2;">[</span><span style="color:#839496;">status msg</span><span style="color:#268bd2;">]
-  </span><span style="color:#657b83;">(</span><span style="color:#b58900;">println</span><span style="color:#839496;"> msg</span><span style="color:#657b83;">)
-  (</span><span style="color:#b58900;">System/exit</span><span style="color:#839496;"> status</span><span style="color:#657b83;">))
+(defn exit
+  &quot;Exits the program with a status code and message.&quot;
+  [status msg]
+  (println msg)
+  (System&#x2F;exit status))
 
-(</span><span style="color:#93a1a1;">defn </span><span style="color:#b58900;">main
-  </span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">Main function.  Calling without a file object results in reading from STDIN (*in*).
-  Otherwise, opens the in-file as a stream.</span><span style="color:#839496;">&quot;
-  </span><span style="color:#657b83;">(</span><span style="color:#268bd2;">[]
-   </span><span style="color:#657b83;">(</span><span style="color:#b58900;">main </span><span style="color:#657b83;">(</span><span style="color:#b58900;">java.io.BufferedReader.</span><span style="color:#839496;"> *in*</span><span style="color:#657b83;">)))
-  (</span><span style="color:#268bd2;">[</span><span style="color:#839496;">in-file</span><span style="color:#268bd2;">]
-   </span><span style="color:#657b83;">(</span><span style="color:#b58900;">with-open </span><span style="color:#268bd2;">[</span><span style="color:#839496;">r in-file</span><span style="color:#268bd2;">]
-     </span><span style="color:#657b83;">(</span><span style="color:#b58900;">line-seq</span><span style="color:#839496;"> r</span><span style="color:#657b83;">))))
+(defn main
+  &quot;Main function.  Calling without a file object results in reading from STDIN (*in*).
+  Otherwise, opens the in-file as a stream.&quot;
+  ([]
+   (main (java.io.BufferedReader. *in*)))
+  ([in-file]
+   (with-open [r in-file]
+     (line-seq r))))
 
-(</span><span style="color:#93a1a1;">def </span><span style="color:#b58900;">cli-options
-  </span><span style="color:#268bd2;">[[</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">-h</span><span style="color:#839496;">&quot; &quot;</span><span style="color:#2aa198;">--help</span><span style="color:#839496;">&quot;</span><span style="color:#268bd2;">]]</span><span style="color:#657b83;">)
+(def cli-options
+  [[&quot;-h&quot; &quot;--help&quot;]])
 
-(</span><span style="color:#93a1a1;">defn </span><span style="color:#b58900;">-main
-  </span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">Entrypoint, parses arguments, exits with any errors, provides args to main.</span><span style="color:#839496;">&quot;
-  </span><span style="color:#268bd2;">[</span><span style="color:#839496;">&amp; args</span><span style="color:#268bd2;">]
-  </span><span style="color:#657b83;">(</span><span style="color:#b58900;">let </span><span style="color:#268bd2;">[</span><span style="color:#657b83;">{</span><span style="color:#cb4b16;">:keys </span><span style="color:#268bd2;">[</span><span style="color:#839496;">options arguments errors summary</span><span style="color:#268bd2;">]</span><span style="color:#657b83;">} (</span><span style="color:#b58900;">parse-opts</span><span style="color:#839496;"> args cli-options</span><span style="color:#657b83;">)</span><span style="color:#268bd2;">]
-    </span><span style="color:#657b83;">(</span><span style="color:#b58900;">cond
-      </span><span style="color:#657b83;">(</span><span style="color:#cb4b16;">:help</span><span style="color:#839496;"> options</span><span style="color:#657b83;">) (</span><span style="color:#b58900;">exit </span><span style="color:#6c71c4;">0</span><span style="color:#839496;"> summary</span><span style="color:#657b83;">)
-</span><span style="color:#839496;">      errors </span><span style="color:#657b83;">(</span><span style="color:#b58900;">exit </span><span style="color:#6c71c4;">1 </span><span style="color:#657b83;">(</span><span style="color:#b58900;">join </span><span style="color:#839496;">&quot;</span><span style="color:#dc322f;">\n</span><span style="color:#839496;">&quot; errors</span><span style="color:#657b83;">))
-      (</span><span style="color:#b58900;">empty?</span><span style="color:#839496;"> arguments</span><span style="color:#657b83;">) (</span><span style="color:#b58900;">main</span><span style="color:#657b83;">)
-      </span><span style="color:#cb4b16;">:else </span><span style="color:#657b83;">(</span><span style="color:#b58900;">main </span><span style="color:#657b83;">(</span><span style="color:#b58900;">clojure.java.io/reader </span><span style="color:#657b83;">(</span><span style="color:#b58900;">first</span><span style="color:#839496;"> arguments</span><span style="color:#657b83;">))))))
-</span></code></pre>
+(defn -main
+  &quot;Entrypoint, parses arguments, exits with any errors, provides args to main.&quot;
+  [&amp; args]
+  (let [{:keys [options arguments errors summary]} (parse-opts args cli-options)]
+    (cond
+      (:help options) (exit 0 summary)
+      errors (exit 1 (join &quot;\n&quot; errors))
+      (empty? arguments) (main)
+      :else (main (clojure.java.io&#x2F;reader (first arguments))))))
+</code></pre>
 <p>So, here's what we're doing... first, take a look at:</p>
-<pre style="background-color:#002b36;">
-<code><span style="color:#839496;">(cond
+<pre><code>(cond
   (:help options) (exit 0 summary)  ;; if we get the help option, spit out some help!
   errors (exit 1 (join &quot;\n&quot; errors))  ;; if we get errors, print them out and exit
-  (empty? arguments) (main)  ;; if we don&#39;t get a file argument, call main with no args and let it take care of things
-  :else (main (clojure.java.io/reader (first arguments))) ;; if we got an argument, treat the first argument (yeah, it&#39;s naive...) as a filename and wrap it in a file reader
+  (empty? arguments) (main)  ;; if we don&#x27;t get a file argument, call main with no args and let it take care of things
+  :else (main (clojure.java.io&#x2F;reader (first arguments))) ;; if we got an argument, treat the first argument (yeah, it&#x27;s naive...) as a filename and wrap it in a file reader
  )))
-</span></code></pre>
+</code></pre>
 <p>So, this is pretty basic flow control for the command line arguments and the presence or lack of a filename to run through.  Arguments come in through the <code>&amp; args</code> and get parsed via <code>parse-opts</code>.  This results in any filenames ending up in <code>arguments</code> and if we don't get any, pass that along to main.  If, however, we get at least one, grab the first, wrap it in a file reader, and pass it along to main (arity 1).</p>
 <p>The next bit is in the main function:</p>
-<pre style="background-color:#002b36;">
-<code><span style="color:#839496;">([]  ;; arity 0... if we don&#39;t get any arguments, call main again, but this time pass it a BufferedReader wrapped *in*
+<pre><code>([]  ;; arity 0... if we don&#x27;t get any arguments, call main again, but this time pass it a BufferedReader wrapped *in*
  (main (java.io.BufferedReader. *in*)))
 ([in-file]  ;; this will either get called with the arity 0 function and be passed *in* OR it will have an actual filename that can then be opened up and operated on.
  (with-open [r in-file]
    (line-seq r))))
-</span></code></pre>
+</code></pre>
 <p>So here we're either getting 0 or 1 argument.  If we get 1 argument, great, treat it as a file and run with it.  Otherwise, we got 0 arguments which means we need to wrap <code>*in*</code> in a buffered file and then pass it along to the arity 1 &quot;version&quot; of main.</p>
 <p>The final bit is <code>(line-seq r)</code>.  That's a lazy function to return lines from the file/stdin.  Use that like you would any other lazy sequence.</p>
 
-</article>
-
-
+          </div>
+        </article>
+      </div>
       
-      <footer role="contentinfo">
-        <hr />
-        
-        <nav style="margin-bottom:1rem;" role="navigation">
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Search</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Search this website." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <nav class="level">
           
-            <a href="https://bryan-lott.github.io/">Home</a>
+          <div class="level-item has-text-centered">
+            <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;bryan-lott.github.io&#x2F;concurrency-part-2&#x2F;">
+              <span class="icon mr-2">
+                <i class="fas fa-arrow-circle-left"></i>
+              </span>
+              Concurrency Part 2
+            </a>
+          </div>
+           
+          <div class="level-item has-text-centered">
+            <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;bryan-lott.github.io&#x2F;reading-update&#x2F;">
+              Reading Update<span class="icon ml-2">
+                <i class="fas fa-arrow-circle-right"></i>
+              </span>
+            </a>
+          </div>
             
-              <span>&middot;</span>
-            
-          
-            <a href="https://bryan-lott.github.io//about">About</a>
-            
-              <span>&middot;</span>
-            
-          
-            <a href="https://bryan-lott.github.io//atom.xml">RSS</a>
-            
-          
         </nav>
-        
-        
-        <small>Built with <a href="https://www.getzola.org/">Zola</a>.<br />
-          
-          Copyright 2020 Bryan Lott
-        </small>
-        
-      </footer>
-      
+      </div>
+    </div>
+  </div>
+</section>
 
-    </main>
-    
-    
-  </body>
+
+
+  
+
+
+
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js" integrity="sha384-QSfwGT8/EU536DKdtyP2D6SLlh8zBaZ0cVkwfrwhqzIU9VCfJT00CLVP5t+HAiYg" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.js" integrity="sha384-DwpKI+deZB267+hPKwiOIc5Y2GKsVL0mR6hgz7GgIu7AgAMYqJwcJKY1YBNfhWcY" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.5/dist/mermaid.min.js" integrity="sha384-0yWn54pSGtfKCU+skfA69l25VsCw+MZt4LQov3xNRoS7YkAMrFokGgSBnAWSK4pv" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js" integrity="sha384-xC3h1+IHXK8seA+8KfT79Z4e0GPsznjXBoMa5nd8ooWKplPyXx92NOmljWxLC/cs" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://bryan-lott.github.io/elasticlunr.min.js"></script>
+  <script src="https://bryan-lott.github.io/search_index.en.js"></script><script src="https://bryan-lott.github.io/js/site.js"></script>
+
+  
+
+
+
+
+
+  
+  
+</body>
+
 </html>
-

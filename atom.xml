@@ -5,8 +5,112 @@
 	<link href="https://bryan-lott.github.io/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://bryan-lott.github.io/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2020-11-10T00:00:00+00:00</updated>
+	<updated>2022-05-06T00:00:00+00:00</updated>
 	<id>https://bryan-lott.github.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>About this Blog</title>
+		<published>2022-05-06T00:00:00+00:00</published>
+		<updated>2022-05-06T00:00:00+00:00</updated>
+		<link href="https://bryan-lott.github.io/about/" type="text/html"/>
+		<id>https://bryan-lott.github.io/about/</id>
+		<content type="html">&lt;h3 id=&quot;why-import-this&quot;&gt;Why (import this)?&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;code&gt;import this&lt;&#x2F;code&gt; is an easter egg in Python and I love the playfulness. At the same time, I love the simplicity of Clojure and feel like it has embodied, even moreso than Python, the principals in the Zen of Python. Also, it’s a lisp, so you know, parentheses everywhere!  They&#x27;re like ((hugs)) for your code.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;potential-blog-topics&quot;&gt;Potential Blog Topics&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Clojure&lt;&#x2F;li&gt;
+&lt;li&gt;Python&lt;&#x2F;li&gt;
+&lt;li&gt;Functional Programming&lt;&#x2F;li&gt;
+&lt;li&gt;AWS Technologies&lt;&#x2F;li&gt;
+&lt;li&gt;Non-technology specific programming topics (otherwise known as rants)&lt;&#x2F;li&gt;
+&lt;li&gt;RPG’s&lt;&#x2F;li&gt;
+&lt;li&gt;Tabletop Gaming&lt;&#x2F;li&gt;
+&lt;li&gt;4x4 Search and Rescue&lt;&#x2F;li&gt;
+&lt;li&gt;Some personal stuff every once in a while&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;about-me&quot;&gt;About Me&lt;&#x2F;h3&gt;
+&lt;p&gt;I’m a professional software developer that’s been coding since I ruined gorillas.bas when I was about 8. Currently, I work primarily in Clojure, Python, SQL, and with AWS technologies focusing on backend&#x2F;data processing.  How the internet works is still pretty magical to me!&lt;&#x2F;p&gt;
+&lt;p&gt;Known Biases:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prefers Functional over Object Oriented&lt;&#x2F;li&gt;
+&lt;li&gt;Prefers Clojure and Python over Java&lt;&#x2F;li&gt;
+&lt;li&gt;Prefers Tabletop Gaming (RPG and Board Games) over Video Games&lt;&#x2F;li&gt;
+&lt;li&gt;Socially Liberal&lt;&#x2F;li&gt;
+&lt;li&gt;Fiscally Realist&lt;&#x2F;li&gt;
+&lt;li&gt;Black Lives Matter&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>What I&#x27;m Currently Doing</title>
+		<published>2022-05-06T00:00:00+00:00</published>
+		<updated>2022-05-06T00:00:00+00:00</updated>
+		<link href="https://bryan-lott.github.io/now/" type="text/html"/>
+		<id>https://bryan-lott.github.io/now/</id>
+		<content type="html">&lt;h1 id=&quot;what-i-m-currently-doing&quot;&gt;What I&#x27;m currently Doing&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;work&quot;&gt;Work&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fantastic company (&lt;a href=&quot;https:&#x2F;&#x2F;rechargepayments.com&#x2F;&quot;&gt;Recharge&lt;&#x2F;a&gt;) that really cares about the people that work for them and their clients&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;learning&quot;&gt;Learning&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Offroad vehicle recovery, maintenance, driving in preparation for passing the International 4WD Trainers Association (&lt;a href=&quot;https:&#x2F;&#x2F;i4wdta.org&quot;&gt;I4WDTA&lt;&#x2F;a&gt;) Test for Certification (TFC)&lt;&#x2F;li&gt;
+&lt;li&gt;Mindfulness Meditation&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;hobbies&quot;&gt;Hobbies&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Volunteering with Colorado 4x4 Rescue and Recovery (&lt;a href=&quot;https:&#x2F;&#x2F;co4x4rnr.org&quot;&gt;CO4x4RnR&lt;&#x2F;a&gt;)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Tools I Use</title>
+		<published>2022-05-06T00:00:00+00:00</published>
+		<updated>2022-05-06T00:00:00+00:00</updated>
+		<link href="https://bryan-lott.github.io/uses/" type="text/html"/>
+		<id>https://bryan-lott.github.io/uses/</id>
+		<content type="html">&lt;h1 id=&quot;uses&quot;&gt;Uses&lt;&#x2F;h1&gt;
+&lt;p&gt;A succinct overview of tools I use on a regular basis, mostly focused on my day job of software developement but possibly other random stuff thrown in.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Emacs (Doom) https:&#x2F;&#x2F;github.com&#x2F;doomemacs&#x2F;doomemacs&lt;&#x2F;li&gt;
+&lt;li&gt;Firefox&lt;&#x2F;li&gt;
+&lt;li&gt;DevUtils&lt;&#x2F;li&gt;
+&lt;li&gt;VSCode&lt;&#x2F;li&gt;
+&lt;li&gt;Slack&lt;&#x2F;li&gt;
+&lt;li&gt;iTerm2&lt;&#x2F;li&gt;
+&lt;li&gt;zsh&lt;&#x2F;li&gt;
+&lt;li&gt;Starship&lt;&#x2F;li&gt;
+&lt;li&gt;GitKraken&lt;&#x2F;li&gt;
+&lt;li&gt;Amethyst&lt;&#x2F;li&gt;
+&lt;li&gt;Finda&lt;&#x2F;li&gt;
+&lt;li&gt;Syncthing: Dropbox kinda-sorta replacement&lt;&#x2F;li&gt;
+&lt;li&gt;Blurred&lt;&#x2F;li&gt;
+&lt;li&gt;Quicksilver&lt;&#x2F;li&gt;
+&lt;li&gt;Hexo&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;services&quot;&gt;Services&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ProtonMail: Personal email&lt;&#x2F;li&gt;
+&lt;li&gt;YouNeedABudget: Finance tracking&lt;&#x2F;li&gt;
+&lt;li&gt;Deezer: Music&lt;&#x2F;li&gt;
+&lt;li&gt;Github: Off-computer code backup&lt;&#x2F;li&gt;
+&lt;li&gt;Gitlab: Off-computer code backup, blog&lt;&#x2F;li&gt;
+&lt;li&gt;Kagi: Search engine&lt;&#x2F;li&gt;
+&lt;li&gt;Dropbox&lt;&#x2F;li&gt;
+&lt;li&gt;1Password&lt;&#x2F;li&gt;
+&lt;li&gt;Feedly&lt;&#x2F;li&gt;
+&lt;li&gt;xBrowserSync&lt;&#x2F;li&gt;
+&lt;li&gt;A Fine Start: pseudo-bookmarks on your new tab screen&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;hardware&quot;&gt;Hardware&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;MacBook Pro (i.e., whatever work provides me)&lt;&#x2F;li&gt;
+&lt;li&gt;Ultimate Hacking Keyboard https:&#x2F;&#x2F;ultimatehackingkeyboard.com&#x2F;&lt;&#x2F;li&gt;
+&lt;li&gt;Remarkable2&lt;&#x2F;li&gt;
+&lt;li&gt;Pixel 6 Pro&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Write It Down Yo</title>
 		<published>2020-11-10T00:00:00+00:00</published>
@@ -36,27 +140,24 @@
 &lt;h2 id=&quot;one-record-per-row&quot;&gt;One record per row&lt;&#x2F;h2&gt;
 &lt;p&gt;Seriously.  There&#x27;s a reason why I&#x27;m putting this first.  I don&#x27;t care if the row has 2 columns or 500, but if you&#x27;re spreading records over multiple rows, everyone involved is going to have a bad time.&lt;&#x2F;p&gt;
 &lt;p&gt;Bad:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image_position
-1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;dining room table&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;1
-1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;3
-1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;2
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;csv&quot; class=&quot;language-csv &quot;&gt;&lt;code class=&quot;language-csv&quot; data-lang=&quot;csv&quot;&gt;id,title,image,image_position
+1,dining room table,image1,1
+1,,image2,3
+1,,image3,2
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Better:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;images
-1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;dining room table&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image2
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;csv&quot; class=&quot;language-csv &quot;&gt;&lt;code class=&quot;language-csv&quot; data-lang=&quot;csv&quot;&gt;id,title,images
+1,dining room table,image1,image3,image2
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Also Better:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;images
-1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;dining room table&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;&amp;quot;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;csv&quot; class=&quot;language-csv &quot;&gt;&lt;code class=&quot;language-csv&quot; data-lang=&quot;csv&quot;&gt;id,title,images
+1,dining room table,&amp;quot;image1,image3,image2&amp;quot;
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Also also better:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image5
-1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;dining room table&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,,
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;one-file&quot;&gt;One file&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;csv&quot; class=&quot;language-csv &quot;&gt;&lt;code class=&quot;language-csv&quot; data-lang=&quot;csv&quot;&gt;id,title,image1,image2,image3,image4,image5
+1,dining room table,image1,image3,image2,,
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;one-file&quot;&gt;One file&lt;&#x2F;h2&gt;
 &lt;p&gt;Trust me, it&#x27;s &lt;em&gt;much&lt;&#x2F;em&gt; easier to parse records when they&#x27;re all in the same file and not spread out over, say, a &amp;quot;data&amp;quot; file, &amp;quot;price&amp;quot; file, and &amp;quot;inventory level&amp;quot; file.  All the data in one place.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;have-a-header&quot;&gt;Have a header&lt;&#x2F;h2&gt;
 &lt;p&gt;If there&#x27;s no header, we don&#x27;t know what your data is.&lt;&#x2F;p&gt;
@@ -65,48 +166,42 @@
 &lt;h2 id=&quot;each-row-should-have-the-same-number-of-fields-as-the-header&quot;&gt;Each row should have the same number of fields as the header&lt;&#x2F;h2&gt;
 &lt;p&gt;Hopefully self-explanatory&lt;&#x2F;p&gt;
 &lt;p&gt;Bad:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image
-1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;stuffed bear
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;csv&quot; class=&quot;language-csv &quot;&gt;&lt;code class=&quot;language-csv&quot; data-lang=&quot;csv&quot;&gt;id,title,image
+1,stuffed bear
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Also Bad:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image
-1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;stuffed bear&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image2
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;csv&quot; class=&quot;language-csv &quot;&gt;&lt;code class=&quot;language-csv&quot; data-lang=&quot;csv&quot;&gt;id,title,image
+1,stuffed bear,image1,image2
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Best:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image
-1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;stuffed bear&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;table&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;image1
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;delimiters&quot;&gt;Delimiters&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;csv&quot; class=&quot;language-csv &quot;&gt;&lt;code class=&quot;language-csv&quot; data-lang=&quot;csv&quot;&gt;id,title,image
+1,stuffed bear,
+2,table,image1
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;delimiters&quot;&gt;Delimiters&lt;&#x2F;h2&gt;
 &lt;p&gt;Long story short, I don&#x27;t care which one you use, but use one that&#x27;s not used in your data.  For instance, if your data has commas, maybe don&#x27;t use them as a field separator?&lt;&#x2F;p&gt;
 &lt;p&gt;Bad:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;testing&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;what are we having&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;adam&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;for lunch?
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;csv&quot; class=&quot;language-csv &quot;&gt;&lt;code class=&quot;language-csv&quot; data-lang=&quot;csv&quot;&gt;testing,1,2,3,what are we having, adam, for lunch?
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Best:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;testing&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;3|what are we having&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;adam&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;for lunch?
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;quoting&quot;&gt;Quoting&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;csv&quot; class=&quot;language-csv &quot;&gt;&lt;code class=&quot;language-csv&quot; data-lang=&quot;csv&quot;&gt;testing, 1, 2, 3|what are we having, adam, for lunch?
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;quoting&quot;&gt;Quoting&lt;&#x2F;h2&gt;
 &lt;p&gt;If you &lt;em&gt;must&lt;&#x2F;em&gt; use a delimiter that your data also contains, quote the fields and be consistent.  Yes, I realize most csv parsers can handle some fields being quoted and others not, but it does make things a headache if something goes wrong.&lt;&#x2F;p&gt;
 &lt;p&gt;For the love of everything that is holy, do NOT use smart quotes as delimiters!!!  Especially if you use smart quotes in your data!&lt;&#x2F;p&gt;
 &lt;p&gt;Bad:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;testing&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;what are we having&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;adam&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;for lunch?
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;csv&quot; class=&quot;language-csv &quot;&gt;&lt;code class=&quot;language-csv&quot; data-lang=&quot;csv&quot;&gt;testing,1,2,3,what are we having, adam, for lunch?
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;So, so, so bad:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;“testing&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;2”&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;“what are we having&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;adam&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;for lunch?”
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;csv&quot; class=&quot;language-csv &quot;&gt;&lt;code class=&quot;language-csv&quot; data-lang=&quot;csv&quot;&gt;“testing,1,2”,3,“what are we having, adam, for lunch?”
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Better:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;testing&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;what are we having&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;adam&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;for lunch?&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;&amp;quot;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;csv&quot; class=&quot;language-csv &quot;&gt;&lt;code class=&quot;language-csv&quot; data-lang=&quot;csv&quot;&gt;&amp;quot;testing,1,2&amp;quot;,3,&amp;quot;what are we having, adam, for lunch?&amp;quot;
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Best:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;testing&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;what are we having&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;adam&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;for lunch?&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;&amp;quot;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;line-endings&quot;&gt;Line Endings&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;csv&quot; class=&quot;language-csv &quot;&gt;&lt;code class=&quot;language-csv&quot; data-lang=&quot;csv&quot;&gt;&amp;quot;testing,1,2&amp;quot;,&amp;quot;3&amp;quot;,&amp;quot;what are we having, adam, for lunch?&amp;quot;
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;line-endings&quot;&gt;Line Endings&lt;&#x2F;h2&gt;
 &lt;p&gt;This is what determines where a new line&#x2F;record starts.&lt;&#x2F;p&gt;
 &lt;p&gt;Please please please use just &lt;code&gt;\n&lt;&#x2F;code&gt; for a line ending, &lt;code&gt;\r\n&lt;&#x2F;code&gt; works too.  If you must, use just &lt;code&gt;\r&lt;&#x2F;code&gt;.  Finally, don&#x27;t mix them, please!&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;encoding&quot;&gt;Encoding&lt;&#x2F;h2&gt;
@@ -160,14 +255,14 @@
 &lt;h3 id=&quot;extract-transform-load-expected-data&quot;&gt;Extract&#x2F;Transform&#x2F;Load Expected Data&lt;&#x2F;h3&gt;
 &lt;p&gt;This is the expected output of each of these three stages.  Include only the ones you feel are necessary.  In my case, the transformer is the most critical step and as such, we crafted tracers around identifying transformer problems.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;example-tracer&quot;&gt;Example Tracer&lt;&#x2F;h3&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;tracer_happy_path&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;:
-  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;input_record&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;:  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;id,name,cost&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\n&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;1234,test name with single&amp;#39; quotes,1234.5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;
-  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;transform_output_record&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;:
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;1234
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;title_case_name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;Test Name With Single&amp;#39; Quotes
-    float_price&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;1234.50
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;awesomesauce-where-can-i-get-this-code&quot;&gt;Awesomesauce, where can I get this code?&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;yaml&quot; class=&quot;language-yaml &quot;&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;tracer_happy_path:
+  input_record:  &amp;quot;id,name,cost\n1234,test name with single&amp;#x27; quotes,1234.5&amp;quot;
+  transform_output_record:
+    id: 1234
+    title_case_name: Test Name With Single&amp;#x27; Quotes
+    float_price: 1234.50
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;awesomesauce-where-can-i-get-this-code&quot;&gt;Awesomesauce, where can I get this code?&lt;&#x2F;h2&gt;
 &lt;p&gt;The idea isn&#x27;t well-formed enough to turn into a library yet.  It requires the ETL pipeline know too much about the tracer implementation for the two concepts to decouple them at the moment.  I was, however, able to implement the idea in less than 200 lines of Python code for my particular case.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;lessons-learned-in-implementation&quot;&gt;Lessons Learned in Implementation&lt;&#x2F;h2&gt;
 &lt;ul&gt;
@@ -558,7 +653,7 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 &lt;li&gt;Afternoon focus&#x2F;flow, good when researching &lt;a href=&quot;https:&#x2F;&#x2F;open.spotify.com&#x2F;user&#x2F;chilledcow&#x2F;playlist&#x2F;6eHO8aX6lHu3e6bem8r2rq?si=pvf26IorR-Ce4JYQLFd7HQ&quot;&gt;lofi hip hop music&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;Chilling: &lt;a href=&quot;https:&#x2F;&#x2F;open.spotify.com&#x2F;user&#x2F;kngsolomon1&#x2F;playlist&#x2F;4bWCqfKsqKTiVhYP7Y7NRr?si=q6XbVElbQcSs2KBLhY4Fdg&quot;&gt;3am Airport&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;Linkin Park, my favorites: &lt;a href=&quot;https:&#x2F;&#x2F;open.spotify.com&#x2F;user&#x2F;mystickphoenix&#x2F;playlist&#x2F;3W1z8NkHdcScavU0SPEJqG?si=LHvhLiZWTI-6V8tQcTdqzg&quot;&gt;Linkin Park, The Good Songs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Triphop, for when I&#x27;m feeling the 90&#x27;s&#x2F;00&#x27;s vibe: &lt;a href=&quot;https:&#x2F;&#x2F;open.spotify.com&#x2F;user&#x2F;edzies&#x2F;playlist&#x2F;5H36lWa614JPf9sIkr04eR?si=65Alb14aSjW4PDPYCnMnWw&quot;&gt;TRIPHOP&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Triphop, for when I&#x27;m feeling the 90&#x27;s&#x2F;00&#x27;s vibe (dead link)&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;individual-soundtracks&quot;&gt;Individual Soundtracks&lt;&#x2F;h2&gt;
 &lt;ul&gt;
@@ -609,27 +704,23 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 &lt;p&gt;I&#x27;ve been a Python programmer for pretty much that entire time with occasional dabbles in other languages (Clojure, Java, Scala, Node, etc).  In my current (new) position, I&#x27;m working in a Scala codebase.  A language that I&#x27;ve never had to put the effort forward to learn.  Three days in and I totally had a lightbulb moment:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;em&gt;Scala is Typed Python on the JVM with Braces&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Take for instance the Person class in Python:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#859900;&quot;&gt;class &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;Person&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;age&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;):
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;description&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#cb4b16;&quot;&gt;{}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt; is &lt;&#x2F;span&gt;&lt;span style=&quot;color:#cb4b16;&quot;&gt;{}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt; years old&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;format&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;name, age&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;class Person(name, age):
+    def description:
+      return &amp;quot;{} is {} years old&amp;quot;.format(name, age)
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;and the same thing in Scala:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;class&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt; Person&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;val name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;String&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;val age&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;Int&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;) {
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;description &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; name + &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt; is &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot; + age + &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt; years old&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;}
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;scala&quot; class=&quot;language-scala &quot;&gt;&lt;code class=&quot;language-scala&quot; data-lang=&quot;scala&quot;&gt;class Person(val name: String, val age: Int) {
+    def description = name + &amp;quot; is &amp;quot; + age + &amp;quot; years old&amp;quot;
+}
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;I mean, yeah, there&#x27;s a ton of other stuff in Scala (it&#x27;s a batteries-included language like Python) but the more I look at it the more I see how similar they are instead of how different they are.  Scala has an advantage that functional programming concepts are much more accepted in terms of style than they are in Python.&lt;&#x2F;p&gt;
 &lt;p&gt;Scala also has things like for-comprehensions (list comprehensions).&lt;&#x2F;p&gt;
 &lt;p&gt;Python:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#839496;&quot;&gt;l &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;i &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;i &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;in range&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;100&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;i &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;% &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;2 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;]
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;l = [i for i in range(100) if i % 2 == 0]
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Scala:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;val l &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;i &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;&amp;lt;- &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; to &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;100 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; i % &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;2 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;yield&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; i
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;scala&quot; class=&quot;language-scala &quot;&gt;&lt;code class=&quot;language-scala&quot; data-lang=&quot;scala&quot;&gt;val l = for (i &amp;lt;- 0 to 100 if i % 2 == 0) yield i
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;So far, it&#x27;s not as difficult a mountain to climb as I expected and that&#x27;s a very good thing!&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -990,41 +1081,40 @@ spent over $10,000.  I can also say that the 20+ recoveries I&#x27;ve been on h
 		<link href="https://bryan-lott.github.io/refactoring-python-if-statements/" type="text/html"/>
 		<id>https://bryan-lott.github.io/refactoring-python-if-statements/</id>
 		<content type="html">&lt;p&gt;Note: I&#x27;m not recommending the following refactoring to everyone, nor am I saying it was even a good idea.  It did, however, work out quite well for myself and my team.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_1 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;first&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;_replace&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;output_data_1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_3, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;output_data_2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_2 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;and &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.state_management_3 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;merge_namedtuple&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;process_data_1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;())
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;elif &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_3 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;state_management_2.state1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;merge_namedtuple&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;process_data_2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;())
-        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;else&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;merge_namedtuple&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;process_data_3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;())
-            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;orig_data_2 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;state_management_1.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;STATE1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;, state_management_1.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;STATE2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;]:
-                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;_replace&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;output_data_1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;orig_data_1, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;output_data_2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;orig_data_2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;elif &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_3 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;state_management_2.state2, state_management_2.state3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;]:
-        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;merge_namedtuple&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;process_data_2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;())
-        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;else&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;merge_namedtuple&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;process_data_3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;())
-            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;_replace&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;output_data_1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;state_management_2.state1, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;output_data_2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;state_management_1.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;STATE1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;elif &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_1 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;second&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_2 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;and &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.state_management_3 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;merge_namedtuple&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;process_data_1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;())
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;elif &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_3 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;state_management_2.state2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_4 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;state_management_1.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;STATE3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;, state_management_1.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;STATE4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;, state_management_1.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;STATE5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;]:
-            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;merge_namedtuple&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;process_data_4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;())
-        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;elif &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_4 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;state_management_1.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;STATE7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;, state_management_1.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;STATE8&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;, state_management_1.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;STATE6&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;, state_management_1.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;STATE9&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;]:
-            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;merge_namedtuple&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;process_data_2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;())
-            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_4 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data.state_2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;_replace&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;state_1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;None&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;state_2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;None&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;elif &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_3 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;state_management_2.state1 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;and not &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_4 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;and &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;merge_namedtuple&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;process_data_4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;())
-        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;_replace&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;state_1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data.sub_data.state_1, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;state_2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data.sub_data.state_2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;elif &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_3 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;state_management_2.state1 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;and &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_4 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;and &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred6&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;merge_namedtuple&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;process_data_2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;())
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;if pred_1 == &amp;#x27;first&amp;#x27;:
+    output_data = output_data._replace(output_data_1=pred_3, output_data_2=pred_4)
+    if pred_2 and self.state_management_3 in pred_2:
+        output_data = merge_namedtuple(output_data, self.process_data_1())
+    elif pred_3 == state_management_2.state1:
+        if pred_4:
+            output_data = merge_namedtuple(output_data, self.process_data_2())
+        else:
+            output_data = merge_namedtuple(output_data, self.process_data_3())
+            if orig_data_2 in [state_management_1.STATE1, state_management_1.STATE2]:
+                output_data = output_data._replace(output_data_1=orig_data_1, output_data_2=orig_data_2)
+    elif pred_3 in [state_management_2.state2, state_management_2.state3]:
+        if pred_4:
+            output_data = merge_namedtuple(output_data, self.process_data_2())
+        else:
+            output_data = merge_namedtuple(output_data, self.process_data_3())
+            output_data = output_data._replace(output_data_1=state_management_2.state1, output_data_2=state_management_1.STATE1)
+elif pred_1 == &amp;#x27;second&amp;#x27;:
+    if pred_2 and self.state_management_3 in pred_2:
+        output_data = merge_namedtuple(output_data, self.process_data_1())
+    elif pred_3 == state_management_2.state2:
+        if pred_4 in [state_management_1.STATE3, state_management_1.STATE4, state_management_1.STATE5]:
+            if pred5:
+                output_data = merge_namedtuple(output_data, self.process_data_4())
+        elif pred_4 in [state_management_1.STATE7, state_management_1.STATE8, state_management_1.STATE6, state_management_1.STATE9]:
+            output_data = merge_namedtuple(output_data, self.process_data_2())
+            if pred_4 == output_data.state_2:
+                output_data = output_data._replace(state_1=None, state_2=None)
+    elif pred_3 == state_management_2.state1 and not pred_4 and pred5:
+        output_data = merge_namedtuple(output_data, self.process_data_4())
+        output_data = output_data._replace(state_1=output_data.sub_data.state_1, state_2=output_data.sub_data.state_2)
+    elif pred_3 == state_management_2.state1 and pred_4 and pred6:
+        output_data = merge_namedtuple(output_data, self.process_data_2())
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Still with me?&lt;&#x2F;p&gt;
 &lt;p&gt;...&lt;&#x2F;p&gt;
 &lt;p&gt;Yeah, pretty sure I lost about 90% of you with that if-block.&lt;&#x2F;p&gt;
@@ -1033,18 +1123,17 @@ spent over $10,000.  I can also say that the 20+ recoveries I&#x27;ve been on h
 &lt;p&gt;Story time!&lt;&#x2F;p&gt;
 &lt;p&gt;I ran into this block of code my 3rd or 4th day on the job and recoiled in horror at it.  At the same time, it fascinated me that this was the encoding of some admittedly convoluted but mission-critical business logic into Python.  The &amp;quot;standard&amp;quot; refactor for an if-elif-elif-elif block in Python is to reach for a dictionary (hashmap for those not familiar with Python), encode the predicates into the keys and the functions to be called in the values.&lt;&#x2F;p&gt;
 &lt;p&gt;Great... but... does that mean we need a nested dictionary here and, more importantly, would that actually make the code more readable?&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;# we start with the first &amp;quot;layer&amp;quot;:
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;first&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;{}
- &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;second&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;{}}
+&lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;# we start with the first &amp;quot;layer&amp;quot;:
+{&amp;#x27;first&amp;#x27;: {}
+ &amp;#x27;second&amp;#x27;: {}}
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;# cool, that was easy... now the second &amp;quot;layer&amp;quot;:
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;first&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_2: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;{}
-           &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;pred_3: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;{}
+# cool, that was easy... now the second &amp;quot;layer&amp;quot;:
+{&amp;#x27;first&amp;#x27;: {pred_2: {}
+           pred_3: {}
            }}
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;#uhhhh... we&amp;#39;re going off the rails here...
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+#uhhhh... we&amp;#x27;re going off the rails here...
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;The problem here comes down to the different layers not being symmetrical.  They all have various conditions and an amalgamation of predicates, states, and even types (some are lists, others are enums, others are booleans).&lt;&#x2F;p&gt;
 &lt;p&gt;So... un-refactorable?&lt;&#x2F;p&gt;
 &lt;p&gt;I&#x27;ll be honest, at this point I was wondering if it really was un-refactorable.&lt;&#x2F;p&gt;
@@ -1075,47 +1164,46 @@ spent over $10,000.  I can also say that the 20+ recoveries I&#x27;ve been on h
 &lt;h2 id=&quot;a-new-hope&quot;&gt;A New Hope&lt;&#x2F;h2&gt;
 &lt;p&gt;Thankfully everything in Python has public visibility.  The upshot of this is it means that I can create my own custom &lt;code&gt;namedtuple&lt;&#x2F;code&gt; that provides all the benefits of immutability as well as the readability of the fields, along with a custom equality function.&lt;&#x2F;p&gt;
 &lt;p&gt;What this all boils down to is this bit of code for creating the Template for the dictionary.  These are meant to be filled with data and used as the keys in the lookup dictionary.  In addition, this &lt;code&gt;namedtuple&lt;&#x2F;code&gt; is used to fill out the data to be compared against the keys in the dictionary.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;# Decision matrix used in determining which data process to kick off
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;Template &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;namedtuple&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;Template&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;pred1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;, &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;pred2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;, &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;pred3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;, &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;pred4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;, &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;pred5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;, &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;pred6&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;, &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;pred7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;])
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;# Default any non-filled out fields to None
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;Template.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;__new__&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;__defaults__ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;None&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;) * &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;len&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;Template._fields&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;# Disable the hash function
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;Template.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;__hash__ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;lambda &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;1
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;# Set our custom equality function
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;Template.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;__eq__ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;rd_eq
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;custom-equality&quot;&gt;Custom Equality&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;# Decision matrix used in determining which data process to kick off
+Template = namedtuple(&amp;quot;Template&amp;quot;, [&amp;#x27;pred1&amp;#x27;, &amp;#x27;pred2&amp;#x27;, &amp;#x27;pred3&amp;#x27;, &amp;#x27;pred4&amp;#x27;, &amp;#x27;pred5&amp;#x27;, &amp;#x27;pred6&amp;#x27;, &amp;#x27;pred7&amp;#x27;])
+# Default any non-filled out fields to None
+Template.__new__.__defaults__ = (None,) * len(Template._fields)
+# Disable the hash function
+Template.__hash__ = lambda self: 1
+# Set our custom equality function
+Template.__eq__ = rd_eq
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;custom-equality&quot;&gt;Custom Equality&lt;&#x2F;h2&gt;
 &lt;p&gt;&amp;quot;Custom Equality&amp;quot; is such a great term, and it really threw the more science-minded folks for a loop!&lt;&#x2F;p&gt;
 &lt;p&gt;To ease their trepidation, I told them that I wasn&#x27;t &lt;em&gt;really&lt;&#x2F;em&gt; setting up a custom equality, I was making sure that it works as a template rather than an exact match.  If data shows up in the template, it&#x27;s important, if it doesn&#x27;t, then it&#x27;s not and can be anything.&lt;&#x2F;p&gt;
 &lt;p&gt;Note that the bottom code is more complex than just a simple template.  If you notice in the original code, there&#x27;s a lot of &lt;code&gt;if x in [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]&lt;&#x2F;code&gt; thrown around along with at least one &lt;code&gt;if [&#x27;a&#x27;, &#x27;b&#x27;] == [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;]&lt;&#x2F;code&gt; style.  That makes comparing against a template messy.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#859900;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;rd_eq&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;template&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;other&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;):
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;&amp;quot;&amp;quot;&amp;quot;Compare fields in template to fields in other if template.field is not None
+&lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;def rd_eq(template, other):
+    &amp;quot;&amp;quot;&amp;quot;Compare fields in template to fields in other if template.field is not None
     template and other are expected to be namedtuples, tuples, or lists.
     Order of the elements in each *does* matter.
     If an element is a list, make sure that all the subelements of that list appear in the template.
     :param template: namedtuple, non-null values are used for comparison
-    :param other: namedtuple, all&#x2F;some&#x2F;none values can be filled out and will be compared with non-null values from template
+    :param other: namedtuple, all&amp;#x2F;some&amp;#x2F;none values can be filled out and will be compared with non-null values from template
     :return: true if the non-null values in template &amp;quot;match&amp;quot; in other, false otherwise
     &amp;quot;&amp;quot;&amp;quot;
     # compare template type to other type
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;template.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;__class__ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;!= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;other.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;__class__ or len&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;template&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;) != &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;len&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;other&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;):
-        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;False
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;template_val, other_val &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;in zip&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;template, other&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;):
-        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;template_val &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;is not &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;None&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;# only &amp;quot;filled out&amp;quot; template values matter
+    if template.__class__ != other.__class__ or len(template) != len(other):
+        return False
+    for template_val, other_val in zip(template, other):
+        if template_val is not None:  # only &amp;quot;filled out&amp;quot; template values matter
             # compare element types
-            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if isinstance&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;template_val, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;list&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;):
-                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if isinstance&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;other_val, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;list&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;):
-                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;# if all the values in the &amp;quot;template&amp;quot; don&amp;#39;t exist in the &amp;quot;other&amp;quot;, return false
-                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if len&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;set&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;template_val&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;intersection&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;set&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;other_val&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;))) != &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;len&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;set&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;template_val&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)):
-                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;False
-                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;else&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;other_val &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;not in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;template_val&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;False
-            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;elif &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;template_val &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;!= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;other_val&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;:
-                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;False
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;True
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+            if isinstance(template_val, list):
+                if isinstance(other_val, list):
+                    # if all the values in the &amp;quot;template&amp;quot; don&amp;#x27;t exist in the &amp;quot;other&amp;quot;, return false
+                    if len(set(template_val).intersection(set(other_val))) != len(set(template_val)):
+                        return False
+                else:
+                    if other_val not in template_val:
+                        return False
+            elif template_val != other_val:
+                return False
+    return True
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;It&#x27;s worth reading through a few times, but in a nutshell:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;If the value of a field in the template is filled in, try to compare it&lt;&#x2F;li&gt;
@@ -1125,40 +1213,38 @@ spent over $10,000.  I can also say that the 20+ recoveries I&#x27;ve been on h
 &lt;h2 id=&quot;the-final-frontier&quot;&gt;The Final Frontier&lt;&#x2F;h2&gt;
 &lt;p&gt;The last step in the crazy mess is to get our custom dictionary up and running.&lt;&#x2F;p&gt;
 &lt;p&gt;First, we set up the list of templates in order from most-restrictive to least.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;# Just a coupling of data function and basic log message to send
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;FnRunner &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;namedtuple&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;FnData&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;fn&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;, &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;log_message&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;])
+&lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;# Just a coupling of data function and basic log message to send
+FnRunner = namedtuple(&amp;quot;FnData&amp;quot;, [&amp;#x27;fn&amp;#x27;, &amp;#x27;log_message&amp;#x27;])
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;decisions &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= [
-    (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;Template&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;pred2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;val1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;])&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;,
-     &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;FnRunner&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;fn&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.process_data_2, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;log_message&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;Running data process 2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;))&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;,
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;Template&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;pred1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;first&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;,
-              &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;pred3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;state_management_2.state1, state_management_2.state3, state_management_2.state4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;]&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;,
-                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;pred4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;True&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;,
-     &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;FnRunner&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;fn&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.process_data_1, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;log_message&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;Running data process 1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;))
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;# &amp;lt;snip&amp;gt;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;]
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+decisions = [
+    (Template(pred2=[&amp;#x27;val1&amp;#x27;]),
+     FnRunner(fn=self.process_data_2, log_message=&amp;#x27;Running data process 2&amp;#x27;)),
+    (Template(pred1=&amp;#x27;first&amp;#x27;,
+              pred3=[state_management_2.state1, state_management_2.state3, state_management_2.state4],
+                    pred4=True),
+     FnRunner(fn=self.process_data_1, log_message=&amp;#x27;Running data process 1&amp;#x27;))
+# &amp;lt;snip&amp;gt;
+]
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Then we shove it in an ordered dictionary to preserve the restrictiveness (fun fact, ordered dictionaries are compared in-order)&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.decision_tree &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;OrderedDict&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;decisions&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;self.decision_tree = OrderedDict(decisions)
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;From there, we get the data to compare against and shove it into a Template &lt;code&gt;namedtuple&lt;&#x2F;code&gt; and fire off the comparison:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;# get the realtime data to compare against the templates
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;runner_data &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;Template&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;get_decision_data&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;())
+&lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;# get the realtime data to compare against the templates
+runner_data = Template(get_decision_data())
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;# create a noop function if we don&amp;#39;t find a lookup in self.decision_tree
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;runner_noop &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;FnRunner&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;fn&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;lambda *&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;args&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;**&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;kwargs&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;RunnerResults&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;()&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;,
-                       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;log_message&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;Nothing to do, ignoring&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
+# create a noop function if we don&amp;#x27;t find a lookup in self.decision_tree
+runner_noop = FnRunner(fn=lambda *args, **kwargs: RunnerResults(),
+                       log_message=&amp;quot;Nothing to do, ignoring&amp;quot;)
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;# lookup the correct data runner function to run
+# lookup the correct data runner function to run
 # this is where the equality is called and everything is bashed against one another
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;data_runner_fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d33682;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;.decision_tree.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;get&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;runner_data, runner_noop&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
+data_runner_fn = self.decision_tree.get(runner_data, runner_noop)
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;# finally, run the function we found
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;output_data, log_message &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;data_runner_fn&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;()
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+# finally, run the function we found
+output_data, log_message = data_runner_fn()
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
 &lt;p&gt;Once I was done with all of this crazyness and had a working prototype that passed at least some of the tests I bounced it off of the team.  Their reactions were a pretty mixed bag, everything from disbelief that I had actually refactored the if-statement-of-crazy to curiosity at &lt;em&gt;how&lt;&#x2F;em&gt; I had done it.&lt;&#x2F;p&gt;
 &lt;p&gt;To be honest, I&#x27;m still not 100% satisfied with the result, but the feedback in the following weeks was nothing but positive.  This is telling because around the same time, the business logic now encoded in the dictionary changed drastically.  This change was estimated to take around 2-4 weeks in the old if statement.  In the new one, it was done in 2 days.&lt;&#x2F;p&gt;
 &lt;p&gt;I think the increase in productivity speaks for itself.&lt;&#x2F;p&gt;
@@ -1175,28 +1261,26 @@ spent over $10,000.  I can also say that the 20+ recoveries I&#x27;ve been on h
 &lt;p&gt;However, I&#x27;ve wanted to use Clojure on a daily basis in my role as a programmer almost since I started learning it.  My team, management, and other developers, however, constantly push back on it because &amp;quot;it looks weird.&amp;quot;  Not kidding, that&#x27;s a direct quote.&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
 &lt;p&gt;My frustration with this was building on a daily basis.  It was triggered moreso because of the simplicity of the issue.  99% of the pushback against Clojure was due to the parentheses being on the left side of the function:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;# this was deemed to be simpler&#x2F;easier to read
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;join&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;([&lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;i&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;i &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;in range&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;100&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;i &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;% &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;2 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;])
+&lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;# this was deemed to be simpler&amp;#x2F;easier to read
+&amp;quot;\t&amp;quot;.join([str(i) for i in range(100) if i % 2 == 0])
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;6&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;8&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;10&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;12&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;14&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;16&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;18&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;20&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;22&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;24&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;26&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;28&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;30&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;32&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;34&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;36&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;38&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;40&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;42&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;44&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;46&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;48&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;50&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;52&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;54&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;56&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;58&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;60&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;62&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;64&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;66&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;68&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;70&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;72&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;74&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;76&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;78&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;80&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;82&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;84&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;86&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;88&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;90&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;92&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;94&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;96&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;98&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;#39;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;;; than this
-(clojure.string&#x2F;join
+&amp;#x27;0\t2\t4\t6\t8\t10\t12\t14\t16\t18\t20\t22\t24\t26\t28\t30\t32\t34\t36\t38\t40\t42\t44\t46\t48\t50\t52\t54\t56\t58\t60\t62\t64\t66\t68\t70\t72\t74\t76\t78\t80\t82\t84\t86\t88\t90\t92\t94\t96\t98&amp;#x27;
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;clojure&quot; class=&quot;language-clojure &quot;&gt;&lt;code class=&quot;language-clojure&quot; data-lang=&quot;clojure&quot;&gt;;; than this
+(clojure.string&amp;#x2F;join
   &amp;quot;\tab&amp;quot;
   (filter even? (range 100)))
 
 &amp;quot;0\t2\t4\t6\t8\t10\t12\t14\t16\t18\t20\t22\t24\t26\t28\t30\t32\t34\t36\t38\t40\t42\t44\t46\t48\t50\t52\t54\t56\t58\t60\t62\t64\t66\t68\t70\t72\t74\t76\t78\t80\t82\t84\t86\t88\t90\t92\t94\t96\t98&amp;quot;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Note than in the Python version there are 4 groupings (parens and&#x2F;or brackets) whereas in the Clojure version there are &lt;em&gt;three&lt;&#x2F;em&gt; groupings.  Tell me again about how many more parentheses there are in Clojure?&lt;&#x2F;p&gt;
 &lt;p&gt;In addition, if you can&#x27;t move the opening paren to the left side of the function and still read it, you&#x27;ve got bigger problems than what I can fix:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#859900;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;str &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;str(1)
+&amp;quot;1&amp;quot;
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;clojure&quot; class=&quot;language-clojure &quot;&gt;&lt;code class=&quot;language-clojure&quot; data-lang=&quot;clojure&quot;&gt;(str 1)
+&amp;quot;1&amp;quot;
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Yes, I realize that these are both contrived examples, but they illustrate the core point of my frustration.  Clojure is &lt;em&gt;not&lt;&#x2F;em&gt; harder to read, it&#x27;s &lt;em&gt;different&lt;&#x2F;em&gt;.  And if you can&#x27;t or don&#x27;t want to learn something new then you&#x27;re in the wrong profession.&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
 &lt;p&gt;So, because no one else was interested in learning it or supporting it in production, to ease the discomfort I was feeling with being stuck, I forged ahead anyway.  But, I did so with caution and pragmatism.  We had a very small issue that was plaguing us for some time.  A Python process would every once in a while log a traceback.  We had no out of the box way of getting at the full text of those tracebacks in any of our metrics, logging, or reporting tools as Python tracebacks span multiple lines.  In addition, the process would retry a given number of times so not all tracebacks should be pushed to the visibility of the engineering team, necessitating some custom logic.  The existing alerting pushed notifications to Slack, but without the full text of the traceback and it pushed all tracebacks, not just the critical failures and left out some important debugging details.&lt;&#x2F;p&gt;
@@ -1304,14 +1388,12 @@ spent over $10,000.  I can also say that the 20+ recoveries I&#x27;ve been on h
 		<content type="html">&lt;p&gt;Wow, even trivial concurrency in Python is hard...&lt;&#x2F;p&gt;
 &lt;p&gt;So, you have a list of tasks that you want to consume lazily (as they&#x27;re generated, so you don&#x27;t blow up memory).  Great!  That&#x27;s easy to do with a generator function using the yield keyword or the (syntax).  But, oh no... you can&#x27;t pass that to a multiprocess function because it&#x27;s not picklable.  Drat!&lt;&#x2F;p&gt;
 &lt;p&gt;Next, you go down the road of:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#839496;&quot;&gt;p.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;map&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;worker, itertools.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;islice&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;generator_function, slice_size&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;))&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;p.map(worker, itertools.islice(generator_function, slice_size))
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Which is great, until you want to lazily push results back to the main process because that work now blows up memory.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#859900;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;block &lt;&#x2F;span&gt;&lt;span style=&quot;color:#859900;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;p.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;imap&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;worker, itertools.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;islice&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;generator_function, slice_size&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)):&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;do_additional_work&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;()&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;for block in p.imap(worker, itertools.islice(generator_function, slice_size)):
+    do_additional_work()
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;The above won&#x27;t work because again, generator functions aren&#x27;t picklable so you have to return result sets from the worker function instead of being able to yield rows back.&lt;&#x2F;p&gt;
 &lt;p&gt;So, you end up shoving as much as you can into the worker function so that you don&#x27;t have to deal with passing large chunks of work back and forth.  I&#x27;m sorry, but this is a terrible state of things.  I&#x27;m sure there&#x27;s libraries that help to ease this pain but my point is there shouldn&#x27;t NEED to be libraries.  This should be core python.  And yes, sadly, I&#x27;m stuck on 2.7x.&lt;&#x2F;p&gt;
 </content>
@@ -1324,58 +1406,55 @@ spent over $10,000.  I can also say that the 20+ recoveries I&#x27;ve been on h
 		<id>https://bryan-lott.github.io/how-to-read-from-stdin-or-a-file-in-clojure/</id>
 		<content type="html">&lt;p&gt;or... how to avoid wasting 2 days!&lt;&#x2F;p&gt;
 &lt;p&gt;First, the completed code:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;ns&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; char-check.core
-  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#cb4b16;&quot;&gt;:require
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;clojure.tools.cli &lt;&#x2F;span&gt;&lt;span style=&quot;color:#cb4b16;&quot;&gt;:refer &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;parse-opts&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;]]&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
-  (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#cb4b16;&quot;&gt;:gen-class&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;))
+&lt;pre data-lang=&quot;clojure&quot; class=&quot;language-clojure &quot;&gt;&lt;code class=&quot;language-clojure&quot; data-lang=&quot;clojure&quot;&gt;(ns char-check.core
+  (:require
+    [clojure.tools.cli :refer [parse-opts]])
+  (:gen-class))
 
-(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#93a1a1;&quot;&gt;defn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;exit
-  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;Exits the program with a status code and message.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;
-  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;status msg&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;]
-  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;println&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; msg&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
-  (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;System&#x2F;exit&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; status&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;))
+(defn exit
+  &amp;quot;Exits the program with a status code and message.&amp;quot;
+  [status msg]
+  (println msg)
+  (System&amp;#x2F;exit status))
 
-(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#93a1a1;&quot;&gt;defn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;main
-  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;Main function.  Calling without a file object results in reading from STDIN (*in*).
-  Otherwise, opens the in-file as a stream.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;
-  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;[]
-   &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;main &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;java.io.BufferedReader.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; *in*&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)))
-  (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;in-file&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;]
-   &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;with-open &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;r in-file&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;]
-     &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;line-seq&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; r&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;))))
+(defn main
+  &amp;quot;Main function.  Calling without a file object results in reading from STDIN (*in*).
+  Otherwise, opens the in-file as a stream.&amp;quot;
+  ([]
+   (main (java.io.BufferedReader. *in*)))
+  ([in-file]
+   (with-open [r in-file]
+     (line-seq r))))
 
-(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#93a1a1;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;cli-options
-  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;[[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;-h&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot; &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;--help&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;]]&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
+(def cli-options
+  [[&amp;quot;-h&amp;quot; &amp;quot;--help&amp;quot;]])
 
-(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#93a1a1;&quot;&gt;defn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;-main
-  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#2aa198;&quot;&gt;Entrypoint, parses arguments, exits with any errors, provides args to main.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;
-  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;amp; args&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;]
-  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;let &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#cb4b16;&quot;&gt;:keys &lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;options arguments errors summary&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;]&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;} (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;parse-opts&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; args cli-options&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#268bd2;&quot;&gt;]
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;cond
-      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#cb4b16;&quot;&gt;:help&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; options&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;) (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;exit &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; summary&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;      errors &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;exit &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6c71c4;&quot;&gt;1 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;join &lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dc322f;&quot;&gt;\n&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;&amp;quot; errors&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;))
-      (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;empty?&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; arguments&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;) (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)
-      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#cb4b16;&quot;&gt;:else &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;main &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;clojure.java.io&#x2F;reader &lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;first&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; arguments&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;))))))
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+(defn -main
+  &amp;quot;Entrypoint, parses arguments, exits with any errors, provides args to main.&amp;quot;
+  [&amp;amp; args]
+  (let [{:keys [options arguments errors summary]} (parse-opts args cli-options)]
+    (cond
+      (:help options) (exit 0 summary)
+      errors (exit 1 (join &amp;quot;\n&amp;quot; errors))
+      (empty? arguments) (main)
+      :else (main (clojure.java.io&amp;#x2F;reader (first arguments))))))
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;So, here&#x27;s what we&#x27;re doing... first, take a look at:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#839496;&quot;&gt;(cond
+&lt;pre&gt;&lt;code&gt;(cond
   (:help options) (exit 0 summary)  ;; if we get the help option, spit out some help!
   errors (exit 1 (join &amp;quot;\n&amp;quot; errors))  ;; if we get errors, print them out and exit
-  (empty? arguments) (main)  ;; if we don&amp;#39;t get a file argument, call main with no args and let it take care of things
-  :else (main (clojure.java.io&#x2F;reader (first arguments))) ;; if we got an argument, treat the first argument (yeah, it&amp;#39;s naive...) as a filename and wrap it in a file reader
+  (empty? arguments) (main)  ;; if we don&amp;#x27;t get a file argument, call main with no args and let it take care of things
+  :else (main (clojure.java.io&amp;#x2F;reader (first arguments))) ;; if we got an argument, treat the first argument (yeah, it&amp;#x27;s naive...) as a filename and wrap it in a file reader
  )))
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;So, this is pretty basic flow control for the command line arguments and the presence or lack of a filename to run through.  Arguments come in through the &lt;code&gt;&amp;amp; args&lt;&#x2F;code&gt; and get parsed via &lt;code&gt;parse-opts&lt;&#x2F;code&gt;.  This results in any filenames ending up in &lt;code&gt;arguments&lt;&#x2F;code&gt; and if we don&#x27;t get any, pass that along to main.  If, however, we get at least one, grab the first, wrap it in a file reader, and pass it along to main (arity 1).&lt;&#x2F;p&gt;
 &lt;p&gt;The next bit is in the main function:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#839496;&quot;&gt;([]  ;; arity 0... if we don&amp;#39;t get any arguments, call main again, but this time pass it a BufferedReader wrapped *in*
+&lt;pre&gt;&lt;code&gt;([]  ;; arity 0... if we don&amp;#x27;t get any arguments, call main again, but this time pass it a BufferedReader wrapped *in*
  (main (java.io.BufferedReader. *in*)))
 ([in-file]  ;; this will either get called with the arity 0 function and be passed *in* OR it will have an actual filename that can then be opened up and operated on.
  (with-open [r in-file]
    (line-seq r))))
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;So here we&#x27;re either getting 0 or 1 argument.  If we get 1 argument, great, treat it as a file and run with it.  Otherwise, we got 0 arguments which means we need to wrap &lt;code&gt;*in*&lt;&#x2F;code&gt; in a buffered file and then pass it along to the arity 1 &amp;quot;version&amp;quot; of main.&lt;&#x2F;p&gt;
 &lt;p&gt;The final bit is &lt;code&gt;(line-seq r)&lt;&#x2F;code&gt;.  That&#x27;s a lazy function to return lines from the file&#x2F;stdin.  Use that like you would any other lazy sequence.&lt;&#x2F;p&gt;
 </content>
@@ -1387,7 +1466,7 @@ spent over $10,000.  I can also say that the 20+ recoveries I&#x27;ve been on h
 		<link href="https://bryan-lott.github.io/reading-update/" type="text/html"/>
 		<id>https://bryan-lott.github.io/reading-update/</id>
 		<content type="html">&lt;p&gt;So, after about 8 months of on-and-off focusing on reading more long-form items, how am I doing?  Objectively, I&#x27;d give myself a C-.  Barely passing, and here&#x27;s why.&lt;&#x2F;p&gt;
-&lt;p&gt;I can absolutely say that I&#x27;m doing much better at reading long-form items.  Currently I&#x27;m working through &lt;a href=&quot;https:&#x2F;&#x2F;amzn.com&#x2F;0307291227&quot;&gt;Stephen Hawking&#x27;s Illustrated A Brief History of Time and The Universe in a Nutshell&lt;&#x2F;a&gt;.  Fantastic read, really engaging, and it&#x27;s great to be able to relax with a book before bed.&lt;&#x2F;p&gt;
+&lt;p&gt;I can absolutely say that I&#x27;m doing much better at reading long-form items.  Currently I&#x27;m working through Stephen Hawking&#x27;s Illustrated A Brief History of Time and The Universe in a Nutshell.  Fantastic read, really engaging, and it&#x27;s great to be able to relax with a book before bed.&lt;&#x2F;p&gt;
 &lt;p&gt;That being said, I haven&#x27;t been doing as well at actually &lt;em&gt;finishing&lt;&#x2F;em&gt; long-form books.  I have at least 3-4 books going on my Kindle right now with almost no motivation to finish them.  I can&#x27;t quite say why, though I wish I knew.  I think part of it is dealing with some pretty serious depression lately and that, of course, seems to drown any motivation to do much of anything.&lt;&#x2F;p&gt;
 &lt;p&gt;So, plan going forward?  Make time (at least 30 minutes a day) to read something on the Kindle.  Mornings may actually be the best time for this as I normally screw around on my phone for at least that much time before leaving for work.  Discipline, right?&lt;&#x2F;p&gt;
 </content>
@@ -1522,13 +1601,12 @@ All of this boils down to having an entrepreneurial mindset as it relates to pus
 &lt;p&gt;The GIL (Global Interpreter Lock) is something that haunts me every time I go to multithread something in Python. The hazard that comes with running &lt;code&gt;pool.map(function, list)&lt;&#x2F;code&gt; if the list has unpickleable items in it is another roadblock in front of multiprocessing.&lt;&#x2F;p&gt;
 &lt;p&gt;Moore&#x27;s law is only being kept by increasing the number of cores on each processor and if Python doesn&#x27;t figure out how to easily multithread&#x2F;multiprocess eventually it&#x27;s going to fall behind in the race for speed.&lt;&#x2F;p&gt;
 &lt;p&gt;Of course, this leads me to my favorite new programming language, Clojure. The ease of multithreading is incredible:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;;; singlethreaded&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;map&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; function list&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;pre style=&quot;background-color:#002b36;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#586e75;&quot;&gt;;; multithreaded&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b58900;&quot;&gt;pmap&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt; function list&lt;&#x2F;span&gt;&lt;span style=&quot;color:#657b83;&quot;&gt;)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#839496;&quot;&gt;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;clojure&quot; class=&quot;language-clojure &quot;&gt;&lt;code class=&quot;language-clojure&quot; data-lang=&quot;clojure&quot;&gt;;; singlethreaded
+(map function list)
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;clojure&quot; class=&quot;language-clojure &quot;&gt;&lt;code class=&quot;language-clojure&quot; data-lang=&quot;clojure&quot;&gt;;; multithreaded
+(pmap function list)
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Programming in a multithreaded way is incredibly easy because you&#x27;re already coding in a functional style which lends itself very easily to being multithreaded. Reasoning about code is so much simpler and as incidental complexity increases, I think languages like Clojure that are functional and multithreaded will only gain mindshare. They&#x27;re easier to reason about as problem complexity increases without increasing incidental complexity significantly while maintaining a sustainable speed.&lt;&#x2F;p&gt;
 </content>
 	</entry>

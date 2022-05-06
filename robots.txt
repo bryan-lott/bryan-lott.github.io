@@ -1,2 +1,3 @@
 User-agent: *
+Allow: /
 Sitemap: https://bryan-lott.github.io/sitemap.xml
