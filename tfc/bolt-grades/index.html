@@ -28,7 +28,7 @@
 
   <title>
     
-(import this) | Concurrency
+(import this) | Bolt Grades
 
   </title>
 
@@ -102,7 +102,7 @@
       <div class="column is-8 is-offset-2">
         <article class="box">
           <h1 class="title">
-            Concurrency
+            Bolt Grades
           </h1>
           <p class="subtitle"></p>
           <div class="columns is-multiline is-gapless">
@@ -116,7 +116,7 @@
   <span class="icon">
     <i class="far fa-calendar-alt"></i>
   </span>
-  <span><time datetime="2015-07-08">July 08, 2015</time></span>
+  <span><time datetime="2022-05-06">May 06, 2022</time></span>
 </span>
 
             </div>
@@ -130,7 +130,7 @@
   <span class="icon">
     <i class="fas fa-pencil-alt"></i>
   </span>
-  <span>185 words</span>
+  <span>149 words</span>
 </span>
 
             </div>
@@ -142,18 +142,70 @@
             </div>
           </div>
           <div class="content mt-2">
-            <p>Or... why Python will eventually become irrelevant.</p>
-<span id="continue-reading"></span>
-<p>The GIL (Global Interpreter Lock) is something that haunts me every time I go to multithread something in Python. The hazard that comes with running <code>pool.map(function, list)</code> if the list has unpickleable items in it is another roadblock in front of multiprocessing.</p>
-<p>Moore's law is only being kept by increasing the number of cores on each processor and if Python doesn't figure out how to easily multithread/multiprocess eventually it's going to fall behind in the race for speed.</p>
-<p>Of course, this leads me to my favorite new programming language, Clojure. The ease of multithreading is incredible:</p>
-<pre data-lang="clojure" class="language-clojure "><code class="language-clojure" data-lang="clojure">;; singlethreaded
-(map function list)
-</code></pre>
-<pre data-lang="clojure" class="language-clojure "><code class="language-clojure" data-lang="clojure">;; multithreaded
-(pmap function list)
-</code></pre>
-<p>Programming in a multithreaded way is incredibly easy because you're already coding in a functional style which lends itself very easily to being multithreaded. Reasoning about code is so much simpler and as incidental complexity increases, I think languages like Clojure that are functional and multithreaded will only gain mindshare. They're easier to reason about as problem complexity increases without increasing incidental complexity significantly while maintaining a sustainable speed.</p>
+            <h1 id="bolt-grades">Bolt Grades</h1>
+<h2 id="common-grades">Common Grades</h2>
+<h2 id="grade-5-8-8-1-4-1">Grade 5 (8.8) 1/4&quot; - 1&quot;</h2>
+<ul>
+<li>Identification
+<ul>
+<li>3 hash marks 120 degrees apart</li>
+<li>Grey/Silver in color</li>
+<li>Breaks suddenly</li>
+</ul>
+</li>
+<li>Strength
+<ul>
+<li>Proof Load: 85,000psi</li>
+<li>Tensile: 120,000psi</li>
+<li>Yield: 92,000psi</li>
+<li>Shear: 72,000psi (~60% of Tensile)</li>
+</ul>
+</li>
+</ul>
+<h2 id="grade-8-10-9">Grade 8 (10.9)</h2>
+<ul>
+<li>Identification
+<ul>
+<li>6 hash marks, one for each side of the bolt</li>
+<li>Bronze/Gold in color</li>
+<li>Yields before breaking</li>
+</ul>
+</li>
+<li>Strength
+<ul>
+<li>Proof Load: 120,000psi</li>
+<li>Tensile: 150,000psi</li>
+<li>Yield: 130,000psi</li>
+<li>Shear: 90,000psi (~60% of Tensile)</li>
+</ul>
+</li>
+</ul>
+<h2 id="grade-9-12-9">Grade 9 (~12.9)</h2>
+<ul>
+<li>Identification
+<ul>
+<li>9 hash marks</li>
+</ul>
+</li>
+<li>Strength
+<ul>
+<li>Proof Load: 145,000psi</li>
+<li>Tensile: 180,000psi</li>
+<li>Yield: 155,000psi</li>
+<li>Shear: 108,000psi (~60% of Tensile)</li>
+</ul>
+</li>
+</ul>
+<h1 id="definitions">Definitions:</h1>
+<ul>
+<li>Tensile Strength: The resistance of a material to breaking under tension</li>
+<li>Yield Strength: The stress at which a specific amount of deformation is produced</li>
+<li>Proof Load: An axial tensile load which the product must stand without evidence of any permanent set.</li>
+</ul>
+<h1 id="sources">Sources:</h1>
+<ul>
+<li><a href="https://www.aftfasteners.com/grades-of-bolts-bolt-grade-markings-bolt-strength-chart/">Bolt Grade Markings &amp; Strength Chart</a></li>
+</ul>
 
           </div>
         </article>
@@ -188,35 +240,6 @@
 
 
   
-
-<section class="section">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <nav class="level">
-          
-          <div class="level-item has-text-centered">
-            <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;bryan-lott.github.io&#x2F;vacation-is-hard&#x2F;">
-              <span class="icon mr-2">
-                <i class="fas fa-arrow-circle-left"></i>
-              </span>
-              Vacation is Hard
-            </a>
-          </div>
-           
-          <div class="level-item has-text-centered">
-            <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;bryan-lott.github.io&#x2F;imposter-syndrome&#x2F;">
-              Imposter Syndrome<span class="icon ml-2">
-                <i class="fas fa-arrow-circle-right"></i>
-              </span>
-            </a>
-          </div>
-            
-        </nav>
-      </div>
-    </div>
-  </div>
-</section>
 
 
 
