@@ -5,8 +5,73 @@
 	<link href="https://bryan-lott.github.io/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://bryan-lott.github.io/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-05-12T00:00:00+00:00</updated>
+	<updated>2022-05-27T00:00:00+00:00</updated>
 	<id>https://bryan-lott.github.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Drivetrain</title>
+		<published>2022-05-27T00:00:00+00:00</published>
+		<updated>2022-05-27T00:00:00+00:00</updated>
+		<link href="https://bryan-lott.github.io/tfc/drivetrain/" type="text/html"/>
+		<id>https://bryan-lott.github.io/tfc/drivetrain/</id>
+		<content type="html">&lt;h1 id=&quot;drivetrain&quot;&gt;Drivetrain&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;engine&quot;&gt;Engine&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;transmission&quot;&gt;Transmission&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;manual&quot;&gt;Manual&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;automatic&quot;&gt;Automatic&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;cvt&quot;&gt;CVT&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;transfer-case&quot;&gt;Transfer Case&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Part-time 4WD&lt;&#x2F;li&gt;
+&lt;li&gt;Engages the (almost always) front driveshaft&lt;&#x2F;li&gt;
+&lt;li&gt;Front and rear driveshaft spin in step with one another&lt;&#x2F;li&gt;
+&lt;li&gt;If rear driveshaft goes, can drive out in FWD w&#x2F; the transfer case engaged&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;center-differential&quot;&gt;Center Differential&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Full-time 4WD&lt;&#x2F;li&gt;
+&lt;li&gt;Locking the center diff locks the front and rear driveshaft in step with one another&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;driveshaft-propshaft&quot;&gt;Driveshaft&#x2F;Propshaft&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Rzeppa Joint
+&lt;ul&gt;
+&lt;li&gt;Continuous Velocity (CV) joint&lt;&#x2F;li&gt;
+&lt;li&gt;Consists of 6 large ball bearings running in grooves along with a containing &amp;quot;cage&amp;quot;&lt;&#x2F;li&gt;
+&lt;li&gt;Allows 45-48 degrees of articulation while some can give up to 54 degrees&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Birfield Joint
+&lt;ul&gt;
+&lt;li&gt;CV joint&lt;&#x2F;li&gt;
+&lt;li&gt;Consists of 6 large ball berings running in eliptical tracks.&lt;&#x2F;li&gt;
+&lt;li&gt;Improved efficiency upon the Rzeppa joint&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;axle-f-r-differential&quot;&gt;Axle (F&#x2F;R) Differential&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Locking the axle differential locks the left and right axles in step with one another&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;solid-axle&quot;&gt;Solid Axle&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;full-float&quot;&gt;Full Float&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;semi-float&quot;&gt;Semi Float&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;ifs&quot;&gt;IFS&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;other&quot;&gt;Other&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;portal-hubs&quot;&gt;Portal Hubs&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;pinzgauer&quot;&gt;Pinzgauer&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=G9wNbXZf6wU&quot;&gt;Youtube: Pinz Driveline Operation&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;2 differentials &amp;quot;merged together&amp;quot;&lt;&#x2F;li&gt;
+&lt;li&gt;2 ring gears offset with a center set of spider gears
+&lt;ul&gt;
+&lt;li&gt;TODO: understand how the spider gears interact with the ring gears&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Allows each side of the axle (halfshaft) to rotate independently&lt;&#x2F;li&gt;
+&lt;li&gt;Can bust 1 pinion and a ring gear and still keep going w&#x2F; lockers engaged&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>A First Responder&#x27;s Guide to Sign Language</title>
 		<published>2022-05-12T00:00:00+00:00</published>
@@ -65,6 +130,94 @@
 		<link href="https://bryan-lott.github.io/tfc/adult-education/" type="text/html"/>
 		<id>https://bryan-lott.github.io/tfc/adult-education/</id>
 		<content type="html">&lt;h1 id=&quot;adult-education&quot;&gt;Adult Education&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;communication&quot;&gt;Communication&lt;&#x2F;h2&gt;
+&lt;p&gt;Notes from &lt;em&gt;The First Minute: How to Start Conversations that Get Results&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Intro
+&lt;ul&gt;
+&lt;li&gt;The first 60s are what matter when communicating professionally&lt;&#x2F;li&gt;
+&lt;li&gt;Have clear intent&lt;&#x2F;li&gt;
+&lt;li&gt;Talk on one topic at a time&lt;&#x2F;li&gt;
+&lt;li&gt;Focus on solutions&lt;&#x2F;li&gt;
+&lt;li&gt;Steps
+&lt;ol&gt;
+&lt;li&gt;Frame the conversation in &amp;lt; 15s&lt;&#x2F;li&gt;
+&lt;li&gt;Create a structured summary of the entire message&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Causes of miscommunication
+&lt;ul&gt;
+&lt;li&gt;Lack of context&lt;&#x2F;li&gt;
+&lt;li&gt;Unclear purpose&lt;&#x2F;li&gt;
+&lt;li&gt;Not getting to the point&lt;&#x2F;li&gt;
+&lt;li&gt;Mixing up multiple topics in the same conversation&lt;&#x2F;li&gt;
+&lt;li&gt;Giving lengthy, unclear summaries&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Framing
+&lt;ul&gt;
+&lt;li&gt;Context&lt;&#x2F;li&gt;
+&lt;li&gt;Intent&lt;&#x2F;li&gt;
+&lt;li&gt;Key message&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Summarization
+&lt;ul&gt;
+&lt;li&gt;Goal&lt;&#x2F;li&gt;
+&lt;li&gt;Problem&lt;&#x2F;li&gt;
+&lt;li&gt;Solution&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Chapter 1
+&lt;ul&gt;
+&lt;li&gt;The first minute starts when the work conversation starts&lt;&#x2F;li&gt;
+&lt;li&gt;Only 8 good conversations can turn around a &amp;quot;bad first impression&amp;quot;
+&lt;ul&gt;
+&lt;li&gt;These chances happen continuously during the work day and doesn&#x27;t take that long to add up&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Chapter 2: Framing
+&lt;ul&gt;
+&lt;li&gt;Preparing your audience to receive your message&lt;&#x2F;li&gt;
+&lt;li&gt;First 15s of conversation&lt;&#x2F;li&gt;
+&lt;li&gt;Start with 3 statements:
+&lt;ul&gt;
+&lt;li&gt;Context
+&lt;ul&gt;
+&lt;li&gt;What is the topic?&lt;&#x2F;li&gt;
+&lt;li&gt;Never assume the other person knows what you&#x27;re talking about&lt;&#x2F;li&gt;
+&lt;li&gt;Name what the topic&#x2F;tool&#x2F;subject you&#x27;re going to talk about&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Intent
+&lt;ul&gt;
+&lt;li&gt;What to do with the information?&lt;&#x2F;li&gt;
+&lt;li&gt;Categories of intent
+&lt;ol&gt;
+&lt;li&gt;Needing help&#x2F;advice&#x2F;input&lt;&#x2F;li&gt;
+&lt;li&gt;Requesting action&lt;&#x2F;li&gt;
+&lt;li&gt;Wanting a decision&lt;&#x2F;li&gt;
+&lt;li&gt;Letting somebody know that something is going to happen&lt;&#x2F;li&gt;
+&lt;li&gt;Provide information&#x2F;input&lt;&#x2F;li&gt;
+&lt;li&gt;Just chatting&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Key message
+&lt;ul&gt;
+&lt;li&gt;What is the &amp;quot;headline&amp;quot;?&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;notes-from-previous-tfc&quot;&gt;Notes from Previous TFC&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;want&#x2F;need
