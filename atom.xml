@@ -24,7 +24,17 @@
 &lt;li&gt;Part-time 4WD&lt;&#x2F;li&gt;
 &lt;li&gt;Engages the (almost always) front driveshaft&lt;&#x2F;li&gt;
 &lt;li&gt;Front and rear driveshaft spin in step with one another&lt;&#x2F;li&gt;
-&lt;li&gt;If rear driveshaft goes, can drive out in FWD w&#x2F; the transfer case engaged&lt;&#x2F;li&gt;
+&lt;li&gt;If rear driveshaft goes, can drive out in FWD w&#x2F; the transfer case engages&lt;&#x2F;li&gt;
+&lt;li&gt;Various gear reductions are available at the transfer case
+&lt;ul&gt;
+&lt;li&gt;Jeep Wrangler Rubicon: 4:1
+&lt;ul&gt;
+&lt;li&gt;Can roughly treat 4-low - 2nd gear as 4-low - 1st gear in other Jeeps&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Other Jeeps: 2.6:1 or 2.72:1&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;center-differential&quot;&gt;Center Differential&lt;&#x2F;h2&gt;
 &lt;ul&gt;
@@ -47,14 +57,27 @@
 &lt;li&gt;Improved efficiency upon the Rzeppa joint&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;axle-f-r-differential&quot;&gt;Axle (F&#x2F;R) Differential&lt;&#x2F;h2&gt;
+&lt;li&gt;Continuous-Velocity (CV) Joint
 &lt;ul&gt;
-&lt;li&gt;Locking the axle differential locks the left and right axles in step with one another&lt;&#x2F;li&gt;
+&lt;li&gt;Need to be matched or driveshaft loping occurs&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;axle-l-r-differential&quot;&gt;Axle (L&#x2F;R) Differential&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Locking the axle differential locks the left and right axles&#x2F;wheels in step with one another&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;solid-axle&quot;&gt;Solid Axle&lt;&#x2F;h2&gt;
 &lt;h3 id=&quot;full-float&quot;&gt;Full Float&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Axle shaft only serves to transmit rotational force from the differential to the wheel&lt;&#x2F;li&gt;
+&lt;li&gt;&amp;quot;Fully floats in the axle housing&amp;quot;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;semi-float&quot;&gt;Semi Float&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Axle shaft serves to support the weight of the vehicle and transmits rotational force&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;semi-float-1&quot;&gt;Semi Float&lt;&#x2F;h3&gt;
 &lt;h2 id=&quot;ifs&quot;&gt;IFS&lt;&#x2F;h2&gt;
 &lt;h2 id=&quot;other&quot;&gt;Other&lt;&#x2F;h2&gt;
 &lt;h3 id=&quot;portal-hubs&quot;&gt;Portal Hubs&lt;&#x2F;h3&gt;
@@ -281,7 +304,7 @@
 		<link href="https://bryan-lott.github.io/about/" type="text/html"/>
 		<id>https://bryan-lott.github.io/about/</id>
 		<content type="html">&lt;h3 id=&quot;why-import-this&quot;&gt;Why (import this)?&lt;&#x2F;h3&gt;
-&lt;p&gt;&lt;code&gt;import this&lt;&#x2F;code&gt; is an easter egg in Python and I love the playfulness. At the same time, I love the simplicity of Clojure and feel like it has embodied, even moreso than Python, the principals in the Zen of Python. Also, it’s a lisp, so you know, parentheses everywhere!  They&#x27;re like ((hugs)) for your code.&lt;&#x2F;p&gt;
+&lt;p&gt;Have always loved easter eggs, open a python terminal and type &lt;code&gt;import this&lt;&#x2F;code&gt; ;). At the same time, I love the simplicity of Clojure and feel like it has embodied, even more-so than Python, the principals in the Zen of Python. Also, it’s a lisp, so you know, parentheses everywhere!  They&#x27;re like ((hugs)) for your code.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;potential-blog-topics&quot;&gt;Potential Blog Topics&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Clojure&lt;&#x2F;li&gt;
@@ -322,10 +345,13 @@
 &lt;ul&gt;
 &lt;li&gt;Offroad vehicle recovery, maintenance, driving in preparation for passing the International 4WD Trainers Association (&lt;a href=&quot;https:&#x2F;&#x2F;i4wdta.org&quot;&gt;I4WDTA&lt;&#x2F;a&gt;) Test for Certification (TFC)&lt;&#x2F;li&gt;
 &lt;li&gt;Mindfulness Meditation&lt;&#x2F;li&gt;
+&lt;li&gt;Welding&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;hobbies&quot;&gt;Hobbies&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Volunteering with Colorado 4x4 Rescue and Recovery (&lt;a href=&quot;https:&#x2F;&#x2F;co4x4rnr.org&quot;&gt;CO4x4RnR&lt;&#x2F;a&gt;)&lt;&#x2F;li&gt;
+&lt;li&gt;Active volunteer with &lt;a href=&quot;https:&#x2F;&#x2F;burningman.org&#x2F;&quot;&gt;Burning Man&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&amp;quot;Making&amp;quot; in general, there&#x27;s a wonderful feeling when there&#x27;s a thing you made that wasn&#x27;t a thing before.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
 	</entry>
@@ -507,24 +533,28 @@
 		<link href="https://bryan-lott.github.io/uses/" type="text/html"/>
 		<id>https://bryan-lott.github.io/uses/</id>
 		<content type="html">&lt;h1 id=&quot;uses&quot;&gt;Uses&lt;&#x2F;h1&gt;
-&lt;p&gt;A succinct overview of tools I use on a regular basis, mostly focused on my day job of software developement but possibly other random stuff thrown in.&lt;&#x2F;p&gt;
+&lt;p&gt;A succinct overview of tools I use on a regular basis, mostly focused on my day job of software development but possibly other random stuff thrown in.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;software&quot;&gt;Software&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Emacs (Doom) https:&#x2F;&#x2F;github.com&#x2F;doomemacs&#x2F;doomemacs&lt;&#x2F;li&gt;
 &lt;li&gt;Firefox&lt;&#x2F;li&gt;
-&lt;li&gt;DevUtils&lt;&#x2F;li&gt;
-&lt;li&gt;VSCode&lt;&#x2F;li&gt;
-&lt;li&gt;Slack&lt;&#x2F;li&gt;
-&lt;li&gt;iTerm2&lt;&#x2F;li&gt;
-&lt;li&gt;zsh&lt;&#x2F;li&gt;
-&lt;li&gt;Starship&lt;&#x2F;li&gt;
-&lt;li&gt;GitKraken&lt;&#x2F;li&gt;
-&lt;li&gt;Amethyst&lt;&#x2F;li&gt;
-&lt;li&gt;Finda&lt;&#x2F;li&gt;
+&lt;li&gt;DevUtils: One-off tools, base64 encode&#x2F;decode, format and validate JSON, etc, really handy to have always running.&lt;&#x2F;li&gt;
+&lt;li&gt;VSCode
+&lt;ul&gt;
+&lt;li&gt;Mostly for debugging test code, this is rather difficult to do in emacs or I&#x27;m not smart enough to figure it out yet.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Slack: Work&lt;&#x2F;li&gt;
+&lt;li&gt;iTerm2: I&#x27;d like to use something else, but this works the best for now&lt;&#x2F;li&gt;
+&lt;li&gt;zsh: Better than bash, more posix compliant than fish&lt;&#x2F;li&gt;
+&lt;li&gt;Starship: Enhance your command line&lt;&#x2F;li&gt;
+&lt;li&gt;GitKraken: The best (IMO) GUI git client&lt;&#x2F;li&gt;
+&lt;li&gt;Amethyst: Automatically size&#x2F;move windows&lt;&#x2F;li&gt;
+&lt;li&gt;Finda: Find anything on your computer + quick switcher&lt;&#x2F;li&gt;
 &lt;li&gt;Syncthing: Dropbox kinda-sorta replacement&lt;&#x2F;li&gt;
-&lt;li&gt;Blurred&lt;&#x2F;li&gt;
-&lt;li&gt;Quicksilver&lt;&#x2F;li&gt;
-&lt;li&gt;Hexo&lt;&#x2F;li&gt;
+&lt;li&gt;Blurred: Darken windows that aren&#x27;t the active one (i.e., know where your cursor focus is)&lt;&#x2F;li&gt;
+&lt;li&gt;Quicksilver: Quick switcher&lt;&#x2F;li&gt;
+&lt;li&gt;Zola: Static site&#x2F;blog generator&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;services&quot;&gt;Services&lt;&#x2F;h2&gt;
 &lt;ul&gt;
@@ -534,10 +564,10 @@
 &lt;li&gt;Github: Off-computer code backup&lt;&#x2F;li&gt;
 &lt;li&gt;Gitlab: Off-computer code backup, blog&lt;&#x2F;li&gt;
 &lt;li&gt;Kagi: Search engine&lt;&#x2F;li&gt;
-&lt;li&gt;Dropbox&lt;&#x2F;li&gt;
-&lt;li&gt;1Password&lt;&#x2F;li&gt;
-&lt;li&gt;Feedly&lt;&#x2F;li&gt;
-&lt;li&gt;xBrowserSync&lt;&#x2F;li&gt;
+&lt;li&gt;Dropbox: Backup &amp;amp; sync&lt;&#x2F;li&gt;
+&lt;li&gt;1Password: If you&#x27;re not using a password manager, you&#x27;ve already been compromised and just don&#x27;t know it yet&lt;&#x2F;li&gt;
+&lt;li&gt;Feedly: I love my RSS feeds&lt;&#x2F;li&gt;
+&lt;li&gt;xBrowserSync: Sync your bookmarks across multiple devices and multiple browsers.  Also offers a pretty killer search.&lt;&#x2F;li&gt;
 &lt;li&gt;A Fine Start: pseudo-bookmarks on your new tab screen&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;hardware&quot;&gt;Hardware&lt;&#x2F;h2&gt;
@@ -1090,7 +1120,7 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 &lt;li&gt;Taking the morning and getting into flow: &lt;a href=&quot;https:&#x2F;&#x2F;open.spotify.com&#x2F;user&#x2F;mystickphoenix&#x2F;playlist&#x2F;6wDnfi5193U6yAjl1jlsHO?si=jF8lL7OySbeGElnTqwVwhA&quot;&gt;Morning Flow&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;Afternoon focus&#x2F;flow, good when researching &lt;a href=&quot;https:&#x2F;&#x2F;open.spotify.com&#x2F;user&#x2F;chilledcow&#x2F;playlist&#x2F;6eHO8aX6lHu3e6bem8r2rq?si=pvf26IorR-Ce4JYQLFd7HQ&quot;&gt;lofi hip hop music&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;Chilling: &lt;a href=&quot;https:&#x2F;&#x2F;open.spotify.com&#x2F;user&#x2F;kngsolomon1&#x2F;playlist&#x2F;4bWCqfKsqKTiVhYP7Y7NRr?si=q6XbVElbQcSs2KBLhY4Fdg&quot;&gt;3am Airport&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Linkin Park, my favorites: &lt;a href=&quot;https:&#x2F;&#x2F;open.spotify.com&#x2F;user&#x2F;mystickphoenix&#x2F;playlist&#x2F;3W1z8NkHdcScavU0SPEJqG?si=LHvhLiZWTI-6V8tQcTdqzg&quot;&gt;Linkin Park, The Good Songs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Linkin Park, my favorites: (dead link)&lt;&#x2F;li&gt;
 &lt;li&gt;Triphop, for when I&#x27;m feeling the 90&#x27;s&#x2F;00&#x27;s vibe (dead link)&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;individual-soundtracks&quot;&gt;Individual Soundtracks&lt;&#x2F;h2&gt;
