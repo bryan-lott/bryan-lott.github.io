@@ -5,8 +5,176 @@
 	<link href="https://bryan-lott.github.io/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://bryan-lott.github.io/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-05-27T00:00:00+00:00</updated>
+	<updated>2022-08-09T00:00:00+00:00</updated>
 	<id>https://bryan-lott.github.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Bolt Grades</title>
+		<published>2022-08-09T00:00:00+00:00</published>
+		<updated>2022-08-09T00:00:00+00:00</updated>
+		<link href="https://bryan-lott.github.io/tfc/bolt-grades/" type="text/html"/>
+		<id>https://bryan-lott.github.io/tfc/bolt-grades/</id>
+		<content type="html">&lt;h1 id=&quot;bolt-grades&quot;&gt;Bolt Grades&lt;&#x2F;h1&gt;
+&lt;p&gt;Bolts and Hitch Pins come in both unrated and rated.  For the 4x4 application we&#x27;ll be attempting to deal with rated gear only.  Most hitch pins are not rated, however rated pins can be found, normally called Tractor Hitch Pins or Farm Hitch Pins.
+In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
+&lt;p&gt;Below you&#x27;ll find common grades of bolts&#x2F;pins, identifying characteristics, and strength.  In use as a hitch pin the important rating to look for is the &lt;em&gt;Double Shear&lt;&#x2F;em&gt; strength.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;common-grades&quot;&gt;Common Grades&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;grade-5-8-8-1-4-1&quot;&gt;Grade 5 (8.8) 1&#x2F;4&amp;quot; - 1&amp;quot;&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Identification
+&lt;ul&gt;
+&lt;li&gt;3 hash marks 120 degrees apart&lt;&#x2F;li&gt;
+&lt;li&gt;Grey&#x2F;Silver in color&lt;&#x2F;li&gt;
+&lt;li&gt;Breaks suddenly&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Strength
+&lt;ul&gt;
+&lt;li&gt;Proof Load: 85,000psi&lt;&#x2F;li&gt;
+&lt;li&gt;Tensile: 120,000psi&lt;&#x2F;li&gt;
+&lt;li&gt;Yield: 92,000psi&lt;&#x2F;li&gt;
+&lt;li&gt;Shear: 72,000psi (~60% of Tensile)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Max Force (lbs)&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Diameter&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Single Shear&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Double Shear&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1&#x2F;4&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;3,534&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;7,069&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;5&#x2F;16&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;5,522&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;11,045&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;3&#x2F;8&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;7,952&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;15,904&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1&#x2F;2&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;14,137&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;28,274&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;5&#x2F;8&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;22,089&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;44,179&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;3&#x2F;4&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;31,809&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;63,617&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;7&#x2F;8&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;43,273&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;86,546&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;56,549&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;113,097&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1 1&#x2F;4&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;77,313&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;154,625&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1 1&#x2F;2&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;111,330&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;222,660&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;grade-8-10-9&quot;&gt;Grade 8 (10.9)&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Identification
+&lt;ul&gt;
+&lt;li&gt;6 hash marks, one for each side of the bolt&lt;&#x2F;li&gt;
+&lt;li&gt;Bronze&#x2F;Gold in color&lt;&#x2F;li&gt;
+&lt;li&gt;Yields before breaking&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Strength
+&lt;ul&gt;
+&lt;li&gt;Proof Load: 120,000psi&lt;&#x2F;li&gt;
+&lt;li&gt;Tensile: 150,000psi&lt;&#x2F;li&gt;
+&lt;li&gt;Yield: 130,000psi&lt;&#x2F;li&gt;
+&lt;li&gt;Shear: 90,000psi (~60% of Tensile)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Max Force (lbs)&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Diameter&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Single Shear&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Double Shear&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1&#x2F;4&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;4,418&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;8,836&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;5&#x2F;16&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;6,903&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;13,806&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;3&#x2F;8&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;9,940&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;19,880&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1&#x2F;2&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;17,671&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;35,343&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;5&#x2F;8&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;27,612&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;55,223&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;3&#x2F;4&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;39,761&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;79,522&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;7&#x2F;8&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;54,095&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;108,190&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;70,686&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;141,372&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1 1&#x2F;4&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;110,447&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;220,893&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1 1&#x2F;2&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;159,043&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;318,086&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;grade-9-12-9&quot;&gt;Grade 9 (~12.9)&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Identification
+&lt;ul&gt;
+&lt;li&gt;9 hash marks&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Strength
+&lt;ul&gt;
+&lt;li&gt;Proof Load: 145,000psi&lt;&#x2F;li&gt;
+&lt;li&gt;Tensile: 180,000psi&lt;&#x2F;li&gt;
+&lt;li&gt;Yield: 155,000psi&lt;&#x2F;li&gt;
+&lt;li&gt;Shear: 108,000psi (~60% of Tensile)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;definitions&quot;&gt;Definitions:&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Tensile Strength: The resistance of a material to breaking under tension&lt;&#x2F;li&gt;
+&lt;li&gt;Yield Strength: The stress at which a specific amount of deformation is produced&lt;&#x2F;li&gt;
+&lt;li&gt;Proof Load: An axial tensile load which the product must stand without evidence of any permanent set.&lt;&#x2F;li&gt;
+&lt;li&gt;Single Shear:&lt;&#x2F;li&gt;
+&lt;li&gt;Double Shear:&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;sources&quot;&gt;Sources:&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.aftfasteners.com&#x2F;grades-of-bolts-bolt-grade-markings-bolt-strength-chart&#x2F;&quot;&gt;Bolt Grade Markings &amp;amp; Strength Chart&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The Tractor Hitch Pin A Critical Component in Keeping Control of Implements - Purdue Extension PPP-94 (special thanks to Chad A. for the recommendation)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Driving</title>
+		<published>2022-08-09T00:00:00+00:00</published>
+		<updated>2022-08-09T00:00:00+00:00</updated>
+		<link href="https://bryan-lott.github.io/tfc/driving/" type="text/html"/>
+		<id>https://bryan-lott.github.io/tfc/driving/</id>
+		<content type="html">&lt;h1 id=&quot;driving&quot;&gt;Driving&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;driver-position&quot;&gt;Driver Position&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;quot;Dead&amp;quot; Pedal&lt;&#x2F;li&gt;
+&lt;li&gt;Right foot&#x2F;leg braced against the transmission tunnel&lt;&#x2F;li&gt;
+&lt;li&gt;Hips pushed back into the seat&lt;&#x2F;li&gt;
+&lt;li&gt;Seatbelt ON
+&lt;ul&gt;
+&lt;li&gt;Only exception is when making a water crossing&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;steering&quot;&gt;Steering&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;quot;Thumbs out&amp;quot;&lt;&#x2F;li&gt;
+&lt;li&gt;If airbags hands at 9 o&#x27;clock and 3 o&#x27;clock&lt;&#x2F;li&gt;
+&lt;li&gt;If not airbags, hands at 10 and 2 or 9 and 3&lt;&#x2F;li&gt;
+&lt;li&gt;Shuffle steering
+&lt;ol&gt;
+&lt;li&gt;Hands move from resting position to the top of the steering wheel in a &amp;quot;pushing&amp;quot; motion.&lt;&#x2F;li&gt;
+&lt;li&gt;Hands then move back from top of steering wheel back down to resting position in a &amp;quot;pulling&amp;quot; motion.&lt;&#x2F;li&gt;
+&lt;li&gt;Repeat&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Bump steer
+&lt;ul&gt;
+&lt;li&gt;When the terrain or wheel pushes against the steering, turning the wheel.&lt;&#x2F;li&gt;
+&lt;li&gt;Resist the bump steer.&lt;&#x2F;li&gt;
+&lt;li&gt;Keep thumbs outside the steering wheel.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;technique&quot;&gt;Technique&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;left-foot-braking&quot;&gt;Left Foot Braking&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;hand-parking-emergency-brake&quot;&gt;Hand&#x2F;Parking&#x2F;Emergency Brake&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;philosophy&quot;&gt;Philosophy&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Driving by the rear wheels
+&lt;ul&gt;
+&lt;li&gt;Front wheels can turn, rear wheels can&#x27;t&lt;&#x2F;li&gt;
+&lt;li&gt;Rear wheels track inside of a turn&lt;&#x2F;li&gt;
+&lt;li&gt;Visualizing where the rear wheels go provides a better sense of the overall position of the vehicle through an obstacle&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Reading the terrain
+&lt;ul&gt;
+&lt;li&gt;Look 10&#x27; out, then 50&#x27;, then 100&#x27;, repeat&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;GOAL: Get Out and Look
+&lt;ul&gt;
+&lt;li&gt;If you can&#x27;t remember where your vehicle is, lose your line, stop the vehicle for any length of time, etc&lt;&#x2F;li&gt;
+&lt;li&gt;Your vision is much better outside the vehicle than inside&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Drivetrain</title>
 		<published>2022-05-27T00:00:00+00:00</published>
@@ -352,78 +520,6 @@
 &lt;li&gt;Volunteering with Colorado 4x4 Rescue and Recovery (&lt;a href=&quot;https:&#x2F;&#x2F;co4x4rnr.org&quot;&gt;CO4x4RnR&lt;&#x2F;a&gt;)&lt;&#x2F;li&gt;
 &lt;li&gt;Active volunteer with &lt;a href=&quot;https:&#x2F;&#x2F;burningman.org&#x2F;&quot;&gt;Burning Man&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&amp;quot;Making&amp;quot; in general, there&#x27;s a wonderful feeling when there&#x27;s a thing you made that wasn&#x27;t a thing before.&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-</content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Bolt Grades</title>
-		<published>2022-05-06T00:00:00+00:00</published>
-		<updated>2022-05-06T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/tfc/bolt-grades/" type="text/html"/>
-		<id>https://bryan-lott.github.io/tfc/bolt-grades/</id>
-		<content type="html">&lt;h1 id=&quot;bolt-grades&quot;&gt;Bolt Grades&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;common-grades&quot;&gt;Common Grades&lt;&#x2F;h2&gt;
-&lt;h2 id=&quot;grade-5-8-8-1-4-1&quot;&gt;Grade 5 (8.8) 1&#x2F;4&amp;quot; - 1&amp;quot;&lt;&#x2F;h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Identification
-&lt;ul&gt;
-&lt;li&gt;3 hash marks 120 degrees apart&lt;&#x2F;li&gt;
-&lt;li&gt;Grey&#x2F;Silver in color&lt;&#x2F;li&gt;
-&lt;li&gt;Breaks suddenly&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;Strength
-&lt;ul&gt;
-&lt;li&gt;Proof Load: 85,000psi&lt;&#x2F;li&gt;
-&lt;li&gt;Tensile: 120,000psi&lt;&#x2F;li&gt;
-&lt;li&gt;Yield: 92,000psi&lt;&#x2F;li&gt;
-&lt;li&gt;Shear: 72,000psi (~60% of Tensile)&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;grade-8-10-9&quot;&gt;Grade 8 (10.9)&lt;&#x2F;h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Identification
-&lt;ul&gt;
-&lt;li&gt;6 hash marks, one for each side of the bolt&lt;&#x2F;li&gt;
-&lt;li&gt;Bronze&#x2F;Gold in color&lt;&#x2F;li&gt;
-&lt;li&gt;Yields before breaking&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;Strength
-&lt;ul&gt;
-&lt;li&gt;Proof Load: 120,000psi&lt;&#x2F;li&gt;
-&lt;li&gt;Tensile: 150,000psi&lt;&#x2F;li&gt;
-&lt;li&gt;Yield: 130,000psi&lt;&#x2F;li&gt;
-&lt;li&gt;Shear: 90,000psi (~60% of Tensile)&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;grade-9-12-9&quot;&gt;Grade 9 (~12.9)&lt;&#x2F;h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Identification
-&lt;ul&gt;
-&lt;li&gt;9 hash marks&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;Strength
-&lt;ul&gt;
-&lt;li&gt;Proof Load: 145,000psi&lt;&#x2F;li&gt;
-&lt;li&gt;Tensile: 180,000psi&lt;&#x2F;li&gt;
-&lt;li&gt;Yield: 155,000psi&lt;&#x2F;li&gt;
-&lt;li&gt;Shear: 108,000psi (~60% of Tensile)&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h1 id=&quot;definitions&quot;&gt;Definitions:&lt;&#x2F;h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Tensile Strength: The resistance of a material to breaking under tension&lt;&#x2F;li&gt;
-&lt;li&gt;Yield Strength: The stress at which a specific amount of deformation is produced&lt;&#x2F;li&gt;
-&lt;li&gt;Proof Load: An axial tensile load which the product must stand without evidence of any permanent set.&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h1 id=&quot;sources&quot;&gt;Sources:&lt;&#x2F;h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.aftfasteners.com&#x2F;grades-of-bolts-bolt-grade-markings-bolt-strength-chart&#x2F;&quot;&gt;Bolt Grade Markings &amp;amp; Strength Chart&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
 	</entry>
