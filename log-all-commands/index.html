@@ -27,7 +27,7 @@
 
   <title>
     
-(import this) | Tools I Work With
+(import this) | Log all (fish) commands
 
   </title>
 
@@ -101,7 +101,7 @@
       <div class="column is-8 is-offset-2">
         <article class="box">
           <h1 class="title">
-            Tools I Work With
+            Log all (fish) commands
           </h1>
           <p class="subtitle"></p>
           <div class="columns is-multiline is-gapless">
@@ -115,7 +115,7 @@
   <span class="icon">
     <i class="far fa-calendar-alt"></i>
   </span>
-  <span><time datetime="2018-12-27">December 27, 2018</time></span>
+  <span><time datetime="2023-04-08">April 08, 2023</time></span>
 </span>
 
             </div>
@@ -125,11 +125,11 @@
   <span class="icon">
     <i class="far fa-clock"></i>
   </span>
-  <span>3 min,</span>
+  <span>2 min,</span>
   <span class="icon">
     <i class="fas fa-pencil-alt"></i>
   </span>
-  <span>508 words</span>
+  <span>215 words</span>
 </span>
 
             </div>
@@ -141,19 +141,50 @@
             </div>
           </div>
           <div class="content mt-2">
-            <p>Yay for interesting writing prompts. Here’s a quick list of the tools I use on a daily basis to get my job as a software engineer done:</p>
+            <h1 id="log-all-non-sudo-commands-in-fish-shell">Log all non-sudo commands in fish-shell</h1>
+<p>All credit (and inspiriation) to:</p>
 <ul>
-<li>Slack: pretty much required for asynchronous communication. Email is reserved primarily for more “formal” communication over “getting shit done”.</li>
-<li>iTerm2: terminal emulator, nothing much to say here but it’s far and away the best on OSX, to the point where I can ignore it. I love tools that get enough out of my way that I can ignore that they are even a thing!</li>
-<li>Fish: friendly interactive shell. For now, my shell of choice over bash and zsh. It works better out of the box but unfortunately isn’t bash-compatible. I waffle between fish and zsh on a regular basis but have been sticking with fish for close to a year now. Probably means it’s time to go back to zsh and oh-my-zsh</li>
-<li>Spacemacs (with vim bindings via evil-mode): definitely a powerful editor/ide/etc. Has the most fully-functional Scala integration outside of intelliJ (which I won’t use on principal). The spacemacs configuration lends itself to discoverability as well as a pretty low-friction setup (for non-emacs users like myself). The vim bindings are the best modal editing I’ve found and are in most editors so I’m able to turn them on and just “get to work” faster. I’m definitely not a vim wizard by any stretch but I do find the editing capabilities much better than any other key bindings I’ve found yet.</li>
-<li>Visual Studio Code: for when spacemacs freaks out and won’t work or if I’m writing Rust (spacemacs rust stuff… kinda-sorta works well enough if you’re familiar with the language, which I’m really not). Also, if I just need a change of pace.</li>
-<li>Chrome: for the longest time I used Chrome for password management so it was my default, but I’m considering moving to Firefox now that I’m using 1password as my password manager on all my devices.</li>
-<li>nvAlt: notational velocity. I have it bound to cmd+` and love its ability to pop up and pop away, support for markdown, and the ability to sync (or not) with various platforms based on where you save its files. The stupid-fast-searching is well worth taking a look at.</li>
-<li>Insomnia: a postman clone that, IMO, is cleaner and more intuitive. Plus, I just like being different.</li>
-<li>GitKraken: hands down the best GUI Git interface. Integrates well with both Github and Gitlab, very performant. Multi-platform. For me, it removed the fear when doing a rebase because I knew exactly what I was doing when and where. I do, however, tend to use spacemacs git integration layer for simple commits.</li>
+<li>https://www.justinjoyce.dev/save-your-shell-history-to-log-files/ (zsh version)</li>
+<li>https://spin.atomicobject.com/2016/05/28/log-bash-history/ (bash version)</li>
 </ul>
-<p>That pretty much wraps it up for tools. Those are the primary ones I use in my day-to-day writing Scala and Rust. Of course, it’ll probably change over the next few months as I get bored pretty easily and when a new shiny comes along, I can’t resist giving it a try!</p>
+<h2 id="tl-dr">tl;dr:</h2>
+<p>Copy this into your <code>~/.config/fish/fish.config</code> file:</p>
+<pre data-lang="shell" class="language-shell "><code class="language-shell" data-lang="shell"># log every command
+function cmd_log --on-event fish_preexec
+  if test (id -u) -ne 0 # if we&#x27;re already sudo, don&#x27;t log
+    echo $(date &quot;+%Y-%m-%d.%H:%M:%S&quot;): $(pwd): $argv &gt;&gt; ~&#x2F;.logs&#x2F;cmd-history-$(date &quot;+%Y-%m-%d&quot;).log
+  end
+end
+</code></pre>
+<h2 id="explanation">Explanation</h2>
+<p>Note: I'm no fish/bash/zsh scripting expert so take this with a grain of salt!</p>
+<ul>
+<li>
+<p><code>function cmd_log</code>: Create a new fish function.</p>
+<ul>
+<li><code>--on-event fish_preexec</code>: Fire this function before every command.</li>
+</ul>
+</li>
+<li>
+<p><code>if test (id -u) -ne 0</code>: If we're not <em>already</em> sudo, then log. Note, this won't prevent <code>sudo ls</code> commands from being logged as we weren't sudo at the time the command <em>started</em>.</p>
+</li>
+<li>
+<p><code>echo</code>: Don't run, instead spit the output out.</p>
+<ul>
+<li><code>$(date &quot;+%Y-%m-%d.%H:%M:%S&quot;)</code>: Current date/time in descending format (sortable).</li>
+<li><code>$(pwd)</code>: Print the working directory.</li>
+<li><code>$argv</code>: Grab the entire command and all args.</li>
+<li><code>&gt;&gt;</code>: Append stdout (the entire echo command) to the end of...</li>
+<li><code>~/logs/cmd-history-$(date &quot;+%Y-%m-%d&quot;)</code>: Today's log file.</li>
+</ul>
+</li>
+<li>
+<p><code>end</code>: End the <code>if</code> statement.</p>
+</li>
+<li>
+<p><code>end</code>: End the function.</p>
+</li>
+</ul>
 
           </div>
         </article>

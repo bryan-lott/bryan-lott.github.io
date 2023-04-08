@@ -5,13 +5,65 @@
 	<link href="https://bryan-lott.github.io/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://bryan-lott.github.io/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-08-09T00:00:00+00:00</updated>
+	<updated>2023-04-08T00:00:00+00:00</updated>
 	<id>https://bryan-lott.github.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Log all (fish) commands</title>
+		<published>2023-04-08T00:00:00+00:00</published>
+		<updated>2023-04-08T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://bryan-lott.github.io/log-all-commands/" type="text/html"/>
+		<id>https://bryan-lott.github.io/log-all-commands/</id>
+		<content type="html">&lt;h1 id=&quot;log-all-non-sudo-commands-in-fish-shell&quot;&gt;Log all non-sudo commands in fish-shell&lt;&#x2F;h1&gt;
+&lt;p&gt;All credit (and inspiriation) to:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;https:&#x2F;&#x2F;www.justinjoyce.dev&#x2F;save-your-shell-history-to-log-files&#x2F; (zsh version)&lt;&#x2F;li&gt;
+&lt;li&gt;https:&#x2F;&#x2F;spin.atomicobject.com&#x2F;2016&#x2F;05&#x2F;28&#x2F;log-bash-history&#x2F; (bash version)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;tl-dr&quot;&gt;tl;dr:&lt;&#x2F;h2&gt;
+&lt;p&gt;Copy this into your &lt;code&gt;~&#x2F;.config&#x2F;fish&#x2F;fish.config&lt;&#x2F;code&gt; file:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;shell&quot; class=&quot;language-shell &quot;&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;# log every command
+function cmd_log --on-event fish_preexec
+  if test (id -u) -ne 0 # if we&amp;#x27;re already sudo, don&amp;#x27;t log
+    echo $(date &amp;quot;+%Y-%m-%d.%H:%M:%S&amp;quot;): $(pwd): $argv &amp;gt;&amp;gt; ~&amp;#x2F;.logs&amp;#x2F;cmd-history-$(date &amp;quot;+%Y-%m-%d&amp;quot;).log
+  end
+end
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;explanation&quot;&gt;Explanation&lt;&#x2F;h2&gt;
+&lt;p&gt;Note: I&#x27;m no fish&#x2F;bash&#x2F;zsh scripting expert so take this with a grain of salt!&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;function cmd_log&lt;&#x2F;code&gt;: Create a new fish function.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--on-event fish_preexec&lt;&#x2F;code&gt;: Fire this function before every command.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;if test (id -u) -ne 0&lt;&#x2F;code&gt;: If we&#x27;re not &lt;em&gt;already&lt;&#x2F;em&gt; sudo, then log. Note, this won&#x27;t prevent &lt;code&gt;sudo ls&lt;&#x2F;code&gt; commands from being logged as we weren&#x27;t sudo at the time the command &lt;em&gt;started&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;echo&lt;&#x2F;code&gt;: Don&#x27;t run, instead spit the output out.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;$(date &amp;quot;+%Y-%m-%d.%H:%M:%S&amp;quot;)&lt;&#x2F;code&gt;: Current date&#x2F;time in descending format (sortable).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;$(pwd)&lt;&#x2F;code&gt;: Print the working directory.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;$argv&lt;&#x2F;code&gt;: Grab the entire command and all args.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;&amp;gt;&amp;gt;&lt;&#x2F;code&gt;: Append stdout (the entire echo command) to the end of...&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;~&#x2F;logs&#x2F;cmd-history-$(date &amp;quot;+%Y-%m-%d&amp;quot;)&lt;&#x2F;code&gt;: Today&#x27;s log file.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;end&lt;&#x2F;code&gt;: End the &lt;code&gt;if&lt;&#x2F;code&gt; statement.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;end&lt;&#x2F;code&gt;: End the function.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Bolt Grades</title>
 		<published>2022-08-09T00:00:00+00:00</published>
 		<updated>2022-08-09T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/tfc/bolt-grades/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/tfc/bolt-grades/" type="text/html"/>
 		<id>https://bryan-lott.github.io/tfc/bolt-grades/</id>
 		<content type="html">&lt;h1 id=&quot;bolt-grades&quot;&gt;Bolt Grades&lt;&#x2F;h1&gt;
 &lt;p&gt;Bolts and Hitch Pins come in both unrated and rated.  For the 4x4 application we&#x27;ll be attempting to deal with rated gear only.  Most hitch pins are not rated, however rated pins can be found, normally called Tractor Hitch Pins or Farm Hitch Pins.
@@ -37,17 +89,17 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;Max Force (lbs)&lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Diameter&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Single Shear&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Double Shear&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1&#x2F;4&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;3,534&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;7,069&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;5&#x2F;16&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;5,522&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;11,045&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;3&#x2F;8&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;7,952&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;15,904&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1&#x2F;2&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;14,137&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;28,274&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;5&#x2F;8&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;22,089&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;44,179&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;3&#x2F;4&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;31,809&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;63,617&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;7&#x2F;8&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;43,273&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;86,546&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;56,549&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;113,097&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1 1&#x2F;4&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;77,313&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;154,625&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1 1&#x2F;2&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;111,330&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;222,660&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Diameter&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Single Shear&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Double Shear&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;1&#x2F;4&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;3,534&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;7,069&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;5&#x2F;16&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;5,522&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;11,045&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;3&#x2F;8&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;7,952&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;15,904&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;1&#x2F;2&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;14,137&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;28,274&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;5&#x2F;8&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;22,089&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;44,179&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;3&#x2F;4&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;31,809&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;63,617&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;7&#x2F;8&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;43,273&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;86,546&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;1&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;56,549&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;113,097&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;1 1&#x2F;4&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;77,313&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;154,625&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;1 1&#x2F;2&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;111,330&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;222,660&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h2 id=&quot;grade-8-10-9&quot;&gt;Grade 8 (10.9)&lt;&#x2F;h2&gt;
 &lt;ul&gt;
@@ -68,17 +120,17 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;Max Force (lbs)&lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Diameter&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Single Shear&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Double Shear&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1&#x2F;4&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;4,418&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;8,836&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;5&#x2F;16&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;6,903&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;13,806&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;3&#x2F;8&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;9,940&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;19,880&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1&#x2F;2&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;17,671&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;35,343&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;5&#x2F;8&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;27,612&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;55,223&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;3&#x2F;4&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;39,761&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;79,522&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;7&#x2F;8&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;54,095&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;108,190&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;70,686&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;141,372&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1 1&#x2F;4&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;110,447&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;220,893&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1 1&#x2F;2&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;159,043&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;318,086&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Diameter&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Single Shear&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Double Shear&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;1&#x2F;4&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;4,418&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;8,836&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;5&#x2F;16&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;6,903&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;13,806&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;3&#x2F;8&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;9,940&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;19,880&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;1&#x2F;2&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;17,671&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;35,343&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;5&#x2F;8&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;27,612&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;55,223&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;3&#x2F;4&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;39,761&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;79,522&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;7&#x2F;8&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;54,095&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;108,190&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;1&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;70,686&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;141,372&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;1 1&#x2F;4&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;110,447&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;220,893&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;1 1&#x2F;2&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;159,043&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;318,086&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h2 id=&quot;grade-9-12-9&quot;&gt;Grade 9 (~12.9)&lt;&#x2F;h2&gt;
 &lt;ul&gt;
@@ -115,7 +167,7 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 		<title>Driving</title>
 		<published>2022-08-09T00:00:00+00:00</published>
 		<updated>2022-08-09T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/tfc/driving/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/tfc/driving/" type="text/html"/>
 		<id>https://bryan-lott.github.io/tfc/driving/</id>
 		<content type="html">&lt;h1 id=&quot;driving&quot;&gt;Driving&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;driver-position&quot;&gt;Driver Position&lt;&#x2F;h2&gt;
@@ -179,7 +231,7 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 		<title>Drivetrain</title>
 		<published>2022-05-27T00:00:00+00:00</published>
 		<updated>2022-05-27T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/tfc/drivetrain/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/tfc/drivetrain/" type="text/html"/>
 		<id>https://bryan-lott.github.io/tfc/drivetrain/</id>
 		<content type="html">&lt;h1 id=&quot;drivetrain&quot;&gt;Drivetrain&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;engine&quot;&gt;Engine&lt;&#x2F;h2&gt;
@@ -267,7 +319,7 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 		<title>Adult Education</title>
 		<published>2022-05-10T00:00:00+00:00</published>
 		<updated>2022-05-10T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/tfc/adult-education/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/tfc/adult-education/" type="text/html"/>
 		<id>https://bryan-lott.github.io/tfc/adult-education/</id>
 		<content type="html">&lt;h1 id=&quot;adult-education&quot;&gt;Adult Education&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;communication&quot;&gt;Communication&lt;&#x2F;h2&gt;
@@ -418,7 +470,7 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 		<title>Introduction to 4 Wheel Drive</title>
 		<published>2022-05-10T00:00:00+00:00</published>
 		<updated>2022-05-10T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/tfc/intro-to-4-wheel-drive/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/tfc/intro-to-4-wheel-drive/" type="text/html"/>
 		<id>https://bryan-lott.github.io/tfc/intro-to-4-wheel-drive/</id>
 		<content type="html">&lt;h1 id=&quot;introduction-to-4-wheel-drive&quot;&gt;Introduction to 4 Wheel Drive&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;notes-from-previous-tfc&quot;&gt;Notes from Previous TFC&lt;&#x2F;h2&gt;
@@ -469,7 +521,7 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 		<title>About this Blog</title>
 		<published>2022-05-06T00:00:00+00:00</published>
 		<updated>2022-05-06T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/about/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/about/" type="text/html"/>
 		<id>https://bryan-lott.github.io/about/</id>
 		<content type="html">&lt;h3 id=&quot;why-import-this&quot;&gt;Why (import this)?&lt;&#x2F;h3&gt;
 &lt;p&gt;Have always loved easter eggs, open a python terminal and type &lt;code&gt;import this&lt;&#x2F;code&gt; ;). At the same time, I love the simplicity of Clojure and feel like it has embodied, even more-so than Python, the principals in the Zen of Python. Also, it’s a lisp, so you know, parentheses everywhere!  They&#x27;re like ((hugs)) for your code.&lt;&#x2F;p&gt;
@@ -502,7 +554,7 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 		<title>What I&#x27;m Currently Doing</title>
 		<published>2022-05-06T00:00:00+00:00</published>
 		<updated>2022-05-06T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/now/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/now/" type="text/html"/>
 		<id>https://bryan-lott.github.io/now/</id>
 		<content type="html">&lt;h1 id=&quot;what-i-m-currently-doing&quot;&gt;What I&#x27;m currently Doing&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;work&quot;&gt;Work&lt;&#x2F;h2&gt;
@@ -527,19 +579,19 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 		<title>Hi-Lift Jack</title>
 		<published>2022-05-06T00:00:00+00:00</published>
 		<updated>2022-05-06T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/tfc/hilift/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/tfc/hilift/" type="text/html"/>
 		<id>https://bryan-lott.github.io/tfc/hilift/</id>
 		<content type="html">&lt;h1 id=&quot;hi-lift-jack&quot;&gt;Hi-Lift Jack&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;parts&quot;&gt;Parts&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;2r572y21vf2s1oltxh158y45-wpengine.netdna-ssl.com&#x2F;wp-content&#x2F;uploads&#x2F;2016&#x2F;07&#x2F;hilift-parts-diagram.png&quot; alt=&quot;hilift-parts-diagram&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;1. Top clamp-clevis&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;8. Handle socket&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;15. Cross pin&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;2. Top clamp-clevis bolt &amp;amp; nut&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;9. Pitman pin&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;16. Climbing pin&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;3. Standard&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;10. Pitman&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;17. climbing pin spring&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;4. Reversing latch&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;11. Hex bolt &amp;amp; nut&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;18. Small running gear&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;5. Handle clip spring&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;12. Large running gear&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;19. Shear bolt &amp;amp; nut&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;6. Cap screw with washer&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;13. Reversing switch spring&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;20. Foot&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;7. Handle (w&#x2F; cotter pin)&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;14. Reversing switch cam bar&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;21. Handle&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;1. Top clamp-clevis&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;8. Handle socket&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;15. Cross pin&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;2. Top clamp-clevis bolt &amp;amp; nut&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;9. Pitman pin&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;16. Climbing pin&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;3. Standard&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;10. Pitman&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;17. climbing pin spring&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;4. Reversing latch&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;11. Hex bolt &amp;amp; nut&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;18. Small running gear&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;5. Handle clip spring&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;12. Large running gear&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;19. Shear bolt &amp;amp; nut&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;6. Cap screw with washer&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;13. Reversing switch spring&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;20. Foot&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;7. Handle (w&#x2F; cotter pin)&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;14. Reversing switch cam bar&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;21. Handle&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;2r572y21vf2s1oltxh158y45-wpengine.netdna-ssl.com&#x2F;wp-content&#x2F;uploads&#x2F;2016&#x2F;07&#x2F;hilift-runninggear-diagram.png&quot; alt=&quot;running-gear-diagram&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;accessories&quot;&gt;Accessories&lt;&#x2F;h2&gt;
@@ -626,7 +678,7 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 		<title>Tools I Use</title>
 		<published>2022-05-06T00:00:00+00:00</published>
 		<updated>2022-05-06T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/uses/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/uses/" type="text/html"/>
 		<id>https://bryan-lott.github.io/uses/</id>
 		<content type="html">&lt;h1 id=&quot;uses&quot;&gt;Uses&lt;&#x2F;h1&gt;
 &lt;p&gt;A succinct overview of tools I use on a regular basis, mostly focused on my day job of software development but possibly other random stuff thrown in.&lt;&#x2F;p&gt;
@@ -679,7 +731,7 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 		<title>Write It Down Yo</title>
 		<published>2020-11-10T00:00:00+00:00</published>
 		<updated>2020-11-10T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/write-it-down-yo/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/write-it-down-yo/" type="text/html"/>
 		<id>https://bryan-lott.github.io/write-it-down-yo/</id>
 		<content type="html">&lt;p&gt;Related to your professional job&#x2F;career, quickly, what&#x27;s in your head that isn&#x27;t in someone else&#x27;s?  Why haven&#x27;t you written it down?  No, really, go write that down now.  Even if it&#x27;s a single sentence.  Have you done it yet?&lt;&#x2F;p&gt;
 &lt;p&gt;Here&#x27;s a fun test.  Either way, go make yourself come coffee or tea or a sandwich or something that&#x27;ll force you to context switch.  Now, come back to whatever-it-was you had in your brain.  If you wrote it down, you can easily pick up where you left off.  If not, well, good luck to you.&lt;&#x2F;p&gt;
@@ -696,7 +748,7 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 		<title>CSV Primer</title>
 		<published>2020-01-10T00:00:00+00:00</published>
 		<updated>2020-01-10T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/csv-primer/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/csv-primer/" type="text/html"/>
 		<id>https://bryan-lott.github.io/csv-primer/</id>
 		<content type="html">&lt;p&gt;Parsing certain data formats can be more challenging than others.  One of the granddaddy&#x27;s of challenging file formats is the humble CSV or &amp;quot;comma separated value&amp;quot; file (I&#x27;ve also heard &amp;quot;character separated value&amp;quot;).  The lack of a strong specification as well as adherance to a specification is what makes parsing these files particularly challenging at times.&lt;&#x2F;p&gt;
 &lt;p&gt;Given the experiences I&#x27;ve had over the past few months parsing over 40 different source file formats, here&#x27;s a few ways to not make your own (or other) developer&#x27;s pull &lt;em&gt;all&lt;&#x2F;em&gt; their hair out.&lt;&#x2F;p&gt;
@@ -793,7 +845,7 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 		<title>ETL Tracers</title>
 		<published>2020-01-02T00:00:00+00:00</published>
 		<updated>2020-01-02T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/etl-tracers/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/etl-tracers/" type="text/html"/>
 		<id>https://bryan-lott.github.io/etl-tracers/</id>
 		<content type="html">&lt;p&gt;Firing visible data at a target to see if you hit&lt;&#x2F;p&gt;
 &lt;p&gt;ETL (Extract-Transform-Load) pipelines are notoriously complex and opaque.  I&#x27;ve always wanted something to pierce the opaqueness I&#x27;ve experienced on many ETL projects.  I&#x27;ll take a wild guess I&#x27;m not the only one.  What follows is an idea I had around five years ago to pierce that opaqueness along with the experience I&#x27;ve had implementing it.&lt;&#x2F;p&gt;
@@ -849,7 +901,7 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 		<title>2019 Year in Review</title>
 		<published>2019-12-31T00:00:00+00:00</published>
 		<updated>2019-12-31T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/year-in-review/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/year-in-review/" type="text/html"/>
 		<id>https://bryan-lott.github.io/year-in-review/</id>
 		<content type="html">&lt;p&gt;Apparently I missed doing one of these last year.  Oh well.  This year has been difficult and challenging and pretty amazing all rolled into one.  First, I read (and listened) to a lot more books than I realized.  That&#x27;s amazing.  I grew up a voracious reader and somehow got out of the habit.  Needless to say, I think I&#x27;m back in the groove and just need to keep up the habit!&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;books&quot;&gt;Books&lt;&#x2F;h2&gt;
@@ -1011,7 +1063,7 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 		<title>Drowning in a Sea of Complexity</title>
 		<published>2019-10-23T00:00:00+00:00</published>
 		<updated>2019-10-23T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/drowning-in-a-sea-of-complexity/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/drowning-in-a-sea-of-complexity/" type="text/html"/>
 		<id>https://bryan-lott.github.io/drowning-in-a-sea-of-complexity/</id>
 		<content type="html">&lt;p&gt;When&#x27;s the last time you looked a piece of code and went &amp;quot;ugggh, I don&#x27;t want to try to figure out what this does, it&#x27;s so complex?!&amp;quot;  Yesterday?  Today?  The reason why you&#x27;re reading a blog and not reading&#x2F;writing code? ;)&lt;&#x2F;p&gt;
 &lt;p&gt;We programmers reach for complexity like it’s goddamn instinctual.&lt;&#x2F;p&gt;
@@ -1044,7 +1096,7 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 		<title>Onboarding Is Hard (part 2)</title>
 		<published>2019-03-27T00:00:00+00:00</published>
 		<updated>2019-03-27T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/onboarding-is-hard-part-2/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/onboarding-is-hard-part-2/" type="text/html"/>
 		<id>https://bryan-lott.github.io/onboarding-is-hard-part-2/</id>
 		<content type="html">&lt;p&gt;tl;dr: if you&#x27;re joining a company, your first n days shouldn&#x27;t be spent being productive, they should be spent building knowledge and connections so you can be productive.&lt;&#x2F;p&gt;
 &lt;p&gt;After reading my last post, I&#x27;ve been stopping and starting the next one for close to a month.  The previous one focused pretty hard on what the hiring &lt;em&gt;company&lt;&#x2F;em&gt; can do to onboard a new hire.  Which is great and all, but that&#x27;s only half of the story.  The other half is focusing on what the &lt;em&gt;new hire&lt;&#x2F;em&gt; can do to be onboarded as quickly and painlessly as possible.&lt;&#x2F;p&gt;
@@ -1107,7 +1159,7 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 		<title>Onboarding Is Hard</title>
 		<published>2019-02-20T00:00:00+00:00</published>
 		<updated>2019-02-20T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/onboarding-is-hard/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/onboarding-is-hard/" type="text/html"/>
 		<id>https://bryan-lott.github.io/onboarding-is-hard/</id>
 		<content type="html">&lt;p&gt;Why both sides need to be positive, intentional, and communicative when someone new joins your company.&lt;&#x2F;p&gt;
 &lt;p&gt;We&#x27;ve all experienced the first-day jitters and shininess that comes from the excitement of new possibility and challenge.  Broadly speaking, that energy can be focused one of two ways.  Either it&#x27;s used to catapult the new employee onto the fast track of becoming an active contributor or it can precipitate a downward spiral into mediocrity, boredom, and ultimately quitting.  What follows here is my guide to capturing, focusing, and using that energy productively.&lt;&#x2F;p&gt;
@@ -1177,7 +1229,7 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 		<title>Projects</title>
 		<published>2019-01-18T00:00:00+00:00</published>
 		<updated>2019-01-18T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/projects/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/projects/" type="text/html"/>
 		<id>https://bryan-lott.github.io/projects/</id>
 		<content type="html">&lt;p&gt;So, for whatever reason, I&#x27;m feeling inspired this morning.  Have a few projects in mind, some of which are ongoing, and others that are just a twinkle in my mind&#x27;s eye.&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -1193,7 +1245,7 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 		<title>Including the Why</title>
 		<published>2019-01-15T00:00:00+00:00</published>
 		<updated>2019-01-15T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/including-the-why/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/including-the-why/" type="text/html"/>
 		<id>https://bryan-lott.github.io/including-the-why/</id>
 		<content type="html">&lt;p&gt;The biggest question I see unanswered in technology, stories, news, etc, is &amp;quot;why?&amp;quot;  Why do I want to experience your content?  Why does it matter to me?  Wrapped up in that question is the context of why it matters to you, the creator.  Why you spent time producing the content.  Why is this a thing that needed to exist in the world?&lt;&#x2F;p&gt;
 &lt;p&gt;Sometimes we may not understand that question ourselves, even while creating.  Something just needed to be there, period.  We happened to be the one that noticed it and had the skills to create it.  Great!  Once it&#x27;s created, we can always go back in and take a second look, figure out why something is.  The best way I find to do this is to sleep on it, look at it with a fresh set of eyes, and come at it with the perspective of someone that doesn&#x27;t know you, your motivations, your context, anything.&lt;&#x2F;p&gt;
@@ -1207,7 +1259,7 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 		<title>Music to Work By</title>
 		<published>2019-01-14T00:00:00+00:00</published>
 		<updated>2019-01-14T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/music-to-work-by/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/music-to-work-by/" type="text/html"/>
 		<id>https://bryan-lott.github.io/music-to-work-by/</id>
 		<content type="html">&lt;p&gt;An (incomplete) list of the music I listen to when I&#x27;m trying to get shit done :tm:.  Obviously all the links are on Spotify for easy listening to.  And part of me wishes we were still in the &amp;quot;personal collection of mp3&#x27;s&amp;quot; era but I also like being exposed to a lot of new bands&#x2F;music that I wouldn&#x27;t have found otherwise.  Pandora was great for that for quite a while, but I&#x27;ve moved onto paying for a subscription to Spotify as I can re-listen to albums&#x2F;songs&#x2F;etc as much as I want.  And to keep my sanity and focus in an open office (insert rant here about how open offices are terrible for knowledge workers) the subscription fee and a good pair of noise cancelling headphones is essential.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;playlists&quot;&gt;Playlists&lt;&#x2F;h2&gt;
@@ -1234,7 +1286,7 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 		<title>Goldilocks and the Three Company Sizes</title>
 		<published>2019-01-11T00:00:00+00:00</published>
 		<updated>2019-01-11T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/goldilocks-and-the-three-company-sizes/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/goldilocks-and-the-three-company-sizes/" type="text/html"/>
 		<id>https://bryan-lott.github.io/goldilocks-and-the-three-company-sizes/</id>
 		<content type="html">&lt;p&gt;Which company size is right for you?&lt;&#x2F;p&gt;
 &lt;p&gt;One of the questions that has to be answered is where do you fall on the spectrum of size and associated company mentality you work best for. The spectrum goes from startup through midsize and all the way up to massive-multinational-conglomerate. There are a few general rules of thumb I’ve come to recognize.&lt;&#x2F;p&gt;
@@ -1262,7 +1314,7 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 		<title>Python to Scala</title>
 		<published>2019-01-07T00:00:00+00:00</published>
 		<updated>2019-01-07T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/python-to-scala/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/python-to-scala/" type="text/html"/>
 		<id>https://bryan-lott.github.io/python-to-scala/</id>
 		<content type="html">&lt;p&gt;Let me set the background.  I&#x27;m not a classically trained programmer.  In fact, I&#x27;ve been coding for about 8 years and ended up teaching myself on the job.  I&#x27;m currently a senior software engineer and end up fighting with &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Impostor_syndrome&quot;&gt;Imposter Syndrome&lt;&#x2F;a&gt; on a regular basis.&lt;&#x2F;p&gt;
 &lt;p&gt;I&#x27;ve been a Python programmer for pretty much that entire time with occasional dabbles in other languages (Clojure, Java, Scala, Node, etc).  In my current (new) position, I&#x27;m working in a Scala codebase.  A language that I&#x27;ve never had to put the effort forward to learn.  Three days in and I totally had a lightbulb moment:&lt;&#x2F;p&gt;
@@ -1292,7 +1344,7 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 		<title>Git Commit Messages</title>
 		<published>2019-01-03T00:00:00+00:00</published>
 		<updated>2019-01-03T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/git-commit/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/git-commit/" type="text/html"/>
 		<id>https://bryan-lott.github.io/git-commit/</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;p&gt;git commit -m &amp;quot;gah!&amp;quot;&lt;&#x2F;p&gt;
@@ -1311,7 +1363,7 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 		<title>Tools I Work With</title>
 		<published>2018-12-27T00:00:00+00:00</published>
 		<updated>2018-12-27T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/tools-i-work-with/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/tools-i-work-with/" type="text/html"/>
 		<id>https://bryan-lott.github.io/tools-i-work-with/</id>
 		<content type="html">&lt;p&gt;Yay for interesting writing prompts. Here’s a quick list of the tools I use on a daily basis to get my job as a software engineer done:&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -1332,7 +1384,7 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 		<title>Predict the Future of Your Industry</title>
 		<published>2018-12-21T00:00:00+00:00</published>
 		<updated>2018-12-21T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/predict-the-future-of-your-industry/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/predict-the-future-of-your-industry/" type="text/html"/>
 		<id>https://bryan-lott.github.io/predict-the-future-of-your-industry/</id>
 		<content type="html">&lt;p&gt;Honestly?  I think my industry (software development) is heading for a cliff.  A complexity cliff.  We&#x27;re already struggling to build abstractions well enough to keep our heads from exploding with the complexity we all seem to love.
 Without a drastic change in direction away from OO, leaky abstractions (DAO and ORM come to mind), and a rejection of incidental complexity, we&#x27;re going to collapse under the weight of our own complexity.&lt;&#x2F;p&gt;
@@ -1344,7 +1396,7 @@ Without a drastic change in direction away from OO, leaky abstractions (DAO and 
 		<title>YAGNI Revisited</title>
 		<published>2018-08-29T00:00:00+00:00</published>
 		<updated>2018-08-29T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/yagni-revisited/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/yagni-revisited/" type="text/html"/>
 		<id>https://bryan-lott.github.io/yagni-revisited/</id>
 		<content type="html">&lt;p&gt;&amp;quot;You aren&#x27;t gonna need it&amp;quot; (YAGNI) is a phrase used in software development to help combat complexity and prevent building unnecessary components.  It&#x27;s a great idea but one rarely implemented.  What I see most often are cron schedulers with api endpoints that put data onto an AWS queue and use an RPC framework internally for no good reason.  I.e., the complete opposite of following the YAGNI principle.&lt;&#x2F;p&gt;
 &lt;p&gt;(fair warning, when I say &amp;quot;prove&amp;quot; below I&#x27;m not talking about a formal proof, instead research or build enough to convince yourself)&lt;&#x2F;p&gt;
@@ -1369,7 +1421,7 @@ Without a drastic change in direction away from OO, leaky abstractions (DAO and 
 		<title>2017 Recap</title>
 		<published>2018-01-07T00:00:00+00:00</published>
 		<updated>2018-01-07T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/2017-recap/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/2017-recap/" type="text/html"/>
 		<id>https://bryan-lott.github.io/2017-recap/</id>
 		<content type="html">&lt;p&gt;Like other blogs, I&#x27;m doing &amp;quot;2017 in review&amp;quot;.  It gives me something to blog about and might jump start a new habit of writing more often.  Daily blogging would be fantastic but I&#x27;d like to start with something reasonable, monthly or maybe weekly and work up from there...&lt;&#x2F;p&gt;
 &lt;p&gt;Note, after writing this it completely changed my perspective on how 2017 went for me.  When I originally started I was feeling pretty shitty about 2017 and hoping that 2018 is better.  Yeah, there was a lot of 
@@ -1642,7 +1694,7 @@ spent over $10,000.  I can also say that the 20+ recoveries I&#x27;ve been on h
 		<title>Refactoring Python if Statements</title>
 		<published>2017-12-23T00:00:00+00:00</published>
 		<updated>2017-12-23T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/refactoring-python-if-statements/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/refactoring-python-if-statements/" type="text/html"/>
 		<id>https://bryan-lott.github.io/refactoring-python-if-statements/</id>
 		<content type="html">&lt;p&gt;Note: I&#x27;m not recommending the following refactoring to everyone, nor am I saying it was even a good idea.  It did, however, work out quite well for myself and my team.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;if pred_1 == &amp;#x27;first&amp;#x27;:
@@ -1818,7 +1870,7 @@ output_data, log_message = data_runner_fn()
 		<title>Doing what you Love</title>
 		<published>2016-12-31T00:00:00+00:00</published>
 		<updated>2016-12-31T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/doing-what-you-love/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/doing-what-you-love/" type="text/html"/>
 		<id>https://bryan-lott.github.io/doing-what-you-love/</id>
 		<content type="html">&lt;p&gt;Those that know me, know that I &lt;em&gt;love&lt;&#x2F;em&gt; Clojure as a language.  The simplicity of syntax and concept draws me like a moth to a flame.  It wouldn&#x27;t be too far to say it&#x27;s my favorite language and I never have the option of developing anything in it.&lt;&#x2F;p&gt;
 &lt;p&gt;I started with Clojure several years ago when I got fed up with the Python threading&#x2F;multiprocessing pain.  While it wasn&#x27;t exactly the easiest language to learn, the community and the resources available online made the transition reasonably painless.  I also probably have an advantage that I was never formally trained in object oriented principals or design and most of my training was either self driven or on the job so switching from object oriented to functional was much easier.&lt;&#x2F;p&gt;
@@ -1859,7 +1911,7 @@ output_data, log_message = data_runner_fn()
 		<title>When It&#x27;s Time to Move On</title>
 		<published>2016-12-31T00:00:00+00:00</published>
 		<updated>2016-12-31T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/when-it-s-time-to-move-on/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/when-it-s-time-to-move-on/" type="text/html"/>
 		<id>https://bryan-lott.github.io/when-it-s-time-to-move-on/</id>
 		<content type="html">&lt;p&gt;I&#x27;m now in the final stages of moving from my current company to a new one.  What follows is a rundown of what&#x27;s been going on in my brain throughout the entire process, my motivations, and my reasoning.&lt;&#x2F;p&gt;
 &lt;p&gt;This is not intended to disparage my current company nor hold the new company up on a pedestal.  This is my (limited) perspective.&lt;&#x2F;p&gt;
@@ -1921,7 +1973,7 @@ output_data, log_message = data_runner_fn()
 		<title>Why I love RPG&#x27;s</title>
 		<published>2016-08-27T00:00:00+00:00</published>
 		<updated>2016-08-27T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/why-i-love-rpg-s/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/why-i-love-rpg-s/" type="text/html"/>
 		<id>https://bryan-lott.github.io/why-i-love-rpg-s/</id>
 		<content type="html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h2&gt;
 &lt;p&gt;For the people that know me, they know I &lt;em&gt;love&lt;&#x2F;em&gt; RPG&#x27;s, whether they be computer based, tabletop, or just reading the new source book that came out yesterday.  Maybe it seems a bit odd to the general population with questions like &amp;quot;isn&#x27;t that dangerous&#x2F;satanic?&amp;quot;  Seriously, this still gets asked 30+ years after D&amp;amp;D (Dungeons &amp;amp; Dragons) was put in the same category as fictional satanic cults.  But I digress.  In this post I hope to answer the &amp;quot;why&amp;quot; of RPG&#x27;s for me and maybe encourage you to take a look at them as well.&lt;&#x2F;p&gt;
@@ -1947,7 +1999,7 @@ output_data, log_message = data_runner_fn()
 		<title>Concurrency Part 2</title>
 		<published>2016-07-08T00:00:00+00:00</published>
 		<updated>2016-07-08T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/concurrency-part-2/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/concurrency-part-2/" type="text/html"/>
 		<id>https://bryan-lott.github.io/concurrency-part-2/</id>
 		<content type="html">&lt;p&gt;Wow, even trivial concurrency in Python is hard...&lt;&#x2F;p&gt;
 &lt;p&gt;So, you have a list of tasks that you want to consume lazily (as they&#x27;re generated, so you don&#x27;t blow up memory).  Great!  That&#x27;s easy to do with a generator function using the yield keyword or the (syntax).  But, oh no... you can&#x27;t pass that to a multiprocess function because it&#x27;s not picklable.  Drat!&lt;&#x2F;p&gt;
@@ -1966,7 +2018,7 @@ output_data, log_message = data_runner_fn()
 		<title>How-to: Read from STDIN or a File in Clojure</title>
 		<published>2016-06-20T00:00:00+00:00</published>
 		<updated>2016-06-20T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/how-to-read-from-stdin-or-a-file-in-clojure/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/how-to-read-from-stdin-or-a-file-in-clojure/" type="text/html"/>
 		<id>https://bryan-lott.github.io/how-to-read-from-stdin-or-a-file-in-clojure/</id>
 		<content type="html">&lt;p&gt;or... how to avoid wasting 2 days!&lt;&#x2F;p&gt;
 &lt;p&gt;First, the completed code:&lt;&#x2F;p&gt;
@@ -2027,7 +2079,7 @@ output_data, log_message = data_runner_fn()
 		<title>Reading Update</title>
 		<published>2016-06-16T00:00:00+00:00</published>
 		<updated>2016-06-16T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/reading-update/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/reading-update/" type="text/html"/>
 		<id>https://bryan-lott.github.io/reading-update/</id>
 		<content type="html">&lt;p&gt;So, after about 8 months of on-and-off focusing on reading more long-form items, how am I doing?  Objectively, I&#x27;d give myself a C-.  Barely passing, and here&#x27;s why.&lt;&#x2F;p&gt;
 &lt;p&gt;I can absolutely say that I&#x27;m doing much better at reading long-form items.  Currently I&#x27;m working through Stephen Hawking&#x27;s Illustrated A Brief History of Time and The Universe in a Nutshell.  Fantastic read, really engaging, and it&#x27;s great to be able to relax with a book before bed.&lt;&#x2F;p&gt;
@@ -2039,7 +2091,7 @@ output_data, log_message = data_runner_fn()
 		<title>Burnout</title>
 		<published>2016-06-13T00:00:00+00:00</published>
 		<updated>2016-06-13T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/burnout/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/burnout/" type="text/html"/>
 		<id>https://bryan-lott.github.io/burnout/</id>
 		<content type="html">&lt;p&gt;Burnout ...and possibly how to defend against it.&lt;&#x2F;p&gt;
 &lt;p&gt;A little bit of backstory is probably in order.  For me, burnout has never been a problem until this past month.  Working on a migration from a data center to the cloud that&#x27;s run over 6 months of constant work has gotten me pretty fried.  We&#x27;re nearly at the end and I feel like I&#x27;ve gained quite a bit of perspective on this problem, at least for myself.  I feel like I&#x27;m actually in a decent place to talk about how I prevented total burnout&#x2F;quitting&#x2F;etc and maybe what I&#x27;ve learned can help someone else (including myself, the next time I&#x27;m facing burnout).&lt;&#x2F;p&gt;
@@ -2071,7 +2123,7 @@ output_data, log_message = data_runner_fn()
 		<title>List of Wonderous Links</title>
 		<published>2016-03-10T00:00:00+00:00</published>
 		<updated>2016-03-10T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/list-of-wonderous-links/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/list-of-wonderous-links/" type="text/html"/>
 		<id>https://bryan-lott.github.io/list-of-wonderous-links/</id>
 		<content type="html">&lt;p&gt;This is going to be nothing more than a link post of articles and blogs that have resonated with me in a powerful way.  All of these relate to job &amp;quot;stuff&amp;quot;, not tech stuff.&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -2091,7 +2143,7 @@ output_data, log_message = data_runner_fn()
 		<title>Wow...</title>
 		<published>2016-01-03T00:00:00+00:00</published>
 		<updated>2016-01-03T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/wow/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/wow/" type="text/html"/>
 		<id>https://bryan-lott.github.io/wow/</id>
 		<content type="html">&lt;p&gt;What a vacation... note to self, as someone that always needs to be creating something for his own wellbeing, never take a vacation without a purpose or something to do, otherwise, you&#x27;ll go crazy!&lt;&#x2F;p&gt;
 </content>
@@ -2100,7 +2152,7 @@ output_data, log_message = data_runner_fn()
 		<title>The Most Important Skills for a Software Developer</title>
 		<published>2015-11-10T00:00:00+00:00</published>
 		<updated>2015-11-10T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/the-most-important-skills-for-a-software-developer/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/the-most-important-skills-for-a-software-developer/" type="text/html"/>
 		<id>https://bryan-lott.github.io/the-most-important-skills-for-a-software-developer/</id>
 		<content type="html">&lt;p&gt;First off, this isn&#x27;t going to be a post about languages, technologies, etc. It would be borderline pointless to write one of those as they come and go so quickly, which brings me to my first important skill:&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;adaptability&quot;&gt;Adaptability&lt;&#x2F;h3&gt;
@@ -2125,7 +2177,7 @@ All of this boils down to having an entrepreneurial mindset as it relates to pus
 		<title>Reading</title>
 		<published>2015-10-26T00:00:00+00:00</published>
 		<updated>2015-10-26T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/reading/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/reading/" type="text/html"/>
 		<id>https://bryan-lott.github.io/reading/</id>
 		<content type="html">&lt;p&gt;So, reading. It&#x27;s something I grew up loving. I used to spend every waking moment with my head stuck in a book. Everything from software development to high fantasy to memoirs. This began when I was very young, my parents used to read to me every night before bed and my dad promised me that whenever we went to a bookstore, he&#x27;d buy me whatever I wanted to read as long as I kept reading. Of course, at that time, it seemed like he&#x27;d just given me the keys to the candy store and he pretty much did.&lt;&#x2F;p&gt;
 &lt;p&gt;From then on, I was a &amp;quot;reader&amp;quot;. It always amazed me when I talked to someone that didn&#x27;t read. I always thought in my head that they must have a very boring life and I was always very close to labeling them &amp;quot;stupid&amp;quot;.&lt;&#x2F;p&gt;
@@ -2143,7 +2195,7 @@ All of this boils down to having an entrepreneurial mindset as it relates to pus
 		<title>Vacation is Hard</title>
 		<published>2015-08-18T00:00:00+00:00</published>
 		<updated>2015-08-18T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/vacation-is-hard/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/vacation-is-hard/" type="text/html"/>
 		<id>https://bryan-lott.github.io/vacation-is-hard/</id>
 		<content type="html">&lt;p&gt;...not necessarily because going on vacation is hard, but coming back from it? Oof.&lt;&#x2F;p&gt;
 &lt;p&gt;I just spent 10 days camping without cell phone service at a spiritual retreat. Had a great time, hung out with friends that I only see once a year, and had some seriously knock-your-socks-off spiritual moments.&lt;&#x2F;p&gt;
@@ -2158,7 +2210,7 @@ All of this boils down to having an entrepreneurial mindset as it relates to pus
 		<title>Concurrency</title>
 		<published>2015-07-08T00:00:00+00:00</published>
 		<updated>2015-07-08T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/concurrency/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/concurrency/" type="text/html"/>
 		<id>https://bryan-lott.github.io/concurrency/</id>
 		<content type="html">&lt;p&gt;Or... why Python will eventually become irrelevant.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
@@ -2178,7 +2230,7 @@ All of this boils down to having an entrepreneurial mindset as it relates to pus
 		<title>Imposter Syndrome</title>
 		<published>2015-05-26T00:00:00+00:00</published>
 		<updated>2015-05-26T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/imposter-syndrome/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/imposter-syndrome/" type="text/html"/>
 		<id>https://bryan-lott.github.io/imposter-syndrome/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Impostor_syndrome&quot;&gt;Wikipedia&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Essentially, it&#x27;s the opposite of the Dunning-Kruger effect. You feel that your skills are less than those of your peers and that you&#x27;re just skating by on luck. One day, someone is going to discover you don&#x27;t really know what&#x27;s going on and bam, your career is over.
@@ -2196,7 +2248,7 @@ Is this an irrational fear for most of us that have it? Of course. Does that cha
 		<title>BOFH</title>
 		<published>2015-05-20T00:00:00+00:00</published>
 		<updated>2015-05-20T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/bofh/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/bofh/" type="text/html"/>
 		<id>https://bryan-lott.github.io/bofh/</id>
 		<content type="html">&lt;p&gt;(bastard operator from hell)
 What a term. It used to only apply to curmudgeonly sysadmins and the neckbeard elite but I&#x27;ve noticed lately that it can be applied to a large number of other IT professionals. Specifically, I&#x27;m talking about developers.&lt;&#x2F;p&gt;
@@ -2220,7 +2272,7 @@ What a term. It used to only apply to curmudgeonly sysadmins and the neckbeard e
 		<title>On Python, Clojure, and PHP</title>
 		<published>2015-05-15T00:00:00+00:00</published>
 		<updated>2015-05-15T00:00:00+00:00</updated>
-		<link href="https://bryan-lott.github.io/on-python-clojure-and-php/" type="text/html"/>
+		<link rel="alternate" href="https://bryan-lott.github.io/on-python-clojure-and-php/" type="text/html"/>
 		<id>https://bryan-lott.github.io/on-python-clojure-and-php/</id>
 		<content type="html">&lt;p&gt;So, I sort of fell into programming.
 When I was a kid, I learned QBasic because it was the only way I knew how to put games on my computer. At that point, my father wouldn&#x27;t buy or install games on the 286 we had, so I had to do it myself.&lt;&#x2F;p&gt;
