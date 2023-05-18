@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title>(import this)</title>
-	<subtitle>From ideas to tech and the life in-between</subtitle>
-	<link href="https://bryan-lott.github.io/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://bryan-lott.github.io/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2023-04-08T00:00:00+00:00</updated>
-	<id>https://bryan-lott.github.io/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Log all (fish) commands</title>
-		<published>2023-04-08T00:00:00+00:00</published>
-		<updated>2023-04-08T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/log-all-commands/" type="text/html"/>
-		<id>https://bryan-lott.github.io/log-all-commands/</id>
-		<content type="html">&lt;h1 id=&quot;log-all-non-sudo-commands-in-fish-shell&quot;&gt;Log all non-sudo commands in fish-shell&lt;&#x2F;h1&gt;
+    <title>(import this)</title>
+    <subtitle>From ideas to tech and the life in-between</subtitle>
+    <link href="https://bryan-lott.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://bryan-lott.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-04-08T00:00:00+00:00</updated>
+    <id>https://bryan-lott.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Log all (fish) commands</title>
+        <published>2023-04-08T00:00:00+00:00</published>
+        <updated>2023-04-08T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/log-all-commands/" type="text/html"/>
+        <id>https://bryan-lott.github.io/log-all-commands/</id>
+        
+        <content type="html">&lt;h1 id=&quot;log-all-non-sudo-commands-in-fish-shell&quot;&gt;Log all non-sudo commands in fish-shell&lt;&#x2F;h1&gt;
 &lt;p&gt;All credit (and inspiriation) to:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;https:&#x2F;&#x2F;www.justinjoyce.dev&#x2F;save-your-shell-history-to-log-files&#x2F; (zsh version)&lt;&#x2F;li&gt;
@@ -58,14 +62,19 @@ end
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Bolt Grades</title>
-		<published>2022-08-09T00:00:00+00:00</published>
-		<updated>2022-08-09T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/tfc/bolt-grades/" type="text/html"/>
-		<id>https://bryan-lott.github.io/tfc/bolt-grades/</id>
-		<content type="html">&lt;h1 id=&quot;bolt-grades&quot;&gt;Bolt Grades&lt;&#x2F;h1&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Bolt Grades</title>
+        <published>2022-08-09T00:00:00+00:00</published>
+        <updated>2022-08-09T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/tfc/bolt-grades/" type="text/html"/>
+        <id>https://bryan-lott.github.io/tfc/bolt-grades/</id>
+        
+        <content type="html">&lt;h1 id=&quot;bolt-grades&quot;&gt;Bolt Grades&lt;&#x2F;h1&gt;
 &lt;p&gt;Bolts and Hitch Pins come in both unrated and rated.  For the 4x4 application we&#x27;ll be attempting to deal with rated gear only.  Most hitch pins are not rated, however rated pins can be found, normally called Tractor Hitch Pins or Farm Hitch Pins.
 In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;p&gt;Below you&#x27;ll find common grades of bolts&#x2F;pins, identifying characteristics, and strength.  In use as a hitch pin the important rating to look for is the &lt;em&gt;Double Shear&lt;&#x2F;em&gt; strength.&lt;&#x2F;p&gt;
@@ -162,14 +171,19 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;li&gt;The Tractor Hitch Pin A Critical Component in Keeping Control of Implements - Purdue Extension PPP-94 (special thanks to Chad A. for the recommendation)&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Driving</title>
-		<published>2022-08-09T00:00:00+00:00</published>
-		<updated>2022-08-09T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/tfc/driving/" type="text/html"/>
-		<id>https://bryan-lott.github.io/tfc/driving/</id>
-		<content type="html">&lt;h1 id=&quot;driving&quot;&gt;Driving&lt;&#x2F;h1&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Driving</title>
+        <published>2022-08-09T00:00:00+00:00</published>
+        <updated>2022-08-09T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/tfc/driving/" type="text/html"/>
+        <id>https://bryan-lott.github.io/tfc/driving/</id>
+        
+        <content type="html">&lt;h1 id=&quot;driving&quot;&gt;Driving&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;driver-position&quot;&gt;Driver Position&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&amp;quot;Dead&amp;quot; Pedal&lt;&#x2F;li&gt;
@@ -202,14 +216,52 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;technique&quot;&gt;Technique&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;left-foot-braking&quot;&gt;Left Foot Braking&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;left-foot-braking-brake-throttle-modulation&quot;&gt;Left Foot Braking&#x2F;Brake Throttle Modulation&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Using your left foot to add back-pressure to the drivetrain, equalizing torque bias, and reducing throttle lag.
+&lt;ul&gt;
+&lt;li&gt;In an automatic, place your left foot covering the brake pedal. Leave your right foot on the throttle.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Before&lt;&#x2F;em&gt; getting to an obstacle, apply enough brake pressure to engage the brakes, but not so much that the engine bogs down or is unable to sustain forward momentum.
+&lt;ul&gt;
+&lt;li&gt;This may require increasing the throttle to maintain momentum.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Feather the brake with your left foot to adjust your forward velocity and momentum while keeping tension in the drivetrain.&lt;&#x2F;li&gt;
+&lt;li&gt;This takes a lot of practice to develop a good feel for it.&lt;&#x2F;li&gt;
+&lt;li&gt;Once you have a good feel for controlling your momentum with the brake, add in the throttle foot.&lt;&#x2F;li&gt;
+&lt;li&gt;The goal is to keep the engine RPM&#x27;s stable while making forward progress.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Can act as a &amp;quot;variable locker&amp;quot; to provide enough resistance on a wheel that is losing or has lost traction to equalize the torque bias and provide enough torque to the wheel that has grip to propel the vehicle forward.
+&lt;ul&gt;
+&lt;li&gt;If the wheel that has lost traction is a rear wheel, adding hand brake may be the better option than foot brake due to front&#x2F;rear brake bias (discussed below).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;hand-parking-emergency-brake&quot;&gt;Hand&#x2F;Parking&#x2F;Emergency Brake&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Adjusting the front&#x2F;rear brake bias
+&lt;ul&gt;
+&lt;li&gt;Brake bias is anywhere from 60-80% biased to the front. This means that when using the foot brake, 60-80% of the braking force goes to the front wheels and only 20-40% to the rear.&lt;&#x2F;li&gt;
+&lt;li&gt;On-highway driving this serves to stop the vehicle faster as the weight transfer puts most of the vehicle weight onto the front wheels.&lt;&#x2F;li&gt;
+&lt;li&gt;When using left foot braking&#x2F;brake throttle modulation, can be used to adjust the back-pressure and front&#x2F;rear brake bias.&lt;&#x2F;li&gt;
+&lt;li&gt;Off-highway when backing down a slope, this bias can cause the vehicle to be unstable and lurch as a large percentage of the weight of the vehicle is now on the rear wheels, reducing the effective stopping power.&lt;&#x2F;li&gt;
+&lt;li&gt;Adding a couple of clicks and engaging the rear brakes can shift the bias from the front to the rear. When backing down, aim to bias around 60% to the rear. This will provide better braking control.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Starting from a dead stop on a slope
+&lt;ul&gt;
+&lt;li&gt;In a manual transmission, pulling up on the hand brake can provide enough braking force that the vehicle no longer rolls backward while transitioning from the foot brake to the throttle.&lt;&#x2F;li&gt;
+&lt;li&gt;In an automatic transmission, this can also help allow the torque converter to build up enough pressure to move the vehicle forward without spinning tires.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;philosophy&quot;&gt;Philosophy&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Driving by the rear wheels
 &lt;ul&gt;
 &lt;li&gt;Front wheels can turn, rear wheels can&#x27;t&lt;&#x2F;li&gt;
-&lt;li&gt;Rear wheels track inside of a turn&lt;&#x2F;li&gt;
+&lt;li&gt;Rear wheels track inside the front wheels in a turn&lt;&#x2F;li&gt;
 &lt;li&gt;Visualizing where the rear wheels go provides a better sense of the overall position of the vehicle through an obstacle&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
@@ -222,18 +274,24 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;If you can&#x27;t remember where your vehicle is, lose your line, stop the vehicle for any length of time, etc&lt;&#x2F;li&gt;
 &lt;li&gt;Your vision is much better outside the vehicle than inside&lt;&#x2F;li&gt;
+&lt;li&gt;Make sure to look under your vehicle and do a full 360. There is a tendency to only look forward.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Drivetrain</title>
-		<published>2022-05-27T00:00:00+00:00</published>
-		<updated>2022-05-27T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/tfc/drivetrain/" type="text/html"/>
-		<id>https://bryan-lott.github.io/tfc/drivetrain/</id>
-		<content type="html">&lt;h1 id=&quot;drivetrain&quot;&gt;Drivetrain&lt;&#x2F;h1&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Drivetrain</title>
+        <published>2022-05-27T00:00:00+00:00</published>
+        <updated>2022-05-27T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/tfc/drivetrain/" type="text/html"/>
+        <id>https://bryan-lott.github.io/tfc/drivetrain/</id>
+        
+        <content type="html">&lt;h1 id=&quot;drivetrain&quot;&gt;Drivetrain&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;engine&quot;&gt;Engine&lt;&#x2F;h2&gt;
 &lt;h2 id=&quot;transmission&quot;&gt;Transmission&lt;&#x2F;h2&gt;
 &lt;h3 id=&quot;manual&quot;&gt;Manual&lt;&#x2F;h3&gt;
@@ -314,14 +372,19 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;li&gt;Can bust 1 pinion and a ring gear and still keep going w&#x2F; lockers engaged&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Adult Education</title>
-		<published>2022-05-10T00:00:00+00:00</published>
-		<updated>2022-05-10T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/tfc/adult-education/" type="text/html"/>
-		<id>https://bryan-lott.github.io/tfc/adult-education/</id>
-		<content type="html">&lt;h1 id=&quot;adult-education&quot;&gt;Adult Education&lt;&#x2F;h1&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Adult Education</title>
+        <published>2022-05-10T00:00:00+00:00</published>
+        <updated>2022-05-10T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/tfc/adult-education/" type="text/html"/>
+        <id>https://bryan-lott.github.io/tfc/adult-education/</id>
+        
+        <content type="html">&lt;h1 id=&quot;adult-education&quot;&gt;Adult Education&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;communication&quot;&gt;Communication&lt;&#x2F;h2&gt;
 &lt;p&gt;Notes from &lt;em&gt;The First Minute: How to Start Conversations that Get Results&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -465,14 +528,19 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Introduction to 4 Wheel Drive</title>
-		<published>2022-05-10T00:00:00+00:00</published>
-		<updated>2022-05-10T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/tfc/intro-to-4-wheel-drive/" type="text/html"/>
-		<id>https://bryan-lott.github.io/tfc/intro-to-4-wheel-drive/</id>
-		<content type="html">&lt;h1 id=&quot;introduction-to-4-wheel-drive&quot;&gt;Introduction to 4 Wheel Drive&lt;&#x2F;h1&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Introduction to 4 Wheel Drive</title>
+        <published>2022-05-10T00:00:00+00:00</published>
+        <updated>2022-05-10T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/tfc/intro-to-4-wheel-drive/" type="text/html"/>
+        <id>https://bryan-lott.github.io/tfc/intro-to-4-wheel-drive/</id>
+        
+        <content type="html">&lt;h1 id=&quot;introduction-to-4-wheel-drive&quot;&gt;Introduction to 4 Wheel Drive&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;notes-from-previous-tfc&quot;&gt;Notes from Previous TFC&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;transfer case
@@ -516,14 +584,19 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>About this Blog</title>
-		<published>2022-05-06T00:00:00+00:00</published>
-		<updated>2022-05-06T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/about/" type="text/html"/>
-		<id>https://bryan-lott.github.io/about/</id>
-		<content type="html">&lt;h3 id=&quot;why-import-this&quot;&gt;Why (import this)?&lt;&#x2F;h3&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>About this Blog</title>
+        <published>2022-05-06T00:00:00+00:00</published>
+        <updated>2022-05-06T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/about/" type="text/html"/>
+        <id>https://bryan-lott.github.io/about/</id>
+        
+        <content type="html">&lt;h3 id=&quot;why-import-this&quot;&gt;Why (import this)?&lt;&#x2F;h3&gt;
 &lt;p&gt;Have always loved easter eggs, open a python terminal and type &lt;code&gt;import this&lt;&#x2F;code&gt; ;). At the same time, I love the simplicity of Clojure and feel like it has embodied, even more-so than Python, the principals in the Zen of Python. Also, it’s a lisp, so you know, parentheses everywhere!  They&#x27;re like ((hugs)) for your code.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;potential-blog-topics&quot;&gt;Potential Blog Topics&lt;&#x2F;h3&gt;
 &lt;ul&gt;
@@ -549,14 +622,19 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;li&gt;Black Lives Matter&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>What I&#x27;m Currently Doing</title>
-		<published>2022-05-06T00:00:00+00:00</published>
-		<updated>2022-05-06T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/now/" type="text/html"/>
-		<id>https://bryan-lott.github.io/now/</id>
-		<content type="html">&lt;h1 id=&quot;what-i-m-currently-doing&quot;&gt;What I&#x27;m currently Doing&lt;&#x2F;h1&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What I&#x27;m Currently Doing</title>
+        <published>2022-05-06T00:00:00+00:00</published>
+        <updated>2022-05-06T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/now/" type="text/html"/>
+        <id>https://bryan-lott.github.io/now/</id>
+        
+        <content type="html">&lt;h1 id=&quot;what-i-m-currently-doing&quot;&gt;What I&#x27;m currently Doing&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;work&quot;&gt;Work&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fantastic company (&lt;a href=&quot;https:&#x2F;&#x2F;rechargepayments.com&#x2F;&quot;&gt;Recharge&lt;&#x2F;a&gt;) that really cares about the people that work for them and their clients&lt;&#x2F;li&gt;
@@ -574,14 +652,19 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;li&gt;&amp;quot;Making&amp;quot; in general, there&#x27;s a wonderful feeling when there&#x27;s a thing you made that wasn&#x27;t a thing before.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Hi-Lift Jack</title>
-		<published>2022-05-06T00:00:00+00:00</published>
-		<updated>2022-05-06T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/tfc/hilift/" type="text/html"/>
-		<id>https://bryan-lott.github.io/tfc/hilift/</id>
-		<content type="html">&lt;h1 id=&quot;hi-lift-jack&quot;&gt;Hi-Lift Jack&lt;&#x2F;h1&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hi-Lift Jack</title>
+        <published>2022-05-06T00:00:00+00:00</published>
+        <updated>2022-05-06T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/tfc/hilift/" type="text/html"/>
+        <id>https://bryan-lott.github.io/tfc/hilift/</id>
+        
+        <content type="html">&lt;h1 id=&quot;hi-lift-jack&quot;&gt;Hi-Lift Jack&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;parts&quot;&gt;Parts&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;2r572y21vf2s1oltxh158y45-wpengine.netdna-ssl.com&#x2F;wp-content&#x2F;uploads&#x2F;2016&#x2F;07&#x2F;hilift-parts-diagram.png&quot; alt=&quot;hilift-parts-diagram&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
@@ -673,14 +756,19 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;p&gt;Setting the area to be clamped between the top clamp clevis and the nose of the jack (facing inward toward one another).&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;winching&quot;&gt;Winching&lt;&#x2F;h3&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Tools I Use</title>
-		<published>2022-05-06T00:00:00+00:00</published>
-		<updated>2022-05-06T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/uses/" type="text/html"/>
-		<id>https://bryan-lott.github.io/uses/</id>
-		<content type="html">&lt;h1 id=&quot;uses&quot;&gt;Uses&lt;&#x2F;h1&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Tools I Use</title>
+        <published>2022-05-06T00:00:00+00:00</published>
+        <updated>2022-05-06T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/uses/" type="text/html"/>
+        <id>https://bryan-lott.github.io/uses/</id>
+        
+        <content type="html">&lt;h1 id=&quot;uses&quot;&gt;Uses&lt;&#x2F;h1&gt;
 &lt;p&gt;A succinct overview of tools I use on a regular basis, mostly focused on my day job of software development but possibly other random stuff thrown in.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;software&quot;&gt;Software&lt;&#x2F;h2&gt;
 &lt;ul&gt;
@@ -726,14 +814,19 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;li&gt;Pixel 6 Pro&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Write It Down Yo</title>
-		<published>2020-11-10T00:00:00+00:00</published>
-		<updated>2020-11-10T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/write-it-down-yo/" type="text/html"/>
-		<id>https://bryan-lott.github.io/write-it-down-yo/</id>
-		<content type="html">&lt;p&gt;Related to your professional job&#x2F;career, quickly, what&#x27;s in your head that isn&#x27;t in someone else&#x27;s?  Why haven&#x27;t you written it down?  No, really, go write that down now.  Even if it&#x27;s a single sentence.  Have you done it yet?&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Write It Down Yo</title>
+        <published>2020-11-10T00:00:00+00:00</published>
+        <updated>2020-11-10T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/write-it-down-yo/" type="text/html"/>
+        <id>https://bryan-lott.github.io/write-it-down-yo/</id>
+        
+        <content type="html">&lt;p&gt;Related to your professional job&#x2F;career, quickly, what&#x27;s in your head that isn&#x27;t in someone else&#x27;s?  Why haven&#x27;t you written it down?  No, really, go write that down now.  Even if it&#x27;s a single sentence.  Have you done it yet?&lt;&#x2F;p&gt;
 &lt;p&gt;Here&#x27;s a fun test.  Either way, go make yourself come coffee or tea or a sandwich or something that&#x27;ll force you to context switch.  Now, come back to whatever-it-was you had in your brain.  If you wrote it down, you can easily pick up where you left off.  If not, well, good luck to you.&lt;&#x2F;p&gt;
 &lt;p&gt;Humans have a pretty terrible working memory.  The old adage is 7 +&#x2F;- 2.  Remember, that&#x27;s for very simple things.  In business&#x2F;software&#x2F;etc we&#x27;re rarely dealing with simple things.  Communicating those complex ideas to others becomes much easier when we write it down.  It forces us to clarify what we&#x27;re trying to communicate.  Bonus points if you include pictures or diagrams.&lt;&#x2F;p&gt;
 &lt;p&gt;This leads me to my next point: if you don&#x27;t write something down, from your employer&#x27;s perspective &lt;em&gt;it doesn&#x27;t exist&lt;&#x2F;em&gt;.  Wait, what?  Yeah.  If anything were to happen to you, that knowledge, all the time spent figuring something out is now gone, wasted.  Remember the last cool idea you had for making something better?  Imagine it gone from the world, permanently.&lt;&#x2F;p&gt;
@@ -743,14 +836,19 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;p&gt;Even better, when you leave that position, no matter the reason, you&#x27;re going to leave a much better taste in everyone&#x27;s mouth when they go to ask you about a thing.  You&#x27;re no longer there, but there&#x27;s documentation they can reference.  There&#x27;s a piece of you still around that&#x27;s still being &lt;em&gt;helpful&lt;&#x2F;em&gt;.  People tend to remember stuff like that and at worst, you&#x27;re remembered more fondly.  The business world is a lot smaller than we assume.  People talk, change jobs, and you run into them in the future.&lt;&#x2F;p&gt;
 &lt;p&gt;In summary, write stuff down, make sure other people can access it, and make the world just a tiny bit better.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>CSV Primer</title>
-		<published>2020-01-10T00:00:00+00:00</published>
-		<updated>2020-01-10T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/csv-primer/" type="text/html"/>
-		<id>https://bryan-lott.github.io/csv-primer/</id>
-		<content type="html">&lt;p&gt;Parsing certain data formats can be more challenging than others.  One of the granddaddy&#x27;s of challenging file formats is the humble CSV or &amp;quot;comma separated value&amp;quot; file (I&#x27;ve also heard &amp;quot;character separated value&amp;quot;).  The lack of a strong specification as well as adherance to a specification is what makes parsing these files particularly challenging at times.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>CSV Primer</title>
+        <published>2020-01-10T00:00:00+00:00</published>
+        <updated>2020-01-10T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/csv-primer/" type="text/html"/>
+        <id>https://bryan-lott.github.io/csv-primer/</id>
+        
+        <content type="html">&lt;p&gt;Parsing certain data formats can be more challenging than others.  One of the granddaddy&#x27;s of challenging file formats is the humble CSV or &amp;quot;comma separated value&amp;quot; file (I&#x27;ve also heard &amp;quot;character separated value&amp;quot;).  The lack of a strong specification as well as adherance to a specification is what makes parsing these files particularly challenging at times.&lt;&#x2F;p&gt;
 &lt;p&gt;Given the experiences I&#x27;ve had over the past few months parsing over 40 different source file formats, here&#x27;s a few ways to not make your own (or other) developer&#x27;s pull &lt;em&gt;all&lt;&#x2F;em&gt; their hair out.&lt;&#x2F;p&gt;
 &lt;p&gt;For the record, I&#x27;ve seen all of these in the wild.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;one-record-per-row&quot;&gt;One record per row&lt;&#x2F;h2&gt;
@@ -840,14 +938,19 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;p&gt;So, what&#x27;s the upshot of all this?  Similar to dealing with &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=-5wpm-gesOY&quot;&gt;timezones&lt;&#x2F;a&gt;, don&#x27;t build your own csv generator&#x2F;parser.  Use one from someone that&#x27;s already gone through all these headaches.  Stand on the shoulders of those giants.&lt;&#x2F;p&gt;
 &lt;p&gt;If you&#x27;re a product person reading this, my only advice to you is: listen to your engineers.  They know how hard dealing with csv files is and they&#x27;re just trying to get the business result you want given the constraints they&#x27;re operating under.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>ETL Tracers</title>
-		<published>2020-01-02T00:00:00+00:00</published>
-		<updated>2020-01-02T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/etl-tracers/" type="text/html"/>
-		<id>https://bryan-lott.github.io/etl-tracers/</id>
-		<content type="html">&lt;p&gt;Firing visible data at a target to see if you hit&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ETL Tracers</title>
+        <published>2020-01-02T00:00:00+00:00</published>
+        <updated>2020-01-02T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/etl-tracers/" type="text/html"/>
+        <id>https://bryan-lott.github.io/etl-tracers/</id>
+        
+        <content type="html">&lt;p&gt;Firing visible data at a target to see if you hit&lt;&#x2F;p&gt;
 &lt;p&gt;ETL (Extract-Transform-Load) pipelines are notoriously complex and opaque.  I&#x27;ve always wanted something to pierce the opaqueness I&#x27;ve experienced on many ETL projects.  I&#x27;ll take a wild guess I&#x27;m not the only one.  What follows is an idea I had around five years ago to pierce that opaqueness along with the experience I&#x27;ve had implementing it.&lt;&#x2F;p&gt;
 &lt;p&gt;If you&#x27;ve watched any war or action movies, you&#x27;ve seen tracer rounds.  These are rounds designed to light up so that the person firing knows where their rounds are going downrange.  Typical rounds are invisible to the eye.  For more info, see &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Tracer_ammunition&quot;&gt;wikipedia&lt;&#x2F;a&gt;.  This is an idea that we can apply to ETL pipelines to give a sense of whether the invisible data is &amp;quot;on target.&amp;quot;&lt;&#x2F;p&gt;
 &lt;p&gt;We can apply the same concept to give us visibility into the inter pipeline.  Using traditional monitoring solutions it&#x27;s easy to see if services are up and running or the underlying box is struggling.  It&#x27;s much harder to see whether the data flowing through is correct.&lt;&#x2F;p&gt;
@@ -896,14 +999,19 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;li&gt;Tracers act, as a side effect, as a monitoring system for the ETL pipeline (if you&#x27;re not seeing tracers every n-minutes, something&#x27;s wrong).&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>2019 Year in Review</title>
-		<published>2019-12-31T00:00:00+00:00</published>
-		<updated>2019-12-31T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/year-in-review/" type="text/html"/>
-		<id>https://bryan-lott.github.io/year-in-review/</id>
-		<content type="html">&lt;p&gt;Apparently I missed doing one of these last year.  Oh well.  This year has been difficult and challenging and pretty amazing all rolled into one.  First, I read (and listened) to a lot more books than I realized.  That&#x27;s amazing.  I grew up a voracious reader and somehow got out of the habit.  Needless to say, I think I&#x27;m back in the groove and just need to keep up the habit!&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>2019 Year in Review</title>
+        <published>2019-12-31T00:00:00+00:00</published>
+        <updated>2019-12-31T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/year-in-review/" type="text/html"/>
+        <id>https://bryan-lott.github.io/year-in-review/</id>
+        
+        <content type="html">&lt;p&gt;Apparently I missed doing one of these last year.  Oh well.  This year has been difficult and challenging and pretty amazing all rolled into one.  First, I read (and listened) to a lot more books than I realized.  That&#x27;s amazing.  I grew up a voracious reader and somehow got out of the habit.  Needless to say, I think I&#x27;m back in the groove and just need to keep up the habit!&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;books&quot;&gt;Books&lt;&#x2F;h2&gt;
 &lt;h3 id=&quot;audio&quot;&gt;Audio&lt;&#x2F;h3&gt;
 &lt;ul&gt;
@@ -1058,14 +1166,19 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Drowning in a Sea of Complexity</title>
-		<published>2019-10-23T00:00:00+00:00</published>
-		<updated>2019-10-23T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/drowning-in-a-sea-of-complexity/" type="text/html"/>
-		<id>https://bryan-lott.github.io/drowning-in-a-sea-of-complexity/</id>
-		<content type="html">&lt;p&gt;When&#x27;s the last time you looked a piece of code and went &amp;quot;ugggh, I don&#x27;t want to try to figure out what this does, it&#x27;s so complex?!&amp;quot;  Yesterday?  Today?  The reason why you&#x27;re reading a blog and not reading&#x2F;writing code? ;)&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Drowning in a Sea of Complexity</title>
+        <published>2019-10-23T00:00:00+00:00</published>
+        <updated>2019-10-23T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/drowning-in-a-sea-of-complexity/" type="text/html"/>
+        <id>https://bryan-lott.github.io/drowning-in-a-sea-of-complexity/</id>
+        
+        <content type="html">&lt;p&gt;When&#x27;s the last time you looked a piece of code and went &amp;quot;ugggh, I don&#x27;t want to try to figure out what this does, it&#x27;s so complex?!&amp;quot;  Yesterday?  Today?  The reason why you&#x27;re reading a blog and not reading&#x2F;writing code? ;)&lt;&#x2F;p&gt;
 &lt;p&gt;We programmers reach for complexity like it’s goddamn instinctual.&lt;&#x2F;p&gt;
 &lt;p&gt;Wait, let me back up. What is complexity?&lt;&#x2F;p&gt;
 &lt;p&gt;According to Rich Hickey, it’s the interweaving&#x2F;interleaving&#x2F;braiding of things. For instance, if you have a function with “and” in the name, you’re complecting (adding complexity to) the function. It should be separate functions.&lt;&#x2F;p&gt;
@@ -1091,14 +1204,19 @@ In a pinch, a properly rated bolt can be used as a hitch pin.&lt;&#x2F;p&gt;
 &lt;p&gt;For future listening...&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;changelog.com&#x2F;posts&#x2F;rich-hickeys-greatest-hits&quot;&gt;Rich Hickey&#x27;s Greatest Hits&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Onboarding Is Hard (part 2)</title>
-		<published>2019-03-27T00:00:00+00:00</published>
-		<updated>2019-03-27T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/onboarding-is-hard-part-2/" type="text/html"/>
-		<id>https://bryan-lott.github.io/onboarding-is-hard-part-2/</id>
-		<content type="html">&lt;p&gt;tl;dr: if you&#x27;re joining a company, your first n days shouldn&#x27;t be spent being productive, they should be spent building knowledge and connections so you can be productive.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Onboarding Is Hard (part 2)</title>
+        <published>2019-03-27T00:00:00+00:00</published>
+        <updated>2019-03-27T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/onboarding-is-hard-part-2/" type="text/html"/>
+        <id>https://bryan-lott.github.io/onboarding-is-hard-part-2/</id>
+        
+        <content type="html">&lt;p&gt;tl;dr: if you&#x27;re joining a company, your first n days shouldn&#x27;t be spent being productive, they should be spent building knowledge and connections so you can be productive.&lt;&#x2F;p&gt;
 &lt;p&gt;After reading my last post, I&#x27;ve been stopping and starting the next one for close to a month.  The previous one focused pretty hard on what the hiring &lt;em&gt;company&lt;&#x2F;em&gt; can do to onboard a new hire.  Which is great and all, but that&#x27;s only half of the story.  The other half is focusing on what the &lt;em&gt;new hire&lt;&#x2F;em&gt; can do to be onboarded as quickly and painlessly as possible.&lt;&#x2F;p&gt;
 &lt;p&gt;With that being said, this is potentially more a note to me than to anyone else!&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;caveats&quot;&gt;Caveats&lt;&#x2F;h2&gt;
@@ -1154,14 +1272,19 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 &lt;p&gt;No one said meeting a bunch of new people, especially people that can impact your ability to have a job, was easy.  In fact, I&#x27;m saying it&#x27;s the complete opposite.  It&#x27;s damn hard.  But the thing is, it&#x27;s worth it and the margin for error is pretty large.  You can screw up most of it and still be successful.&lt;&#x2F;p&gt;
 &lt;p&gt;So, don&#x27;t be too hard on yourself.  Present yourself as authentically as possible and you&#x27;ll do just fine :)&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Onboarding Is Hard</title>
-		<published>2019-02-20T00:00:00+00:00</published>
-		<updated>2019-02-20T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/onboarding-is-hard/" type="text/html"/>
-		<id>https://bryan-lott.github.io/onboarding-is-hard/</id>
-		<content type="html">&lt;p&gt;Why both sides need to be positive, intentional, and communicative when someone new joins your company.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Onboarding Is Hard</title>
+        <published>2019-02-20T00:00:00+00:00</published>
+        <updated>2019-02-20T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/onboarding-is-hard/" type="text/html"/>
+        <id>https://bryan-lott.github.io/onboarding-is-hard/</id>
+        
+        <content type="html">&lt;p&gt;Why both sides need to be positive, intentional, and communicative when someone new joins your company.&lt;&#x2F;p&gt;
 &lt;p&gt;We&#x27;ve all experienced the first-day jitters and shininess that comes from the excitement of new possibility and challenge.  Broadly speaking, that energy can be focused one of two ways.  Either it&#x27;s used to catapult the new employee onto the fast track of becoming an active contributor or it can precipitate a downward spiral into mediocrity, boredom, and ultimately quitting.  What follows here is my guide to capturing, focusing, and using that energy productively.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;have-a-plan&quot;&gt;Have a Plan&lt;&#x2F;h2&gt;
 &lt;p&gt;Sounds very simple I know, but you&#x27;d be surprised at how many places I&#x27;ve run into that thought they could just &amp;quot;wing it&amp;quot; when bringing someone new on.  This is can be predicated on a few potential assumptions.&lt;&#x2F;p&gt;
@@ -1224,14 +1347,19 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 &lt;p&gt;So, what&#x27;s the point here?  Onboarding is hard, damn hard.  Let&#x27;s not make it harder than it has to be.  Remember, the hiring of someone new is very expensive and you should put just as much effort into the post-hire as you do the pre-hire.  Always look at it from the perspective of the new hire.  Give them the hand up they need to get their feet under them and they&#x27;ll become a productive member of your team faster with more smiles on either side.&lt;&#x2F;p&gt;
 &lt;p&gt;The alternative is to let them flail as some sort of weird hazing ritual and see if they succeed.  They might, yes, but you&#x27;ll have wasted a lot of time, money, and effort needlessly.  With the ultimate downside that they&#x27;ll likely quit much sooner than they would have otherwise.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Projects</title>
-		<published>2019-01-18T00:00:00+00:00</published>
-		<updated>2019-01-18T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/projects/" type="text/html"/>
-		<id>https://bryan-lott.github.io/projects/</id>
-		<content type="html">&lt;p&gt;So, for whatever reason, I&#x27;m feeling inspired this morning.  Have a few projects in mind, some of which are ongoing, and others that are just a twinkle in my mind&#x27;s eye.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Projects</title>
+        <published>2019-01-18T00:00:00+00:00</published>
+        <updated>2019-01-18T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/projects/" type="text/html"/>
+        <id>https://bryan-lott.github.io/projects/</id>
+        
+        <content type="html">&lt;p&gt;So, for whatever reason, I&#x27;m feeling inspired this morning.  Have a few projects in mind, some of which are ongoing, and others that are just a twinkle in my mind&#x27;s eye.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;The &amp;quot;perfect&amp;quot; D&amp;amp;D&#x2F;RPG note taking system.  Something along the lines of bullet journal, customized for RPG &lt;em&gt;player&lt;&#x2F;em&gt; note taking.  Also, would love it if the character sheet was integrated into the system as well.  I picked up a Leuchtturm1917 note book last night and, with any luck, I&#x27;ll be able to transfer notes from our previous sessions over to it within the next day or so and give it a real try out on Sunday when our game is.&lt;&#x2F;li&gt;
 &lt;li&gt;Going to Burning Man.  Yeah, pretty simple.  Plan is to buy a ticket the first opportunity I can.  I think I&#x27;ve already got the survival situation pretty much figured out.  It definitely helps that my girlfriend and another friend went last year and I&#x27;ve been listening to the &lt;em&gt;awesome&lt;&#x2F;em&gt; &lt;a href=&quot;https:&#x2F;&#x2F;accuracythird.com&#x2F;&quot;&gt;Accuracy Third Podcast&lt;&#x2F;a&gt; since the end of Burning Man last year.&lt;&#x2F;li&gt;
@@ -1240,28 +1368,38 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 &lt;&#x2F;ul&gt;
 &lt;p&gt;So, what projects are you working on?  What projects are floating around in your head that you haven&#x27;t gotten started?  What projects &lt;em&gt;could&lt;&#x2F;em&gt; you be working on if only you had time&#x2F;energy&#x2F;money&#x2F;motivation&#x2F;etc?&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Including the Why</title>
-		<published>2019-01-15T00:00:00+00:00</published>
-		<updated>2019-01-15T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/including-the-why/" type="text/html"/>
-		<id>https://bryan-lott.github.io/including-the-why/</id>
-		<content type="html">&lt;p&gt;The biggest question I see unanswered in technology, stories, news, etc, is &amp;quot;why?&amp;quot;  Why do I want to experience your content?  Why does it matter to me?  Wrapped up in that question is the context of why it matters to you, the creator.  Why you spent time producing the content.  Why is this a thing that needed to exist in the world?&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Including the Why</title>
+        <published>2019-01-15T00:00:00+00:00</published>
+        <updated>2019-01-15T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/including-the-why/" type="text/html"/>
+        <id>https://bryan-lott.github.io/including-the-why/</id>
+        
+        <content type="html">&lt;p&gt;The biggest question I see unanswered in technology, stories, news, etc, is &amp;quot;why?&amp;quot;  Why do I want to experience your content?  Why does it matter to me?  Wrapped up in that question is the context of why it matters to you, the creator.  Why you spent time producing the content.  Why is this a thing that needed to exist in the world?&lt;&#x2F;p&gt;
 &lt;p&gt;Sometimes we may not understand that question ourselves, even while creating.  Something just needed to be there, period.  We happened to be the one that noticed it and had the skills to create it.  Great!  Once it&#x27;s created, we can always go back in and take a second look, figure out why something is.  The best way I find to do this is to sleep on it, look at it with a fresh set of eyes, and come at it with the perspective of someone that doesn&#x27;t know you, your motivations, your context, anything.&lt;&#x2F;p&gt;
 &lt;p&gt;Take, for example, this blog post.  Why does it need to exist?  It originally started out as a reaction to a &amp;quot;vaguebook&amp;quot; post I saw this morning, the very epitome of the lack of &amp;quot;why&amp;quot; (and a bunch of other things).  This lead me down a path of thinking through why I struggle to understand some people but not others.  Or, for that matter, why I can communicate with some people effortlessly but others it&#x27;s like we talk past one another endlessly.  That&#x27;s one &amp;quot;why&amp;quot; for me to write this post, but what do I hope a person reading it gets out of it?  The other side of the proverbial &amp;quot;why&amp;quot; coin.&lt;&#x2F;p&gt;
 &lt;p&gt;Why should someone else read it? (&amp;quot;someone else&amp;quot; also being me, once I&#x27;ve lost the context and &amp;quot;why&amp;quot; of this post in the first place).  The most basic reason I can think of is to &amp;quot;change the world.&amp;quot;  Grandiose, I know, but stick with me.  We normally think of &amp;quot;changing the world&amp;quot; as being some grand thing.  What we, myself included, fail to recognize is that change can be so subtle, so slight, that no one even notices.  That&#x27;s change too, just on a different scale.&lt;&#x2F;p&gt;
 &lt;p&gt;So, back to my grandiose ideas of changing the world.  If one person, again myself included, reads this and because of it includes an answer to &amp;quot;why&amp;quot; in their next creation, then it&#x27;s served its purpose.  Reducing the friction in communication between two beings.  Getting someone to share their perspective accurately with someone else.  That someone else being able to easily step into the perspective of the creator.&lt;&#x2F;p&gt;
 &lt;p&gt;So, next time you create something, include a bit of &amp;quot;why&amp;quot;.  No, you don&#x27;t need to include 100 pages of backstory before you share your recipe for perfect boiled eggs, but I do want to understand at least a little of your perspective.  In this case, why your boiled eggs are better!&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Music to Work By</title>
-		<published>2019-01-14T00:00:00+00:00</published>
-		<updated>2019-01-14T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/music-to-work-by/" type="text/html"/>
-		<id>https://bryan-lott.github.io/music-to-work-by/</id>
-		<content type="html">&lt;p&gt;An (incomplete) list of the music I listen to when I&#x27;m trying to get shit done :tm:.  Obviously all the links are on Spotify for easy listening to.  And part of me wishes we were still in the &amp;quot;personal collection of mp3&#x27;s&amp;quot; era but I also like being exposed to a lot of new bands&#x2F;music that I wouldn&#x27;t have found otherwise.  Pandora was great for that for quite a while, but I&#x27;ve moved onto paying for a subscription to Spotify as I can re-listen to albums&#x2F;songs&#x2F;etc as much as I want.  And to keep my sanity and focus in an open office (insert rant here about how open offices are terrible for knowledge workers) the subscription fee and a good pair of noise cancelling headphones is essential.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Music to Work By</title>
+        <published>2019-01-14T00:00:00+00:00</published>
+        <updated>2019-01-14T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/music-to-work-by/" type="text/html"/>
+        <id>https://bryan-lott.github.io/music-to-work-by/</id>
+        
+        <content type="html">&lt;p&gt;An (incomplete) list of the music I listen to when I&#x27;m trying to get shit done :tm:.  Obviously all the links are on Spotify for easy listening to.  And part of me wishes we were still in the &amp;quot;personal collection of mp3&#x27;s&amp;quot; era but I also like being exposed to a lot of new bands&#x2F;music that I wouldn&#x27;t have found otherwise.  Pandora was great for that for quite a while, but I&#x27;ve moved onto paying for a subscription to Spotify as I can re-listen to albums&#x2F;songs&#x2F;etc as much as I want.  And to keep my sanity and focus in an open office (insert rant here about how open offices are terrible for knowledge workers) the subscription fee and a good pair of noise cancelling headphones is essential.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;playlists&quot;&gt;Playlists&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Focus w&#x2F; Energy: &lt;a href=&quot;https:&#x2F;&#x2F;open.spotify.com&#x2F;user&#x2F;mystickphoenix&#x2F;playlist&#x2F;3bSwSru9Jdhr6Ch4twIqh6?si=uOBIv7cHRK2AECe7Jq1SJw&quot;&gt;Liquid Funk&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
@@ -1281,14 +1419,19 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 &lt;&#x2F;ul&gt;
 &lt;p&gt;Just a taste of what I listen to on a regular basis, preferrably at high volume, blocking out any distractions so I have at least a chance of focusing!&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Goldilocks and the Three Company Sizes</title>
-		<published>2019-01-11T00:00:00+00:00</published>
-		<updated>2019-01-11T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/goldilocks-and-the-three-company-sizes/" type="text/html"/>
-		<id>https://bryan-lott.github.io/goldilocks-and-the-three-company-sizes/</id>
-		<content type="html">&lt;p&gt;Which company size is right for you?&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Goldilocks and the Three Company Sizes</title>
+        <published>2019-01-11T00:00:00+00:00</published>
+        <updated>2019-01-11T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/goldilocks-and-the-three-company-sizes/" type="text/html"/>
+        <id>https://bryan-lott.github.io/goldilocks-and-the-three-company-sizes/</id>
+        
+        <content type="html">&lt;p&gt;Which company size is right for you?&lt;&#x2F;p&gt;
 &lt;p&gt;One of the questions that has to be answered is where do you fall on the spectrum of size and associated company mentality you work best for. The spectrum goes from startup through midsize and all the way up to massive-multinational-conglomerate. There are a few general rules of thumb I’ve come to recognize.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;As size goes up, individual freedoms go down&lt;&#x2F;li&gt;
@@ -1309,14 +1452,19 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 &lt;p&gt;As for stability, large companies generally don’t fold in a day. They do, however, lay off people, seemingly without much thought. So, while the company may not go under, your job may disappear. As many people have said, the idea that you can find a “forever company” at this point is mostly a myth. Maybe it’s possible, but it’s more likely that you’ll find a “good enough for now” company and when it no longer meets that criteria, you move on to the next one that fits that criteria.&lt;&#x2F;p&gt;
 &lt;p&gt;Size of company is objective, your experience of the best size for you is subjective. My advice is to find the right size and stick to it, even if you’re switching companies. You’ll be happier and more productive.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Python to Scala</title>
-		<published>2019-01-07T00:00:00+00:00</published>
-		<updated>2019-01-07T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/python-to-scala/" type="text/html"/>
-		<id>https://bryan-lott.github.io/python-to-scala/</id>
-		<content type="html">&lt;p&gt;Let me set the background.  I&#x27;m not a classically trained programmer.  In fact, I&#x27;ve been coding for about 8 years and ended up teaching myself on the job.  I&#x27;m currently a senior software engineer and end up fighting with &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Impostor_syndrome&quot;&gt;Imposter Syndrome&lt;&#x2F;a&gt; on a regular basis.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Python to Scala</title>
+        <published>2019-01-07T00:00:00+00:00</published>
+        <updated>2019-01-07T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/python-to-scala/" type="text/html"/>
+        <id>https://bryan-lott.github.io/python-to-scala/</id>
+        
+        <content type="html">&lt;p&gt;Let me set the background.  I&#x27;m not a classically trained programmer.  In fact, I&#x27;ve been coding for about 8 years and ended up teaching myself on the job.  I&#x27;m currently a senior software engineer and end up fighting with &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Impostor_syndrome&quot;&gt;Imposter Syndrome&lt;&#x2F;a&gt; on a regular basis.&lt;&#x2F;p&gt;
 &lt;p&gt;I&#x27;ve been a Python programmer for pretty much that entire time with occasional dabbles in other languages (Clojure, Java, Scala, Node, etc).  In my current (new) position, I&#x27;m working in a Scala codebase.  A language that I&#x27;ve never had to put the effort forward to learn.  Three days in and I totally had a lightbulb moment:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;em&gt;Scala is Typed Python on the JVM with Braces&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Take for instance the Person class in Python:&lt;&#x2F;p&gt;
@@ -1339,14 +1487,19 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 &lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;So far, it&#x27;s not as difficult a mountain to climb as I expected and that&#x27;s a very good thing!&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Git Commit Messages</title>
-		<published>2019-01-03T00:00:00+00:00</published>
-		<updated>2019-01-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/git-commit/" type="text/html"/>
-		<id>https://bryan-lott.github.io/git-commit/</id>
-		<content type="html">&lt;blockquote&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Git Commit Messages</title>
+        <published>2019-01-03T00:00:00+00:00</published>
+        <updated>2019-01-03T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/git-commit/" type="text/html"/>
+        <id>https://bryan-lott.github.io/git-commit/</id>
+        
+        <content type="html">&lt;blockquote&gt;
 &lt;p&gt;git commit -m &amp;quot;gah!&amp;quot;&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;So, apparently, git commit messages are a point of contention with developers.  Yeah, the ~50 characters you get to say what the commit does, your state of mind, why this is a thing, etc.  Not only that, this is the message that&#x27;s probably lost when you squash merge your commit.  Maybe it&#x27;s just me, but I find very little value in reading any git commits.  There&#x27;s just not enough context without reading the associated code, and if you&#x27;re doing that... the commit message probably won&#x27;t provide you that much extra information.&lt;&#x2F;p&gt;
@@ -1358,14 +1511,19 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 &lt;p&gt;Here&#x27;s the thing, to provide enough of a summary so that the person coming behind you (likely to be you when you&#x27;ve lost the context you currently have) in ~50 characters is &lt;em&gt;HARD&lt;&#x2F;em&gt;, like, getting-threading-locks-right-hard.  So, if you give me commit messages like &amp;quot;terribleness&amp;quot;, &amp;quot;joy&amp;quot;, etc, I&#x27;ll probably just laugh and go read the code.  If you&#x27;ve given me one of the commit messages that gives me enough context, I&#x27;ll still go read the code since all documentation is suspect, especially mine!&lt;&#x2F;p&gt;
 &lt;p&gt;Good git commit messages are bonus points, nothing more.  So to get up in arms about it feels, silly, and possibly a sign of bikeshedding.  Write good ones if you can and don&#x27;t criticise those that can&#x27;t.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Tools I Work With</title>
-		<published>2018-12-27T00:00:00+00:00</published>
-		<updated>2018-12-27T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/tools-i-work-with/" type="text/html"/>
-		<id>https://bryan-lott.github.io/tools-i-work-with/</id>
-		<content type="html">&lt;p&gt;Yay for interesting writing prompts. Here’s a quick list of the tools I use on a daily basis to get my job as a software engineer done:&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Tools I Work With</title>
+        <published>2018-12-27T00:00:00+00:00</published>
+        <updated>2018-12-27T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/tools-i-work-with/" type="text/html"/>
+        <id>https://bryan-lott.github.io/tools-i-work-with/</id>
+        
+        <content type="html">&lt;p&gt;Yay for interesting writing prompts. Here’s a quick list of the tools I use on a daily basis to get my job as a software engineer done:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Slack: pretty much required for asynchronous communication. Email is reserved primarily for more “formal” communication over “getting shit done”.&lt;&#x2F;li&gt;
 &lt;li&gt;iTerm2: terminal emulator, nothing much to say here but it’s far and away the best on OSX, to the point where I can ignore it. I love tools that get enough out of my way that I can ignore that they are even a thing!&lt;&#x2F;li&gt;
@@ -1379,26 +1537,36 @@ Second, some of the advice may apply, some may not.  It all depends on the parti
 &lt;&#x2F;ul&gt;
 &lt;p&gt;That pretty much wraps it up for tools. Those are the primary ones I use in my day-to-day writing Scala and Rust. Of course, it’ll probably change over the next few months as I get bored pretty easily and when a new shiny comes along, I can’t resist giving it a try!&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Predict the Future of Your Industry</title>
-		<published>2018-12-21T00:00:00+00:00</published>
-		<updated>2018-12-21T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/predict-the-future-of-your-industry/" type="text/html"/>
-		<id>https://bryan-lott.github.io/predict-the-future-of-your-industry/</id>
-		<content type="html">&lt;p&gt;Honestly?  I think my industry (software development) is heading for a cliff.  A complexity cliff.  We&#x27;re already struggling to build abstractions well enough to keep our heads from exploding with the complexity we all seem to love.
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Predict the Future of Your Industry</title>
+        <published>2018-12-21T00:00:00+00:00</published>
+        <updated>2018-12-21T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/predict-the-future-of-your-industry/" type="text/html"/>
+        <id>https://bryan-lott.github.io/predict-the-future-of-your-industry/</id>
+        
+        <content type="html">&lt;p&gt;Honestly?  I think my industry (software development) is heading for a cliff.  A complexity cliff.  We&#x27;re already struggling to build abstractions well enough to keep our heads from exploding with the complexity we all seem to love.
 Without a drastic change in direction away from OO, leaky abstractions (DAO and ORM come to mind), and a rejection of incidental complexity, we&#x27;re going to collapse under the weight of our own complexity.&lt;&#x2F;p&gt;
 &lt;p&gt;I know, the prediction seems pretty dire, but I&#x27;m seeing it in both new developers and experienced developers all the time, at multiple companies, and in multiple languages.  What we&#x27;ve built and are now building &lt;em&gt;&lt;em&gt;ARE TOO COMPLEX&lt;&#x2F;em&gt;&lt;&#x2F;em&gt;.  Not too complex for a computer to parse, but too complex for our (feeble in comparison) minds to be able to comprehend.  We need a return to the fundamentals of computing: theoretical math, lambda calculus, pure logic.  Maybe it&#x27;s just me, but when I&#x27;m working on a problem where I&#x27;m comparing the outputs of two programs and can&#x27;t satisfy the compiler, let alone get actual matches, we&#x27;ve got a huge problem.  I&#x27;m no computer genius, but I&#x27;ve been doing software development for at least 10 years now.&lt;&#x2F;p&gt;
 &lt;p&gt;I can&#x27;t shake the feeling that as an industry, we&#x27;ve seriously fucked up, and need to go back and understand what and where the hell we went wrong and fix it, and soon.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>YAGNI Revisited</title>
-		<published>2018-08-29T00:00:00+00:00</published>
-		<updated>2018-08-29T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/yagni-revisited/" type="text/html"/>
-		<id>https://bryan-lott.github.io/yagni-revisited/</id>
-		<content type="html">&lt;p&gt;&amp;quot;You aren&#x27;t gonna need it&amp;quot; (YAGNI) is a phrase used in software development to help combat complexity and prevent building unnecessary components.  It&#x27;s a great idea but one rarely implemented.  What I see most often are cron schedulers with api endpoints that put data onto an AWS queue and use an RPC framework internally for no good reason.  I.e., the complete opposite of following the YAGNI principle.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>YAGNI Revisited</title>
+        <published>2018-08-29T00:00:00+00:00</published>
+        <updated>2018-08-29T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/yagni-revisited/" type="text/html"/>
+        <id>https://bryan-lott.github.io/yagni-revisited/</id>
+        
+        <content type="html">&lt;p&gt;&amp;quot;You aren&#x27;t gonna need it&amp;quot; (YAGNI) is a phrase used in software development to help combat complexity and prevent building unnecessary components.  It&#x27;s a great idea but one rarely implemented.  What I see most often are cron schedulers with api endpoints that put data onto an AWS queue and use an RPC framework internally for no good reason.  I.e., the complete opposite of following the YAGNI principle.&lt;&#x2F;p&gt;
 &lt;p&gt;(fair warning, when I say &amp;quot;prove&amp;quot; below I&#x27;m not talking about a formal proof, instead research or build enough to convince yourself)&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;assumption-of-none&quot;&gt;Assumption of None&lt;&#x2F;h2&gt;
 &lt;p&gt;I had an insight the other day that led me down an interesting path.&lt;&#x2F;p&gt;
@@ -1416,14 +1584,19 @@ Without a drastic change in direction away from OO, leaky abstractions (DAO and 
 &lt;p&gt;This increases developer productivity which in turn means business velocity.  If you&#x27;re building the thing you need and only that, you can move at lightning speed.  That&#x27;s the goal, isn&#x27;t it?  Move faster than your competition and maintain that velocity for as long as possible.&lt;&#x2F;p&gt;
 &lt;p&gt;You&#x27;re also building in a lack of code ownership.  This, contrary to popular belief, is also a good thing.  It means when your code no longer fits your need, because your needs diverged, you can toss the code out and use the lessons learned to move even faster on the new need.  Even in this case, go back to the basic assumption that you don&#x27;t need to build anything, and prove yourself wrong every step of the way.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>2017 Recap</title>
-		<published>2018-01-07T00:00:00+00:00</published>
-		<updated>2018-01-07T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/2017-recap/" type="text/html"/>
-		<id>https://bryan-lott.github.io/2017-recap/</id>
-		<content type="html">&lt;p&gt;Like other blogs, I&#x27;m doing &amp;quot;2017 in review&amp;quot;.  It gives me something to blog about and might jump start a new habit of writing more often.  Daily blogging would be fantastic but I&#x27;d like to start with something reasonable, monthly or maybe weekly and work up from there...&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>2017 Recap</title>
+        <published>2018-01-07T00:00:00+00:00</published>
+        <updated>2018-01-07T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/2017-recap/" type="text/html"/>
+        <id>https://bryan-lott.github.io/2017-recap/</id>
+        
+        <content type="html">&lt;p&gt;Like other blogs, I&#x27;m doing &amp;quot;2017 in review&amp;quot;.  It gives me something to blog about and might jump start a new habit of writing more often.  Daily blogging would be fantastic but I&#x27;d like to start with something reasonable, monthly or maybe weekly and work up from there...&lt;&#x2F;p&gt;
 &lt;p&gt;Note, after writing this it completely changed my perspective on how 2017 went for me.  When I originally started I was feeling pretty shitty about 2017 and hoping that 2018 is better.  Yeah, there was a lot of 
 negativity in 2017 but personally there was a lot of good in there too.  Funny how things get put into perspective sometimes.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;games-played&quot;&gt;Games Played&lt;&#x2F;h2&gt;
@@ -1689,14 +1862,19 @@ spent over $10,000.  I can also say that the 20+ recoveries I&#x27;ve been on h
 &lt;li&gt;Play more games!  Specifically tabletop games (RPG or not) with friends.  The human connection is hard to beat.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Refactoring Python if Statements</title>
-		<published>2017-12-23T00:00:00+00:00</published>
-		<updated>2017-12-23T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/refactoring-python-if-statements/" type="text/html"/>
-		<id>https://bryan-lott.github.io/refactoring-python-if-statements/</id>
-		<content type="html">&lt;p&gt;Note: I&#x27;m not recommending the following refactoring to everyone, nor am I saying it was even a good idea.  It did, however, work out quite well for myself and my team.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Refactoring Python if Statements</title>
+        <published>2017-12-23T00:00:00+00:00</published>
+        <updated>2017-12-23T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/refactoring-python-if-statements/" type="text/html"/>
+        <id>https://bryan-lott.github.io/refactoring-python-if-statements/</id>
+        
+        <content type="html">&lt;p&gt;Note: I&#x27;m not recommending the following refactoring to everyone, nor am I saying it was even a good idea.  It did, however, work out quite well for myself and my team.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;if pred_1 == &amp;#x27;first&amp;#x27;:
     output_data = output_data._replace(output_data_1=pred_3, output_data_2=pred_4)
     if pred_2 and self.state_management_3 in pred_2:
@@ -1865,14 +2043,19 @@ output_data, log_message = data_runner_fn()
 &lt;p&gt;To be honest, I&#x27;m still not 100% satisfied with the result, but the feedback in the following weeks was nothing but positive.  This is telling because around the same time, the business logic now encoded in the dictionary changed drastically.  This change was estimated to take around 2-4 weeks in the old if statement.  In the new one, it was done in 2 days.&lt;&#x2F;p&gt;
 &lt;p&gt;I think the increase in productivity speaks for itself.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Doing what you Love</title>
-		<published>2016-12-31T00:00:00+00:00</published>
-		<updated>2016-12-31T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/doing-what-you-love/" type="text/html"/>
-		<id>https://bryan-lott.github.io/doing-what-you-love/</id>
-		<content type="html">&lt;p&gt;Those that know me, know that I &lt;em&gt;love&lt;&#x2F;em&gt; Clojure as a language.  The simplicity of syntax and concept draws me like a moth to a flame.  It wouldn&#x27;t be too far to say it&#x27;s my favorite language and I never have the option of developing anything in it.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Doing what you Love</title>
+        <published>2016-12-31T00:00:00+00:00</published>
+        <updated>2016-12-31T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/doing-what-you-love/" type="text/html"/>
+        <id>https://bryan-lott.github.io/doing-what-you-love/</id>
+        
+        <content type="html">&lt;p&gt;Those that know me, know that I &lt;em&gt;love&lt;&#x2F;em&gt; Clojure as a language.  The simplicity of syntax and concept draws me like a moth to a flame.  It wouldn&#x27;t be too far to say it&#x27;s my favorite language and I never have the option of developing anything in it.&lt;&#x2F;p&gt;
 &lt;p&gt;I started with Clojure several years ago when I got fed up with the Python threading&#x2F;multiprocessing pain.  While it wasn&#x27;t exactly the easiest language to learn, the community and the resources available online made the transition reasonably painless.  I also probably have an advantage that I was never formally trained in object oriented principals or design and most of my training was either self driven or on the job so switching from object oriented to functional was much easier.&lt;&#x2F;p&gt;
 &lt;p&gt;However, I&#x27;ve wanted to use Clojure on a daily basis in my role as a programmer almost since I started learning it.  My team, management, and other developers, however, constantly push back on it because &amp;quot;it looks weird.&amp;quot;  Not kidding, that&#x27;s a direct quote.&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
@@ -1906,14 +2089,19 @@ output_data, log_message = data_runner_fn()
 &lt;hr &#x2F;&gt;
 &lt;p&gt;Build what you love, even if it goes against the grain, but do it pragmatically.  It&#x27;s the only way to push us forward.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>When It&#x27;s Time to Move On</title>
-		<published>2016-12-31T00:00:00+00:00</published>
-		<updated>2016-12-31T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/when-it-s-time-to-move-on/" type="text/html"/>
-		<id>https://bryan-lott.github.io/when-it-s-time-to-move-on/</id>
-		<content type="html">&lt;p&gt;I&#x27;m now in the final stages of moving from my current company to a new one.  What follows is a rundown of what&#x27;s been going on in my brain throughout the entire process, my motivations, and my reasoning.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>When It&#x27;s Time to Move On</title>
+        <published>2016-12-31T00:00:00+00:00</published>
+        <updated>2016-12-31T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/when-it-s-time-to-move-on/" type="text/html"/>
+        <id>https://bryan-lott.github.io/when-it-s-time-to-move-on/</id>
+        
+        <content type="html">&lt;p&gt;I&#x27;m now in the final stages of moving from my current company to a new one.  What follows is a rundown of what&#x27;s been going on in my brain throughout the entire process, my motivations, and my reasoning.&lt;&#x2F;p&gt;
 &lt;p&gt;This is not intended to disparage my current company nor hold the new company up on a pedestal.  This is my (limited) perspective.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;coming-to-conclusions&quot;&gt;Coming to Conclusions&lt;&#x2F;h2&gt;
 &lt;p&gt;Hindsight is, of course, 20:20.  Every time I&#x27;ve left a job, I&#x27;ve been able to see where the thought of leaving started, why it kept brewing for so long, what I did or didn&#x27;t do to perpetuate the thought, etc.  With each new job, I&#x27;m unable to see that moment when it actually happens, or for that matter, I can&#x27;t seem to see the lead-up to that moment.&lt;&#x2F;p&gt;
@@ -1921,7 +2109,7 @@ output_data, log_message = data_runner_fn()
 &lt;p&gt;I can cite many reasons for leaving at this point, but what it comes to is two points.  I&#x27;ll dive into these in a moment.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;I&#x27;m feeling bored and have been for some time
- * &lt;a href=&quot;randsinrepose.com&#x2F;archives&#x2F;bored-people-quit&#x2F;&quot;&gt;Bored People Quit&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+ * &lt;a href=&quot;https:&#x2F;&#x2F;bryan-lott.github.io&#x2F;when-it-s-time-to-move-on&#x2F;randsinrepose.com&#x2F;archives&#x2F;bored-people-quit&#x2F;&quot;&gt;Bored People Quit&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;I feel like management ignores my voice and perspective&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h4 id=&quot;bored&quot;&gt;Bored?&lt;&#x2F;h4&gt;
@@ -1929,7 +2117,7 @@ output_data, log_message = data_runner_fn()
 &lt;blockquote&gt;
 &lt;p&gt;&amp;quot;I&#x27;m booooreddddddd, somebody give me something interesting to dooooooooo&amp;quot;&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
-&lt;p&gt;It&#x27;s not as trite and silly as it sounds though.  If you haven&#x27;t read the above link, stop reading this and go read &lt;a href=&quot;randsinrepose.com&#x2F;archives&#x2F;bored-people-quit&#x2F;&quot;&gt;Bored People Quit&lt;&#x2F;a&gt; now otherwise what I&#x27;m going to say going forward won&#x27;t make much sense.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s not as trite and silly as it sounds though.  If you haven&#x27;t read the above link, stop reading this and go read &lt;a href=&quot;https:&#x2F;&#x2F;bryan-lott.github.io&#x2F;when-it-s-time-to-move-on&#x2F;randsinrepose.com&#x2F;archives&#x2F;bored-people-quit&#x2F;&quot;&gt;Bored People Quit&lt;&#x2F;a&gt; now otherwise what I&#x27;m going to say going forward won&#x27;t make much sense.&lt;&#x2F;p&gt;
 &lt;p&gt;At my current position, I ended up getting hit in the crosshairs of two separate &amp;quot;boredom&amp;quot; concepts that Rands talks about:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Keeping an interesting problem squarely in front of them.&lt;&#x2F;p&gt;
@@ -1968,14 +2156,19 @@ output_data, log_message = data_runner_fn()
 &lt;p&gt;Once you&#x27;ve (hopefully) taken that time off, walk into the new company with fresh eyes.  Your first months at a new company are the most valuable, in my opinion.  You have the perspective of looking at the code, infrastructure, policies and procedures, etc with an outsider&#x27;s perspective.  That perspective doesn&#x27;t last long so at the very least take notes and &lt;em&gt;ask the dumb questions&lt;&#x2F;em&gt;.  Those questions that seem simple on the surface but question the status-quo.  That&#x27;s not to say you should expect anything other than &amp;quot;that&#x27;s the way things are and we can&#x27;t change it.&amp;quot;&lt;&#x2F;p&gt;
 &lt;p&gt;That being said, you might just spur a vastly positive change for the company.  At worst, you learn a ton about the history of the company and how they got to &amp;quot;now&amp;quot; which can only make you more effective at your new job.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Why I love RPG&#x27;s</title>
-		<published>2016-08-27T00:00:00+00:00</published>
-		<updated>2016-08-27T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/why-i-love-rpg-s/" type="text/html"/>
-		<id>https://bryan-lott.github.io/why-i-love-rpg-s/</id>
-		<content type="html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h2&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Why I love RPG&#x27;s</title>
+        <published>2016-08-27T00:00:00+00:00</published>
+        <updated>2016-08-27T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/why-i-love-rpg-s/" type="text/html"/>
+        <id>https://bryan-lott.github.io/why-i-love-rpg-s/</id>
+        
+        <content type="html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h2&gt;
 &lt;p&gt;For the people that know me, they know I &lt;em&gt;love&lt;&#x2F;em&gt; RPG&#x27;s, whether they be computer based, tabletop, or just reading the new source book that came out yesterday.  Maybe it seems a bit odd to the general population with questions like &amp;quot;isn&#x27;t that dangerous&#x2F;satanic?&amp;quot;  Seriously, this still gets asked 30+ years after D&amp;amp;D (Dungeons &amp;amp; Dragons) was put in the same category as fictional satanic cults.  But I digress.  In this post I hope to answer the &amp;quot;why&amp;quot; of RPG&#x27;s for me and maybe encourage you to take a look at them as well.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;what-is-an-rpg&quot;&gt;What is an RPG?&lt;&#x2F;h2&gt;
 &lt;p&gt;Anyone that&#x27;s played an RPG can feel free to skip over this section.  I&#x27;m including it for anyone that has no clue what I&#x27;m talking about.  For the most part I&#x27;m going to be focusing on tabletop&#x2F;in-person RPG&#x27;s, not the computer variety.&lt;&#x2F;p&gt;
@@ -1994,14 +2187,19 @@ output_data, log_message = data_runner_fn()
 &lt;p&gt;A source book provides all the world building I could ever ask for without all the pesky details of a story already written.  It allows my mind to run wild, filling in any details it chooses to.  Some of these have the potential to turn into adventures for my PC&#x27;s.  Which brings me full circle.  Now it isn&#x27;t just a story I&#x27;ve made up between the lines of someone else&#x27;s story, it&#x27;s now my own story.  One I can share and share in the writing of with friends over many sessions.&lt;&#x2F;p&gt;
 &lt;p&gt;Source books also spark my creativity to life.  Whenever I&#x27;m in a creative rut, even if it&#x27;s not planning for the next session for my PC&#x27;s, the very act of looking through a source book can spark &lt;em&gt;all&lt;&#x2F;em&gt; of my creativity to life.  No longer am I bored with photography, or woodworking, or any of the many arts I pursue.  That spark has returned and I am, once again, able to create to my heart&#x27;s content.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Concurrency Part 2</title>
-		<published>2016-07-08T00:00:00+00:00</published>
-		<updated>2016-07-08T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/concurrency-part-2/" type="text/html"/>
-		<id>https://bryan-lott.github.io/concurrency-part-2/</id>
-		<content type="html">&lt;p&gt;Wow, even trivial concurrency in Python is hard...&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Concurrency Part 2</title>
+        <published>2016-07-08T00:00:00+00:00</published>
+        <updated>2016-07-08T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/concurrency-part-2/" type="text/html"/>
+        <id>https://bryan-lott.github.io/concurrency-part-2/</id>
+        
+        <content type="html">&lt;p&gt;Wow, even trivial concurrency in Python is hard...&lt;&#x2F;p&gt;
 &lt;p&gt;So, you have a list of tasks that you want to consume lazily (as they&#x27;re generated, so you don&#x27;t blow up memory).  Great!  That&#x27;s easy to do with a generator function using the yield keyword or the (syntax).  But, oh no... you can&#x27;t pass that to a multiprocess function because it&#x27;s not picklable.  Drat!&lt;&#x2F;p&gt;
 &lt;p&gt;Next, you go down the road of:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;python&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;p.map(worker, itertools.islice(generator_function, slice_size))
@@ -2013,14 +2211,19 @@ output_data, log_message = data_runner_fn()
 &lt;p&gt;The above won&#x27;t work because again, generator functions aren&#x27;t picklable so you have to return result sets from the worker function instead of being able to yield rows back.&lt;&#x2F;p&gt;
 &lt;p&gt;So, you end up shoving as much as you can into the worker function so that you don&#x27;t have to deal with passing large chunks of work back and forth.  I&#x27;m sorry, but this is a terrible state of things.  I&#x27;m sure there&#x27;s libraries that help to ease this pain but my point is there shouldn&#x27;t NEED to be libraries.  This should be core python.  And yes, sadly, I&#x27;m stuck on 2.7x.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>How-to: Read from STDIN or a File in Clojure</title>
-		<published>2016-06-20T00:00:00+00:00</published>
-		<updated>2016-06-20T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/how-to-read-from-stdin-or-a-file-in-clojure/" type="text/html"/>
-		<id>https://bryan-lott.github.io/how-to-read-from-stdin-or-a-file-in-clojure/</id>
-		<content type="html">&lt;p&gt;or... how to avoid wasting 2 days!&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>How-to: Read from STDIN or a File in Clojure</title>
+        <published>2016-06-20T00:00:00+00:00</published>
+        <updated>2016-06-20T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/how-to-read-from-stdin-or-a-file-in-clojure/" type="text/html"/>
+        <id>https://bryan-lott.github.io/how-to-read-from-stdin-or-a-file-in-clojure/</id>
+        
+        <content type="html">&lt;p&gt;or... how to avoid wasting 2 days!&lt;&#x2F;p&gt;
 &lt;p&gt;First, the completed code:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;clojure&quot; class=&quot;language-clojure &quot;&gt;&lt;code class=&quot;language-clojure&quot; data-lang=&quot;clojure&quot;&gt;(ns char-check.core
   (:require
@@ -2074,26 +2277,36 @@ output_data, log_message = data_runner_fn()
 &lt;p&gt;So here we&#x27;re either getting 0 or 1 argument.  If we get 1 argument, great, treat it as a file and run with it.  Otherwise, we got 0 arguments which means we need to wrap &lt;code&gt;*in*&lt;&#x2F;code&gt; in a buffered file and then pass it along to the arity 1 &amp;quot;version&amp;quot; of main.&lt;&#x2F;p&gt;
 &lt;p&gt;The final bit is &lt;code&gt;(line-seq r)&lt;&#x2F;code&gt;.  That&#x27;s a lazy function to return lines from the file&#x2F;stdin.  Use that like you would any other lazy sequence.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Reading Update</title>
-		<published>2016-06-16T00:00:00+00:00</published>
-		<updated>2016-06-16T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/reading-update/" type="text/html"/>
-		<id>https://bryan-lott.github.io/reading-update/</id>
-		<content type="html">&lt;p&gt;So, after about 8 months of on-and-off focusing on reading more long-form items, how am I doing?  Objectively, I&#x27;d give myself a C-.  Barely passing, and here&#x27;s why.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Reading Update</title>
+        <published>2016-06-16T00:00:00+00:00</published>
+        <updated>2016-06-16T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/reading-update/" type="text/html"/>
+        <id>https://bryan-lott.github.io/reading-update/</id>
+        
+        <content type="html">&lt;p&gt;So, after about 8 months of on-and-off focusing on reading more long-form items, how am I doing?  Objectively, I&#x27;d give myself a C-.  Barely passing, and here&#x27;s why.&lt;&#x2F;p&gt;
 &lt;p&gt;I can absolutely say that I&#x27;m doing much better at reading long-form items.  Currently I&#x27;m working through Stephen Hawking&#x27;s Illustrated A Brief History of Time and The Universe in a Nutshell.  Fantastic read, really engaging, and it&#x27;s great to be able to relax with a book before bed.&lt;&#x2F;p&gt;
 &lt;p&gt;That being said, I haven&#x27;t been doing as well at actually &lt;em&gt;finishing&lt;&#x2F;em&gt; long-form books.  I have at least 3-4 books going on my Kindle right now with almost no motivation to finish them.  I can&#x27;t quite say why, though I wish I knew.  I think part of it is dealing with some pretty serious depression lately and that, of course, seems to drown any motivation to do much of anything.&lt;&#x2F;p&gt;
 &lt;p&gt;So, plan going forward?  Make time (at least 30 minutes a day) to read something on the Kindle.  Mornings may actually be the best time for this as I normally screw around on my phone for at least that much time before leaving for work.  Discipline, right?&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Burnout</title>
-		<published>2016-06-13T00:00:00+00:00</published>
-		<updated>2016-06-13T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/burnout/" type="text/html"/>
-		<id>https://bryan-lott.github.io/burnout/</id>
-		<content type="html">&lt;p&gt;Burnout ...and possibly how to defend against it.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Burnout</title>
+        <published>2016-06-13T00:00:00+00:00</published>
+        <updated>2016-06-13T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/burnout/" type="text/html"/>
+        <id>https://bryan-lott.github.io/burnout/</id>
+        
+        <content type="html">&lt;p&gt;Burnout ...and possibly how to defend against it.&lt;&#x2F;p&gt;
 &lt;p&gt;A little bit of backstory is probably in order.  For me, burnout has never been a problem until this past month.  Working on a migration from a data center to the cloud that&#x27;s run over 6 months of constant work has gotten me pretty fried.  We&#x27;re nearly at the end and I feel like I&#x27;ve gained quite a bit of perspective on this problem, at least for myself.  I feel like I&#x27;m actually in a decent place to talk about how I prevented total burnout&#x2F;quitting&#x2F;etc and maybe what I&#x27;ve learned can help someone else (including myself, the next time I&#x27;m facing burnout).&lt;&#x2F;p&gt;
 &lt;p&gt;First off, there are two things that I believe contribute to burnout.  Time sinks and mental energy sinks.  Context switching is a great example of a time sink.  We all know that we lose at least 15 minutes of productive time when we context switch.  What we don&#x27;t always realize is how much mental energy we spend.  Burnout happens when we either have no more time or no more mental energy.  Time can be recovered by extending deadlines, having other knowledgeable people help on the problem, etc.  Mental energy however is being constantly drained while working on a given problem.  For me, I find very few ways to recover that energy, none of which are quick.  So, what we have are two ways of preventing burnout:&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -2118,14 +2331,19 @@ output_data, log_message = data_runner_fn()
 &lt;h3 id=&quot;exercise&quot;&gt;Exercise&lt;&#x2F;h3&gt;
 &lt;p&gt;Okay, so this is something that I&#x27;m pretty terrible at being consistent.  That being said, having some sort of exercise (even if it&#x27;s just going for a 30 minute walk) can be incredible helpful in recharging your mental energy.  I&#x27;ve found, personally, that I need to have a good balance between the physical and mental aspects of my life and if I don&#x27;t have at least a walk every other day, I end up being more mentally exhausted than I &amp;quot;should be&amp;quot;.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>List of Wonderous Links</title>
-		<published>2016-03-10T00:00:00+00:00</published>
-		<updated>2016-03-10T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/list-of-wonderous-links/" type="text/html"/>
-		<id>https://bryan-lott.github.io/list-of-wonderous-links/</id>
-		<content type="html">&lt;p&gt;This is going to be nothing more than a link post of articles and blogs that have resonated with me in a powerful way.  All of these relate to job &amp;quot;stuff&amp;quot;, not tech stuff.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>List of Wonderous Links</title>
+        <published>2016-03-10T00:00:00+00:00</published>
+        <updated>2016-03-10T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/list-of-wonderous-links/" type="text/html"/>
+        <id>https://bryan-lott.github.io/list-of-wonderous-links/</id>
+        
+        <content type="html">&lt;p&gt;This is going to be nothing more than a link post of articles and blogs that have resonated with me in a powerful way.  All of these relate to job &amp;quot;stuff&amp;quot;, not tech stuff.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;wrongsideofmemphis.com&#x2F;2013&#x2F;07&#x2F;04&#x2F;minor-offenses&#x2F;&quot;&gt;Minor Offenses&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;steveblank.com&#x2F;2009&#x2F;12&#x2F;21&#x2F;the-elves-leave-middle-earth-%E2%80%93-soda%E2%80%99s-are-no-longer-free&#x2F;&quot;&gt;The Elves Leave Middle Earth&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
@@ -2138,23 +2356,33 @@ output_data, log_message = data_runner_fn()
 &lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;randsinrepose.com&#x2F;archives&#x2F;category&#x2F;management&#x2F;&quot;&gt;Rands in Repose - Management&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Wow...</title>
-		<published>2016-01-03T00:00:00+00:00</published>
-		<updated>2016-01-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/wow/" type="text/html"/>
-		<id>https://bryan-lott.github.io/wow/</id>
-		<content type="html">&lt;p&gt;What a vacation... note to self, as someone that always needs to be creating something for his own wellbeing, never take a vacation without a purpose or something to do, otherwise, you&#x27;ll go crazy!&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Wow...</title>
+        <published>2016-01-03T00:00:00+00:00</published>
+        <updated>2016-01-03T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/wow/" type="text/html"/>
+        <id>https://bryan-lott.github.io/wow/</id>
+        
+        <content type="html">&lt;p&gt;What a vacation... note to self, as someone that always needs to be creating something for his own wellbeing, never take a vacation without a purpose or something to do, otherwise, you&#x27;ll go crazy!&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>The Most Important Skills for a Software Developer</title>
-		<published>2015-11-10T00:00:00+00:00</published>
-		<updated>2015-11-10T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/the-most-important-skills-for-a-software-developer/" type="text/html"/>
-		<id>https://bryan-lott.github.io/the-most-important-skills-for-a-software-developer/</id>
-		<content type="html">&lt;p&gt;First off, this isn&#x27;t going to be a post about languages, technologies, etc. It would be borderline pointless to write one of those as they come and go so quickly, which brings me to my first important skill:&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Most Important Skills for a Software Developer</title>
+        <published>2015-11-10T00:00:00+00:00</published>
+        <updated>2015-11-10T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/the-most-important-skills-for-a-software-developer/" type="text/html"/>
+        <id>https://bryan-lott.github.io/the-most-important-skills-for-a-software-developer/</id>
+        
+        <content type="html">&lt;p&gt;First off, this isn&#x27;t going to be a post about languages, technologies, etc. It would be borderline pointless to write one of those as they come and go so quickly, which brings me to my first important skill:&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;adaptability&quot;&gt;Adaptability&lt;&#x2F;h3&gt;
 &lt;p&gt;Or, if you don&#x27;t change, you die. Sure there are still some COBOL programmers around, and I&#x27;m sure they get paid a lot of money to keep what&#x27;s essentially a dead skill around, but I have a suspicion that field is shrinking.
 We&#x27;ve been making a pretty heavy push at work to migrate everything up to the cloud lately. In a lot of cases it&#x27;s a pain in the ass to do so, but in the end, it&#x27;ll probably be worth it.
@@ -2172,14 +2400,19 @@ Get your hands dirty! Is it a technology you don&#x27;t understand, can&#x27;t w
 All of this boils down to having an entrepreneurial mindset as it relates to pushing tech forward into the future. If you&#x27;re not learning, pushing things forward, making stuff better, then the question you need to be asking is whether you&#x27;re stagnating. If you&#x27;re stagnating it makes it very easy to replace you unless you&#x27;ve built walls of code around your position that only you understand. And that, very quickly, turns you into a curmudgeon (or a BOFH).&lt;&#x2F;p&gt;
 &lt;p&gt;Don&#x27;t be a curmudgeon, no one likes &#x27;em and I&#x27;ve never seen one that was actually happy.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Reading</title>
-		<published>2015-10-26T00:00:00+00:00</published>
-		<updated>2015-10-26T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/reading/" type="text/html"/>
-		<id>https://bryan-lott.github.io/reading/</id>
-		<content type="html">&lt;p&gt;So, reading. It&#x27;s something I grew up loving. I used to spend every waking moment with my head stuck in a book. Everything from software development to high fantasy to memoirs. This began when I was very young, my parents used to read to me every night before bed and my dad promised me that whenever we went to a bookstore, he&#x27;d buy me whatever I wanted to read as long as I kept reading. Of course, at that time, it seemed like he&#x27;d just given me the keys to the candy store and he pretty much did.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Reading</title>
+        <published>2015-10-26T00:00:00+00:00</published>
+        <updated>2015-10-26T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/reading/" type="text/html"/>
+        <id>https://bryan-lott.github.io/reading/</id>
+        
+        <content type="html">&lt;p&gt;So, reading. It&#x27;s something I grew up loving. I used to spend every waking moment with my head stuck in a book. Everything from software development to high fantasy to memoirs. This began when I was very young, my parents used to read to me every night before bed and my dad promised me that whenever we went to a bookstore, he&#x27;d buy me whatever I wanted to read as long as I kept reading. Of course, at that time, it seemed like he&#x27;d just given me the keys to the candy store and he pretty much did.&lt;&#x2F;p&gt;
 &lt;p&gt;From then on, I was a &amp;quot;reader&amp;quot;. It always amazed me when I talked to someone that didn&#x27;t read. I always thought in my head that they must have a very boring life and I was always very close to labeling them &amp;quot;stupid&amp;quot;.&lt;&#x2F;p&gt;
 &lt;p&gt;All that changed a few years ago and, to be honest, I&#x27;m still not sure what really happened. I feel like it started around the same time I got a smartphone. Now I could read short blogs, tweets, page-long articles, wherever I wanted for free. Fast forward a couple of years and I still buy paper books but I don&#x27;t read them as often. I&#x27;ve gone from reading books several hours every day to reading maybe once a week for an hour if I&#x27;m lucky.&lt;&#x2F;p&gt;
 &lt;p&gt;I hate it.&lt;&#x2F;p&gt;
@@ -2190,14 +2423,19 @@ All of this boils down to having an entrepreneurial mindset as it relates to pus
 &lt;p&gt;It&#x27;s difficult to extend my own personal experience to the general population at large, but I do feel that children and adults both have shorter attention spans. Both due to the massive amount of information we&#x27;re expected to consume and retain on a daily basis and to the massive amount of information we CAN consume at a moment&#x27;s notice.&lt;&#x2F;p&gt;
 &lt;p&gt;Will my experiment to change myself work? I guess we&#x27;ll see in a few months.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Vacation is Hard</title>
-		<published>2015-08-18T00:00:00+00:00</published>
-		<updated>2015-08-18T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/vacation-is-hard/" type="text/html"/>
-		<id>https://bryan-lott.github.io/vacation-is-hard/</id>
-		<content type="html">&lt;p&gt;...not necessarily because going on vacation is hard, but coming back from it? Oof.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Vacation is Hard</title>
+        <published>2015-08-18T00:00:00+00:00</published>
+        <updated>2015-08-18T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/vacation-is-hard/" type="text/html"/>
+        <id>https://bryan-lott.github.io/vacation-is-hard/</id>
+        
+        <content type="html">&lt;p&gt;...not necessarily because going on vacation is hard, but coming back from it? Oof.&lt;&#x2F;p&gt;
 &lt;p&gt;I just spent 10 days camping without cell phone service at a spiritual retreat. Had a great time, hung out with friends that I only see once a year, and had some seriously knock-your-socks-off spiritual moments.&lt;&#x2F;p&gt;
 &lt;p&gt;Then, the return to day-to-day &amp;quot;normalcy&amp;quot;. Usually it takes me a few hours, maybe a day at most to get back into the swing of things. For whatever reason this time? It&#x27;s already a week and I&#x27;m still not back. And, when I say &amp;quot;I&#x27;m not back&amp;quot; what I mean is that my brain isn&#x27;t working in normal mode yet. Here, let me give you an example.&lt;&#x2F;p&gt;
 &lt;p&gt;When camping for 10 days with 200+ of your closest friends it&#x27;s &amp;quot;normal&amp;quot; to have a 10&#x27;x10&#x27; popup structure for your kitchen, a 10&#x27;x20&#x27; carport for your living room, and have an 8 person tent for 2 people. This, of course, presents challenges. Things such as &amp;quot;how do I keep water from dripping down between the kitchen and the living room&amp;quot;.&lt;&#x2F;p&gt;
@@ -2205,34 +2443,33 @@ All of this boils down to having an entrepreneurial mindset as it relates to pus
 &lt;p&gt;What I can&#x27;t get out of my head is what an amazing time I had camping and how much I wish I was right back up there. It&#x27;s a calling on a deeply personal, spiritual level. Maybe the only answer is to try to rebuild that same experience here back in the &amp;quot;real world&amp;quot;.&lt;&#x2F;p&gt;
 &lt;p&gt;Wish me luck...&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Concurrency</title>
-		<published>2015-07-08T00:00:00+00:00</published>
-		<updated>2015-07-08T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/concurrency/" type="text/html"/>
-		<id>https://bryan-lott.github.io/concurrency/</id>
-		<content type="html">&lt;p&gt;Or... why Python will eventually become irrelevant.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
-&lt;p&gt;The GIL (Global Interpreter Lock) is something that haunts me every time I go to multithread something in Python. The hazard that comes with running &lt;code&gt;pool.map(function, list)&lt;&#x2F;code&gt; if the list has unpickleable items in it is another roadblock in front of multiprocessing.&lt;&#x2F;p&gt;
-&lt;p&gt;Moore&#x27;s law is only being kept by increasing the number of cores on each processor and if Python doesn&#x27;t figure out how to easily multithread&#x2F;multiprocess eventually it&#x27;s going to fall behind in the race for speed.&lt;&#x2F;p&gt;
-&lt;p&gt;Of course, this leads me to my favorite new programming language, Clojure. The ease of multithreading is incredible:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;clojure&quot; class=&quot;language-clojure &quot;&gt;&lt;code class=&quot;language-clojure&quot; data-lang=&quot;clojure&quot;&gt;;; singlethreaded
-(map function list)
-&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;pre data-lang=&quot;clojure&quot; class=&quot;language-clojure &quot;&gt;&lt;code class=&quot;language-clojure&quot; data-lang=&quot;clojure&quot;&gt;;; multithreaded
-(pmap function list)
-&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Programming in a multithreaded way is incredibly easy because you&#x27;re already coding in a functional style which lends itself very easily to being multithreaded. Reasoning about code is so much simpler and as incidental complexity increases, I think languages like Clojure that are functional and multithreaded will only gain mindshare. They&#x27;re easier to reason about as problem complexity increases without increasing incidental complexity significantly while maintaining a sustainable speed.&lt;&#x2F;p&gt;
-</content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Imposter Syndrome</title>
-		<published>2015-05-26T00:00:00+00:00</published>
-		<updated>2015-05-26T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/imposter-syndrome/" type="text/html"/>
-		<id>https://bryan-lott.github.io/imposter-syndrome/</id>
-		<content type="html">&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Impostor_syndrome&quot;&gt;Wikipedia&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Concurrency</title>
+        <published>2015-07-08T00:00:00+00:00</published>
+        <updated>2015-07-08T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/concurrency/" type="text/html"/>
+        <id>https://bryan-lott.github.io/concurrency/</id>
+        
+        <summary type="html">&lt;p&gt;Or... why Python will eventually become irrelevant.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Imposter Syndrome</title>
+        <published>2015-05-26T00:00:00+00:00</published>
+        <updated>2015-05-26T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/imposter-syndrome/" type="text/html"/>
+        <id>https://bryan-lott.github.io/imposter-syndrome/</id>
+        
+        <content type="html">&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Impostor_syndrome&quot;&gt;Wikipedia&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Essentially, it&#x27;s the opposite of the Dunning-Kruger effect. You feel that your skills are less than those of your peers and that you&#x27;re just skating by on luck. One day, someone is going to discover you don&#x27;t really know what&#x27;s going on and bam, your career is over.
 Is this an irrational fear for most of us that have it? Of course. Does that change the fact that we still feel incompetent when rating ourselves against our peers? Nope!&lt;&#x2F;p&gt;
 &lt;p&gt;So, how do you get over it?&lt;&#x2F;p&gt;
@@ -2243,14 +2480,19 @@ Is this an irrational fear for most of us that have it? Of course. Does that cha
 &lt;p&gt;The more I spend time with computers, the more I need to spend time with things that aren&#x27;t computers!&lt;&#x2F;p&gt;
 &lt;p&gt;And that, for me, helps me to realize that computers aren&#x27;t the sum total of my existence. &lt;em&gt;My code is not me&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>BOFH</title>
-		<published>2015-05-20T00:00:00+00:00</published>
-		<updated>2015-05-20T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/bofh/" type="text/html"/>
-		<id>https://bryan-lott.github.io/bofh/</id>
-		<content type="html">&lt;p&gt;(bastard operator from hell)
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BOFH</title>
+        <published>2015-05-20T00:00:00+00:00</published>
+        <updated>2015-05-20T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/bofh/" type="text/html"/>
+        <id>https://bryan-lott.github.io/bofh/</id>
+        
+        <content type="html">&lt;p&gt;(bastard operator from hell)
 What a term. It used to only apply to curmudgeonly sysadmins and the neckbeard elite but I&#x27;ve noticed lately that it can be applied to a large number of other IT professionals. Specifically, I&#x27;m talking about developers.&lt;&#x2F;p&gt;
 &lt;p&gt;I know you have to sit in your cube staring at page after page of incomprehensible piles of crap code written by someone else that clearly didn&#x27;t know what they were doing. I know that you have to spend hours with a debugger to find a misspelling in a string variable&#x27;s value. I know that it can take a day and a half to find the missing semicolon that&#x27;s been causing compiler errors. I know that it makes you want to defenestrate your laptop, cubicle, mouse, keyboard, and anything else within arm&#x27;s reach.&lt;&#x2F;p&gt;
 &lt;p&gt;How do I know this? I do it all day too and it drives me up the wall probably just as much if not more than it does you.&lt;&#x2F;p&gt;
@@ -2267,30 +2509,21 @@ What a term. It used to only apply to curmudgeonly sysadmins and the neckbeard e
 &lt;&#x2F;ul&gt;
 &lt;p&gt;In closing, don&#x27;t be a BOFH. Nobody likes them and while being the outcast was cool in high school, it doesn&#x27;t work as a career.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>On Python, Clojure, and PHP</title>
-		<published>2015-05-15T00:00:00+00:00</published>
-		<updated>2015-05-15T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://bryan-lott.github.io/on-python-clojure-and-php/" type="text/html"/>
-		<id>https://bryan-lott.github.io/on-python-clojure-and-php/</id>
-		<content type="html">&lt;p&gt;So, I sort of fell into programming.
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>On Python, Clojure, and PHP</title>
+        <published>2015-05-15T00:00:00+00:00</published>
+        <updated>2015-05-15T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://bryan-lott.github.io/on-python-clojure-and-php/" type="text/html"/>
+        <id>https://bryan-lott.github.io/on-python-clojure-and-php/</id>
+        
+        <summary type="html">&lt;p&gt;So, I sort of fell into programming.
 When I was a kid, I learned QBasic because it was the only way I knew how to put games on my computer. At that point, my father wouldn&#x27;t buy or install games on the 286 we had, so I had to do it myself.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
-&lt;p&gt;Fast forward about 20 years and I find my first job as a data analyst. Needing to automate some trivial tasks, I turn to VBScript. Looks like the same syntax I&#x27;m used to and, hey, look! I can do things!&lt;&#x2F;p&gt;
-&lt;p&gt;From there I learned SQL (specifically, Oracle flavored) and fell into a role as a sysadmin. Again, needing to automate things, I found Python. Que the angelic trumpets, harps, golden rays of light, etc. I can honestly say I&#x27;ve never been as productive as I am with python. For whatever reason, it clicks with my brain and whatever I conceive in my head just flows out into code. It&#x27;s a beautiful thing (the code may not be, but the translation is effortless).&lt;&#x2F;p&gt;
-&lt;p&gt;So one day, I&#x27;m having an issue with concurrency and Python (clearly, not one of it&#x27;s strong points). I start googling for a better language for concurrency and I run into a fantastic blog post about &lt;a href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20160126190715&#x2F;https:&#x2F;&#x2F;michaelochurch.wordpress.com&#x2F;2012&#x2F;07&#x2F;27&#x2F;six-languages-to-master&#x2F;&quot;&gt;Six Languages to Master (archive link)&lt;&#x2F;a&gt;. One of those languages is Clojure, well known to be fantastic for concurrency, it&#x27;s also a Functional language which is a new paradigm for me.&lt;&#x2F;p&gt;
-&lt;p&gt;Six weeks later, I finally have the &amp;quot;aha!&amp;quot; moment with Clojure, the parentheses fall away, and I can see the matrix. Can&#x27;t find a job programming in Clojure, but it&#x27;s definitely made me a better Python programmer.&lt;&#x2F;p&gt;
-&lt;p&gt;A few months after that, and I find myself working for the best company I&#x27;ve ever worked for hands down. They ask me to learn PHP. &amp;quot;Okay... this&#x27;ll be easy, I learned Clojure for godsake!&amp;quot;
-W.T.F. (periods for emphasis)
-Seriously? WTF?!
-Oh, and while we&#x27;re at it... OMGWTFBBQ?!&lt;&#x2F;p&gt;
-&lt;p&gt;What a &amp;quot;language.&amp;quot;&lt;&#x2F;p&gt;
-&lt;p&gt;While I won&#x27;t extol its virtues or faults here, one thing I can say is:&lt;&#x2F;p&gt;
-&lt;p&gt;&amp;quot;Web devs? My hat&#x27;s off to you. You&#x27;ve managed to build some amazing websites, technologies, and make huge leaps forward. I just wish you didn&#x27;t have to deal with such a mess of a language to do it.&amp;quot;&lt;&#x2F;p&gt;
-&lt;p&gt;Of course, the obvious question is, what if you didn&#x27;t have to deal with such a mess of a language (javascript doesn&#x27;t count, it&#x27;s almost as bad)? What things could you build if you didn&#x27;t have to constantly fight the language, memorize what parts are case sensitive and which aren&#x27;t, have to look up equality and truthiness every time you wanted to compare something?&lt;&#x2F;p&gt;
-&lt;p&gt;Maybe it&#x27;s the complexity inherent in building a high-availability, concurrent, fault-tolerant system, but you would have thought that someone, at some point, would have come up with a better language that&#x27;s at least as productive as PHP so you have one less thing to worry about!&lt;&#x2F;p&gt;
-&lt;p&gt;You web devs need something better and I have NO idea what it might be.&lt;&#x2F;p&gt;
-</content>
-	</entry>
+</summary>
+        
+    </entry>
 </feed>
